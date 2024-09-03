@@ -1,0 +1,48 @@
+---
+import Layout from "../layouts/Layout.astro"
+import { products } from "../../assets/products.js"
+import ImageSwitcher from '../components/ImageSwitcher.jsx'
+
+const {id} = Astro.params
+const prod = products.find((prod) => prod.id === Number(id))
+
+export function getStaticPaths () {
+    return products.map((product) => ({
+        params: {
+            id: product.id,
+        }        
+    }))
+}
+
+---
+
+<Layout title=`ProductDetall: ${id}`>
+    <main class="w-full h-auto">
+        <div class="flex flex-col border-[2px] border-[#78b081] rounded-lg p-2">
+            <aside class="p-2">
+                <ImageSwitcher prod={prod} client:load/>
+                <div class="pt-2 flex flex-col border-t-[1px] border-[#78b081]">
+                    <h3 class=" font-bold flex justify-center items-center text-2xl mb-2 md:text-3xl md:mb-3 lg:text-4xl lg:mb-4">{prod?.prodName}</h3>
+                    <p>{prod?.prodDescription}</p>
+                    <h4 class="font-bold">Especificaciones Tecnicas:</h4>
+                    <div>
+                        <ul>
+                            <li>Modelo: {prod?.prodMarca}</li>
+                            <li>Material: {prod?.prodPrecio}</li>
+                            <li>Peso: 0.5 kg</li>                        
+                        </ul>
+                    </div>
+                </div>
+    
+            </aside>
+            <section class="p-2">
+                <div>
+                    <h1 class="uppercase font-bold">{prod?.prodCategoria}</h1>
+                    <p>PRECIO: <span class="font-semibold">{prod?.prodPrecio}</span></p>
+    
+                </div>
+    
+            </section>
+        </div>
+    </main>
+</Layout>

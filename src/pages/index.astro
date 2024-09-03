@@ -1,0 +1,83 @@
+---
+import CardProduct from '../components/CardProduct.astro';
+import { Slider } from '../components/Slider';
+import Layout from '../layouts/Layout.astro';
+
+---
+
+<Layout title="Lccomp">
+	<Slider client:load/>
+
+	<section class="w-full h-full mt-8">
+		<div class="w-full max-h-max flex flex-col justify-center items-center">
+			<h1 class="text-[#1f9a50] text-2xl mb-2 md:text-3xl md:mb-3 lg:text-4xl lg:mb-4">Marcas con las que trabajamos</h1>
+			<picture class="border rounded-lg bg-[#bff3d3] w-full h-full gap-1 p-2 flex justify-around">				
+				<img class="w-20 h-20 rounded-md md:w-[100px] md:h-24 lg:w-32 lg:h-28" src="../../public/img/AMD Ryzen.png" alt="logo amd-ryzen">
+				<img class="w-20 h-20 rounded-md md:w-[100px] md:h-24 lg:w-32 lg:h-28" src="../../public/img/intel 2020 new.png" alt="logo intel">
+				<img class="w-20 h-20 rounded-md md:w-[100px] md:h-24 lg:w-32 lg:h-28" src="../../public/img/Nvidia Geforce RTX Black.png" alt="logo geforge">
+				<img class="w-20 h-20 rounded-md md:w-[100px] md:h-24 lg:w-32 lg:h-28" src="../../public/img/Intel Core i7 Inside.png" alt="logo intelcore">
+				<img class="w-20 h-20 rounded-md md:w-[100px] md:h-24 lg:w-32 lg:h-28" src="../../public/img/MSI Micro Star International.png" alt="logo msi">				
+			</picture>
+		</div>		
+	</section>
+
+	<div class="w-full max-h-max flex flex-col justify-center items-center mt-4">
+		<h1 class="text-[#1f9a50] text-2xl mb-2 md:text-3xl md:mb-3 lg:text-4xl lg:mb-4">Destacados</h1>
+	</div>
+
+	<section class="w-full h-auto gap-2 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3
+    xl:grid-cols-4 border-[2px] border-[#78b081] rounded-lg p-2">
+		<CardProduct />
+	</section>
+	
+	<div class="w-full max-h-max flex flex-col justify-center items-center mt-4">
+		<h1 class="text-[#1f9a50] text-2xl mb-2 md:text-3xl md:mb-3 lg:text-4xl lg:mb-4">Novedades u Ofertas</h1>
+	</div>
+	<section class="w-full h-auto gap-2 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3
+    xl:grid-cols-4 border-[2px] border-[#78b081] rounded-lg p-2">
+		<CardProduct />
+	</section>
+	<section class="w-full h-auto mt-8 bg-[#bff3d3] rounded-lg">
+		<div class="w-full max-h-max flex flex-col md:flex-row md:justify-center md:items-center p-4 gap-2">			
+			<div class="flex justify-center items-center border border-[#bdddbf] rounded-lg p-3 w-full">
+				<aside class="w-20 h-20 pt-2">
+					<img src="../../public/img/whatsapp.png" alt="whatsapp">
+				</aside>
+				<section class="pl-2">
+					<h4 class=" font-bold">
+						CONSULTAS
+					</h4>
+					<p>
+						¿Tenes alguna consulta? Contactate con nuestros ejecutivos
+					</p>
+				</section>
+			</div>
+			<div class="flex justify-center items-center border border-[#bdddbf] rounded-lg p-3 w-full">
+				<aside class="w-20 h-20 pt-2">
+					<img src="../../public/img/apoyo.png" alt="whatsapp">
+				</aside>
+				<section class="pl-2">
+					<h4 class=" font-bold">
+						EMPRESAS
+					</h4>
+					<p>
+						¿Necesitas atención personalizada? Nuestros ejecutivos estan a disposición
+					</p>
+				</section>
+			</div>
+			<div class="flex justify-center items-center border border-[#bdddbf] rounded-lg p-3 w-full">
+				<aside class="w-20 h-20 pt-2">
+					<img src="../../public/img/escudo-seguro.png" alt="whatsapp">
+				</aside>
+				<section class="pl-2">
+					<h4 class=" font-bold">
+						IMPORTANTE
+					</h4>
+					<p>
+						Nuestros productos son 100% legales. Emitimos Factura A y B. Y Enviamos a todo el país.
+					</p>
+				</section>
+			</div>
+		</div>		
+	</section>
+</Layout>
