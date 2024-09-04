@@ -17,13 +17,13 @@ export const Slider = () => {
 
   }, [currentIndex]);
 
-  /* useEffect(() => {
+  useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex(curr => (curr === dataSlider.length - 1 ? 0 : curr + 1));
     }, 5000); // Cambia la imagen cada 5 segundos
 
     return () => clearInterval(interval); // Limpia el intervalo cuando el componente se desmonta
-  }, []); */
+  }, []);
 
 
   const scrollToImage = (direction) => {

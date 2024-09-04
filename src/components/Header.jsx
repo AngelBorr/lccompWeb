@@ -43,8 +43,7 @@ export const Header = () => {
       <nav className={`text-[#54ad99] text-base flex flex-col items-end absolute bg-white top-20 w-full h-auto md:flex md:flex-row md:top-0 md:static md:justify-end z-10 ${menuOpen ? '' : 'hidden'}`}>
         <a className="p-2 border-b-[1px] border-[#54ad99] w-full flex justify-end hover:bg-[#d7f0e9] md:border-0 md:w-auto md:pr-6 md:pl-6 md:rounded" href="/">Home</a>
         <a className="p-2 border-b-[1px] border-[#54ad99] w-full flex justify-end hover:bg-[#d7f0e9] md:border-0 md:w-auto md:pr-6 md:pl-6 md:rounded" href="/products">Productos</a>
-        <a className="p-2 border-b-[1px] border-[#54ad99] w-full flex justify-end hover:bg-[#d7f0e9] md:border-0 md:w-auto md:pr-6 md:pl-6 md:rounded" href="/encuentranos">Encuentranos</a>
-        {/* <a className="p-2 border-b-2 border-[#54ad99] w-full flex justify-end hover:bg-[#d7f0e9] md:border-0 md:w-auto md:pr-6 md:pl-6 md:mr-2 md:rounded" href="/contact">Contacto</a> */}
+        <a className="p-2 border-b-[1px] border-[#54ad99] w-full flex justify-end hover:bg-[#d7f0e9] md:border-0 md:w-auto md:pr-6 md:pl-6 md:rounded" href="/encuentranos">Encuentranos</a>        
       </nav>
     </header>
   );

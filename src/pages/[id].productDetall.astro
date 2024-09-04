@@ -23,14 +23,11 @@ function obtener5IdsAleatorios() {
         }
     });
 
-    const cincoProductos = productosMezclados.slice(0, 5);
-    
+    const cincoProductos = productosMezclados.slice(0, 5);    
     return cincoProductos
 }
 
 const prodSimilares = obtener5IdsAleatorios()
-
-console.log(prodSimilares)
 
 export function getStaticPaths () {
     return products.map((product) => ({
@@ -39,9 +36,6 @@ export function getStaticPaths () {
         }        
     }))
 }
-
-
-
 ---
 
 <Layout title=`ProductDetall: ${id}`>
@@ -55,21 +49,19 @@ export function getStaticPaths () {
                     <h4 class="font-bold">Especificaciones Tecnicas:</h4>
                     <div>
                         <ul>
-                            <li>Modelo: {prod?.prodMarca}</li>
-                            <li>Material: {prod?.prodPrecio}</li>
-                            <li>Peso: 0.5 kg</li>                        
+                            <li>Marca: {prod?.prodMarca}</li>
+                            <li>Modelo: </li>
+                            <li>Material: </li>
+                            <li>Peso: </li>                        
                         </ul>
                     </div>
-                </div>
-    
+                </div>    
             </aside>
             <section class="p-2">
                 <div>
                     <h1 class="uppercase font-bold">{prod?.prodCategoria}</h1>
-                    <p>PRECIO: <span class="font-semibold">{prod?.prodPrecio}</span></p>
-    
-                </div>
-    
+                    <p>PRECIO: <span class="font-semibold">{prod?.prodPrecio}</span></p>    
+                </div>    
             </section>
         </div>
         <div class="w-full max-h-max flex flex-col justify-center items-center mt-4">

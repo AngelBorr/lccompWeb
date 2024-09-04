@@ -19,14 +19,13 @@ interface Props {
 const { products } = Astro.props
 
 const productsList = products
-
 ---
 
 <section class="w-full h-auto gap-2 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 border-[2px] border-[#78b081] rounded-lg p-2">
 	{productsList.map((prod) =>  
 		<div class='w-full h-full p-3 border rounded-xl bg-gradient-to-r from-[#62a56d] to-[#bdddbf]'>
 			<div class='w-full h-[270px] aspect-square p-4 bg-[#ddeedd] rounded-lg'>
-				<img class='object-scale-down w-full h-full rounded-md aspect-square' src={prod.prodImg1 || null} alt={prod.prodName} />
+				<img class='object-scale-down w-full h-full rounded-md aspect-square' src={prod.prodImg1 || '/img/camara-fotografica.png'} alt={prod.prodName} />
 			</div>
 			<div class='p-2 border-t-2 border-[#62a56d]'>
 				<h3 class='font-bold flex justify-center text-lg'>{prod.prodName}</h3>

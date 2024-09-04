@@ -111,7 +111,7 @@ const ProductList = () => {
                 {filteredProducts.map((prod) => (
                     <div key={prod.id} className="w-full h-full p-3 border rounded-xl bg-gradient-to-r from-[#62a56d] to-[#bdddbf]">
                         <div className="w-full h-[270px] aspect-square p-4 bg-[#ddeedd] rounded-lg">
-                            <img className="object-scale-down w-full h-full rounded-md aspect-square " src={prod.prodImg1 || null} alt={prod.prodName} />
+                            <img className="object-scale-down w-full h-full rounded-md aspect-square " src={prod.prodImg1 || '/img/camara-fotografica.png'} alt={prod.prodName} />
                         </div>
                         <div className="p-2 border-t-2 border-[#62a56d]">
                             <h3 className="font-bold flex justify-center text-lg">{prod.prodName}</h3>
