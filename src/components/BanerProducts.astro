@@ -1,0 +1,41 @@
+---
+interface Product {  
+	id: number,
+    prodName: string,
+    prodImg1?: string,
+    prodImg2?: string,
+	prodImg3?: string,
+    prodImg4?: string,
+    prodDescription: string,
+    prodPrecio: string,
+    prodCategoria: string,
+    prodMarca: string,
+}
+
+interface Props {
+	products: Product[];
+}
+
+const { products } = Astro.props
+
+const productsList = products
+
+---
+
+<section class="w-full h-auto gap-2 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 border-[2px] border-[#78b081] rounded-lg p-2">
+	{productsList.map((prod) =>  
+		<div class='w-full h-full p-3 border rounded-xl bg-gradient-to-r from-[#62a56d] to-[#bdddbf]'>
+			<div class='w-full h-[270px] aspect-square p-4 bg-[#ddeedd] rounded-lg'>
+				<img class='object-scale-down w-full h-full rounded-md aspect-square' src={prod.prodImg1 || null} alt={prod.prodName} />
+			</div>
+			<div class='p-2 border-t-2 border-[#62a56d]'>
+				<h3 class='font-bold flex justify-center text-lg'>{prod.prodName}</h3>
+				<p class='flex justify-center text-base items-center'>{prod.prodDescription}</p>
+				<p class='flex justify-center text-base font-extrabold text-[#41884f] items-center'>Valor = {prod.prodPrecio}</p>
+			</div>
+			<div class='flex justify-center w-full items-center'>
+				<a class='border border-[#41884f] rounded-lg text-[#41884f] w-24 h-8 flex justify-center items-center hover:bg-[#265632] hover:text-white' href={`/${prod.id}.productDetall`}>Más Info</a>
+			</div> 
+		</div> 
+	)} 
+</section>

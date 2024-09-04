@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { dataSlider } from "../../assets/dataSlider.js";
 import { products } from "../../assets/products.js";
-import CardProduct from "./CardProduct.astro";
+import CardProduct from "./BanerProducts.astro";
 
 export const SliderProducts = () => {
     const listRef = useRef(); //para que quiere usa useref en esta funcion?

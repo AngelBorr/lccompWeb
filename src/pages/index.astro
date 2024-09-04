@@ -1,8 +1,11 @@
 ---
-import CardProduct from '../components/CardProduct.astro';
+import BanerProducts from '../components/BanerProducts.astro';
 import { Slider } from '../components/Slider';
 import Layout from '../layouts/Layout.astro';
+import { listProductDestacados, listProductNovedades } from '../../assets/dataProductsBaner.js'
 
+const dataDestacados = listProductDestacados
+const dataNovedades = listProductNovedades
 ---
 
 <Layout title="Lccomp">
@@ -25,18 +28,14 @@ import Layout from '../layouts/Layout.astro';
 		<h1 class="text-[#1f9a50] text-2xl mb-2 md:text-3xl md:mb-3 lg:text-4xl lg:mb-4">Destacados</h1>
 	</div>
 
-	<section class="w-full h-auto gap-2 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3
-    xl:grid-cols-4 border-[2px] border-[#78b081] rounded-lg p-2">
-		<CardProduct />
-	</section>
+	<BanerProducts products={dataDestacados}/>
 	
 	<div class="w-full max-h-max flex flex-col justify-center items-center mt-4">
 		<h1 class="text-[#1f9a50] text-2xl mb-2 md:text-3xl md:mb-3 lg:text-4xl lg:mb-4">Novedades u Ofertas</h1>
 	</div>
-	<section class="w-full h-auto gap-2 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3
-    xl:grid-cols-4 border-[2px] border-[#78b081] rounded-lg p-2">
-		<CardProduct />
-	</section>
+	
+	<BanerProducts products={dataNovedades}/>
+
 	<section class="w-full h-auto mt-8 bg-[#bff3d3] rounded-lg">
 		<div class="w-full max-h-max flex flex-col md:flex-row md:justify-center md:items-center p-4 gap-2">			
 			<div class="flex justify-center items-center border border-[#bdddbf] rounded-lg p-3 w-full">
@@ -79,5 +78,5 @@ import Layout from '../layouts/Layout.astro';
 				</section>
 			</div>
 		</div>		
-	</section>
+	</section>	
 </Layout>

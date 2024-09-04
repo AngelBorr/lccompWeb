@@ -2,9 +2,35 @@
 import Layout from "../layouts/Layout.astro"
 import { products } from "../../assets/products.js"
 import ImageSwitcher from '../components/ImageSwitcher.jsx'
+import BanerProducts from "../components/BanerProducts.astro"
 
 const {id} = Astro.params
 const prod = products.find((prod) => prod.id === Number(id))
+const categoria = prod?.prodCategoria
+
+const prodCategoria = products.filter(product => product.prodCategoria === categoria);
+
+function obtener5IdsAleatorios() {  
+    const productosMezclados = [...prodCategoria].sort(() => 0.5 - Math.random());
+
+    productosMezclados.sort((a, b) => {
+        if (a.prodImg1 && !b.prodImg1) {
+            return -1;
+        } else if (!a.prodImg1 && b.prodImg1) {
+            return 1;
+        } else {
+            return 0;
+        }
+    });
+
+    const cincoProductos = productosMezclados.slice(0, 5);
+    
+    return cincoProductos
+}
+
+const prodSimilares = obtener5IdsAleatorios()
+
+console.log(prodSimilares)
 
 export function getStaticPaths () {
     return products.map((product) => ({
@@ -14,11 +40,13 @@ export function getStaticPaths () {
     }))
 }
 
+
+
 ---
 
 <Layout title=`ProductDetall: ${id}`>
     <main class="w-full h-auto">
-        <div class="flex flex-col border-[2px] border-[#78b081] rounded-lg p-2">
+        <div class="flex flex-col border-[2px] border-[#78b081] rounded-lg p-2 mb-2">
             <aside class="p-2">
                 <ImageSwitcher prod={prod} client:load/>
                 <div class="pt-2 flex flex-col border-t-[1px] border-[#78b081]">
@@ -44,5 +72,9 @@ export function getStaticPaths () {
     
             </section>
         </div>
+        <div class="w-full max-h-max flex flex-col justify-center items-center mt-4">
+            <h1 class="text-[#1f9a50] text-2xl mb-2 md:text-3xl md:mb-3 lg:text-4xl lg:mb-4">Productos Relacionados</h1>
+        </div>
+        <BanerProducts products={prodSimilares}/>
     </main>
 </Layout>
