@@ -3,13 +3,13 @@ export const dataSlider = [
         id: 1,
         title: "Slide 1",
         description: "This is the first slide",
-        image: "/img/descuento1.jpg",
+        image: "/img/banner/BANER.png",
     },
     {
         id: 2,
         title: "Slide 2",
         description: "This is the second slide",
-        image: "/img/descuento2.jpg",
+        image: "/img/banner/baner prototipo.webp",
     },
     {
         id: 3,

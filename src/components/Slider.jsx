@@ -17,14 +17,14 @@ export const Slider = () => {
 
   }, [currentIndex]);
 
-  useEffect(() => {
+  /* useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex(curr => (curr === dataSlider.length - 1 ? 0 : curr + 1));
     }, 5000); // Cambia la imagen cada 5 segundos
 
     return () => clearInterval(interval); // Limpia el intervalo cuando el componente se desmonta
   }, []);
-
+ */
 
   const scrollToImage = (direction) => {
     if (direction === 'prev') {
@@ -64,7 +64,7 @@ export const Slider = () => {
             {
               dataSlider.map((item) => {
                 return <li key={item.id} className='inline-block w-full h-full'>
-                  <img className='w-full h-full object-cover' src={item.image} />
+                  <img className='w-full h-275px aspect-[16/11] object-fill sm:h-[285px] sm:aspect-square md:h-[335px] lg:h-[385px] ' src={item.image} />
                 </li>
               })
             }

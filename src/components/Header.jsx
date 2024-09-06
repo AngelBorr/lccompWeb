@@ -15,7 +15,7 @@ export const Header = () => {
     <header className="bg-white flex justify-between items-center w-full h-auto border-b-2 border-[#54ad99]">
       <div className="flex justify-start p-4">
         <picture>
-          <img src="../../public/img/small-logo.png" alt="" />
+          <img src="/img/small-logo.png" alt="logoLccomp" />
         </picture>
       </div>
 
