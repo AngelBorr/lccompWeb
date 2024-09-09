@@ -9,12 +9,12 @@ export const dataSlider = [
         id: 2,
         title: "Slide 2",
         description: "This is the second slide",
-        image: "/img/banner/baner prototipo.webp",
+        image: "/img/banner/BANER 2.png",
     },
     {
         id: 3,
         title: "Slide 3",
         description: "This is the third slide",
-        image: "/img/descuento3.png",
+        image: "/img/banner/BANER 3.png",
     }
 ]

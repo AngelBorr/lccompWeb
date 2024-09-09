@@ -4,43 +4,43 @@ import { dataSlider } from '../../assets/dataSlider.js';
 export const Slider = () => {
   const listRef = useRef(); //para que quiere usa useref en esta funcion?
   const [currentIndex, setCurrentIndex] = useState(0);
-  
-  useEffect(() => {
-    const listNode = listRef.current;    
-    const imgNode = listNode.querySelectorAll("li > img")[currentIndex];
 
-    if (imgNode) {
+  useEffect(() => {
+    const listNode = listRef.current;
+    if (listNode) {
+      const imgNode = listNode.querySelectorAll("li > img")[currentIndex];
       imgNode.scrollIntoView({
-        behavior: "smooth"
+        behavior: "smooth",
+        block: "nearest", // Asegura que el elemento se desplace a la vista de la manera más cercana posible
+        inline: "center" // Opcional: centra el elemento horizontalmente
       });
     }
-
   }, [currentIndex]);
 
-  /* useEffect(() => {
+  useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex(curr => (curr === dataSlider.length - 1 ? 0 : curr + 1));
-    }, 5000); // Cambia la imagen cada 5 segundos
+    }, 5000); // Cambia la imagen cada 7 segundos
 
     return () => clearInterval(interval); // Limpia el intervalo cuando el componente se desmonta
   }, []);
- */
 
   const scrollToImage = (direction) => {
     if (direction === 'prev') {
       setCurrentIndex(curr => {
-        const isFirstSlide = currentIndex === 0;
+        const isFirstSlide = curr === 0;
         return isFirstSlide ? 0 : curr - 1;
-      })
+      });
     } else {
-      const isLastSlide = currentIndex === dataSlider.length - 1;
-      if (!isLastSlide) {
-        setCurrentIndex(curr => curr + 1);
-      }
+      setCurrentIndex(curr => {
+        const isLastSlide = curr === dataSlider.length - 1;
+        return isLastSlide ? curr : curr + 1;
+      });      
     }
-  }
+  };
 
   const goToSlide = (slideIndex) => {
+    console-log(slideIndex)
     setCurrentIndex(slideIndex);
   }
 
