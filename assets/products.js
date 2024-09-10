@@ -368,9 +368,9 @@ export const products = [
     {
         id: 33,
         prodName: 'MSI B560M PRO 10° y 11°.',
-        prodImg1: '/img/motherboard/INTEL CORE MOTHER B560 1.png',
-        prodImg2: '/img/motherboard/INTEL CORE MOTHER B560 2.png',
-        prodImg3: '/img/motherboard/INTEL CORE MOTHER B560 3.png',
+        prodImg1: '/img/motherboard/INTEL CORE MOTHER B560-1.png',
+        prodImg2: '/img/motherboard/INTEL CORE MOTHER B560-2.png',
+        prodImg3: '/img/motherboard/INTEL CORE MOTHER B560-3.png',
         prodDescription: 'Msi B560M Pro 10° y 11°.',
         prodPrecio: 'u$s 105',
         prodCategoria: 'Motherboards',
@@ -381,7 +381,7 @@ export const products = [
         prodName: 'GIGABYTE H510M-H 10° y 11°.',
         prodImg1: '/img/motherboard/GIGABITE H510M 1.png',
         prodImg2: '/img/motherboard/GIGABITE H510M 2.png',
-        prodImg3: '/img/motherboard/GIGABITE H510M 3.png',        
+        prodImg3: '/img/motherboard/GIGABITE H510M 3.png',
         prodDescription: 'GIGABYTE H510M-H 10° y 11°.',
         prodPrecio: 'u$s 99',
         prodCategoria: 'Motherboards',
@@ -390,9 +390,9 @@ export const products = [
     {
         id: 35,
         prodName: 'MSI H610M-G DDR4.',
-        prodImg1: '/img/motherboard/INTEL CORE MOTHER 610DDR4 1.png',
-        prodImg2: '/img/motherboard/INTEL CORE MOTHER 610DDR4 2.png',
-        prodImg3: '/img/motherboard/INTEL CORE MOTHER 610DDR4 3.png',
+        prodImg1: '/img/motherboard/INTEL MOTHER 610DDR4-1.png',
+        prodImg2: '/img/motherboard/INTEL MOTHER 610DDR4-2.png',
+        prodImg3: '/img/motherboard/INTEL MOTHER 610DDR4-3.png',
         prodDescription: 'Msi H610M-G DDR4.',
         prodPrecio: 'u$s 114',
         prodCategoria: 'Motherboards',
@@ -1116,9 +1116,9 @@ export const products = [
     {
         id: 103,
         prodName: 'SENTEY PM20-SF (sin fuente).',
-        prodImg1: '',
-        prodImg2: '',
-        prodImg3: '',
+        prodImg1: '/img/gabinetes/SENTEY GABINETE NEGRO Y ROJO 2.png',
+        prodImg2: '/img/gabinetes/SENTEY GABINETE NEGRO Y ROJO 1.png',
+        prodImg3: '/img/gabinetes/SENTEY GABINETE NEGRO Y ROJO 3.png',
         prodDescription: 'SENTEY PM20-SF (sin fuente).',
         prodPrecio: 'u$s 63',
         prodCategoria: 'gabinetes',
@@ -2505,5 +2505,15 @@ export const products = [
         prodPrecio: 'u$s (a consultar)',
         prodCategoria: 'teclados',
         prodMarca: 'logitech'
+    },
+    {
+        id: 232,
+        prodName: 'SENTEY PM20-SF (sin fuente) TRANSPARENTE.',
+        prodImg1: '/img/gabinetes/SENTEY GABINETE TRASPARENTE 1.png',
+        prodImg2: '/img/gabinetes/SENTEY GABINETE TRASPARENTE 2.png',
+        prodDescription: 'SENTEY PM20-SF (sin fuente) Transparente.',
+        prodPrecio: 'u$s 63',
+        prodCategoria: 'gabinetes',
+        prodMarca: ''
     },
 ]
