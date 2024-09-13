@@ -6,17 +6,17 @@ export const products = [
         prodImg2: '/img/microProcesadores/AMD ATLHON 2.png',
         prodImg3: '/img/microProcesadores/AMD ATLHON 3.png',
         prodDescription: 'Micro AMD Athlon 3000G',
-        prodPrecio: 'u$s 68',
+        prodPrecio: 'u$s 69',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
-    {
+    /* {
         id: 2,
         prodName: 'DDR3 8 GB - 1600',
         prodImg1: '/img/memorias/HIKER DDR3 8GB 1.png',
         prodImg2: '/img/memorias/HIKER DDR3 8GB 2.png',
         prodDescription: 'Memoria Ram DDR3 8GB - 1600',
-        prodPrecio: 'u$s 14',
+        prodPrecio: 'u$s 14 - (SIN STOCK)',
         prodCategoria: 'Memorias',
         prodMarca: 'hiksemi'
     },
@@ -31,7 +31,7 @@ export const products = [
         prodPrecio: 'u$s 13',
         prodCategoria: 'Memorias',
         prodMarca: ''
-    },
+    }, */
     {
         id: 4,
         prodName: 'DDR4 8 GB - 3000',
@@ -40,7 +40,7 @@ export const products = [
         prodImg3: '',
         prodImg4: '',
         prodDescription: 'Memoria Ram DDR4 8GB - 3000',
-        prodPrecio: 'u$s 22',
+        prodPrecio: 'u$s 21',
         prodCategoria: 'Memorias',
         prodMarca: ''
     },
@@ -50,7 +50,7 @@ export const products = [
         prodImg1: '/img/memorias/MARKVISION DDR4 16gb 1.png',
         prodImg2: '/img/memorias/MARKVISION DDR4 16gb 2.png',
         prodDescription: 'Memoria Ram DDR4 16GB - 2400',
-        prodPrecio: 'u$s 35',
+        prodPrecio: 'u$s 38',
         prodCategoria: 'Memorias',
         prodMarca: ''
     },
@@ -122,7 +122,7 @@ export const products = [
         prodImg3: '',
         prodImg4: '',
         prodDescription: 'Micro SD 32GB clase 10',
-        prodPrecio: 'u$s 7',
+        prodPrecio: 'u$s 7 - (SIN STOCK)',
         prodCategoria: 'Memorias',
         prodMarca: ''
     },
@@ -146,7 +146,7 @@ export const products = [
         prodImg3: '',
         prodImg4: '',
         prodDescription: 'Micro SD 128GB clase 10',
-        prodPrecio: 'u$s 14',
+        prodPrecio: 'u$s 14 - (SIN STOCK)',
         prodCategoria: 'Memorias',
         prodMarca: ''
     },
@@ -182,7 +182,7 @@ export const products = [
         prodImg3: '',
         prodImg4: '',
         prodDescription: 'Soddimm DDR3 4GB - 1600',
-        prodPrecio: 'u$s 16',
+        prodPrecio: 'u$s 15 - (SIN STOCK)',
         prodCategoria: 'MemoriasNotebook',
         prodMarca: ''
     },
@@ -192,7 +192,7 @@ export const products = [
         prodImg1: '/img/memorias/HIKER DDR3-NOTEBOOK 8 GB 1.png',
         prodImg2: '/img/memorias/HIKER DDR3-NOTEBOOK 8GB 2.png',
         prodDescription: 'Soddimm DDR3 8GB - 1600',
-        prodPrecio: 'u$s 39',
+        prodPrecio: 'u$s 15',
         prodCategoria: 'MemoriasNotebook',
         prodMarca: ''
     },
@@ -204,7 +204,7 @@ export const products = [
         prodImg3: '',
         prodImg4: '',
         prodDescription: 'Soddimm DDR4 4GB - 3200',
-        prodPrecio: 'u$s 21',
+        prodPrecio: 'u$s 18',
         prodCategoria: 'MemoriasNotebook',
         prodMarca: ''
     },
@@ -214,7 +214,7 @@ export const products = [
         prodImg1: '/img/memorias/DDR4 8gb ram 1-NOTEBOOK-.png',
         prodImg2: '/img/memorias/DDR4 8gb ram 2-NOTEBOOK-.png',
         prodDescription: 'MARKVISION DDR4 8GB - 3200',
-        prodPrecio: 'u$s 26',
+        prodPrecio: 'u$s 22',
         prodCategoria: 'MemoriasNotebook',
         prodMarca: 'markvision'
     },
@@ -225,7 +225,7 @@ export const products = [
         prodImg2: '/img/memorias/PCA4 16gb-NOTEBOOK-memoria ram 2.png',
         prodImg3: '/img/memorias/PCA4 16gb-NOTEBOOK-memoria ram 3.png',
         prodDescription: 'Soddimm DDR4 16GB - 2400',
-        prodPrecio: 'u$s 46',
+        prodPrecio: 'u$s 41',
         prodCategoria: 'MemoriasNotebook',
         prodMarca: ''
     },
@@ -237,7 +237,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/AMD RAIZER3 Con placa 2.png',
         prodImg3: '/img/microProcesadores/AMD RAIZER3 Con placa 3.png',
         prodDescription: 'Micro AMD Ryzen 3 3200G',
-        prodPrecio: 'u$s 98',
+        prodPrecio: 'u$s 95',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
@@ -248,7 +248,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/AMD RAIZER5 2.png',
         prodImg3: '/img/microProcesadores/AMD RAIZER5 3.png',
         prodDescription: 'Micro AMD Ryzen 5 4600G',
-        prodPrecio: 'u$s 179',
+        prodPrecio: 'u$s 185',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
@@ -339,7 +339,7 @@ export const products = [
         prodImg2: '/img/motherboard/AMD MOTHER RAIZER A520 2.png',
         prodImg3: '/img/motherboard/AMD MOTHER RAIZER A520 3.png',
         prodDescription: 'Msi A520M-A Pro.',
-        prodPrecio: 'u$s 89',
+        prodPrecio: 'u$s 79',
         prodCategoria: 'Motherboards',
         prodMarca: 'msi'
     },
@@ -350,7 +350,7 @@ export const products = [
         prodImg2: '/img/motherboard/AMD MOTHER RAIZER B550 2.png',
         prodImg3: '/img/motherboard/AMD MOTHER RAIZER B550 3.png',
         prodDescription: 'Gigabyte B550M K.',
-        prodPrecio: 'u$s 119',
+        prodPrecio: 'u$s 119 - (SIN STOCK)',
         prodCategoria: 'Motherboards',
         prodMarca: 'gigabyte'
     },
@@ -361,7 +361,7 @@ export const products = [
         prodImg2: '/img/motherboard/INTEL PRO MOTHER  PRO510 2.png',
         prodImg3: '/img/motherboard/INTEL PRO MOTHER  PRO510 3.png',
         prodDescription: 'Msi H510M-B 10°.',
-        prodPrecio: 'u$s 84',
+        prodPrecio: 'u$s 79',
         prodCategoria: 'Motherboards',
         prodMarca: 'gigabyte'
     },
@@ -383,7 +383,7 @@ export const products = [
         prodImg2: '/img/motherboard/GIGABITE H510M 2.png',
         prodImg3: '/img/motherboard/GIGABITE H510M 3.png',
         prodDescription: 'GIGABYTE H510M-H 10° y 11°.',
-        prodPrecio: 'u$s 99',
+        prodPrecio: 'u$s 79',
         prodCategoria: 'Motherboards',
         prodMarca: 'gigabyte'
     },
@@ -394,7 +394,7 @@ export const products = [
         prodImg2: '/img/motherboard/INTEL MOTHER 610DDR4-2.png',
         prodImg3: '/img/motherboard/INTEL MOTHER 610DDR4-3.png',
         prodDescription: 'Msi H610M-G DDR4.',
-        prodPrecio: 'u$s 114',
+        prodPrecio: 'u$s 114 - (SIN STOCK)',
         prodCategoria: 'Motherboards',
         prodMarca: 'msi'
     },
@@ -405,7 +405,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'Msi H610M-G DDR5.',
-        prodPrecio: 'u$s 129',
+        prodPrecio: 'u$s 129 - (SIN STOCK)',
         prodCategoria: 'Motherboards',
         prodMarca: 'msi'
     },
@@ -415,7 +415,7 @@ export const products = [
         prodName: 'SSD 120 GB HIK.',
         prodImg1: '/img/discosSSD/HIKSEMI 125GB.png',
         prodDescription: 'SSD 120 GB HIK.',
-        prodPrecio: 'u$s 15',
+        prodPrecio: 'u$s 15 - (SIN  STOCK)',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
@@ -433,7 +433,7 @@ export const products = [
         prodName: 'SSD 256 GB * HIK.',
         prodImg1: '/img/discosSSD/HIKSEMI 256GB.png',
         prodDescription: 'SSD 240 GB * HIK.',
-        prodPrecio: 'u$s 23',
+        prodPrecio: 'u$s 23 - (SIN STOCK)',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
@@ -444,7 +444,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SSD 240 GB MSI.',
-        prodPrecio: 'u$s 28',
+        prodPrecio: 'u$s 28 - (SIN STOCK)',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'msi'
     },
@@ -466,7 +466,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SSD 250 GB - M2* HIK.',
-        prodPrecio: 'u$s 27',
+        prodPrecio: 'u$s 27 - (SIN STOCK)',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
@@ -488,7 +488,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SSD 480 GB MSI.',
-        prodPrecio: 'u$s 49',
+        prodPrecio: 'u$s 49 - (SIN STOCK)',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'msi'
     },
@@ -499,7 +499,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SSD 480 GB KING.',
-        prodPrecio: 'u$s 50',
+        prodPrecio: 'u$s 51',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'kingstone'
     },
@@ -530,7 +530,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SSD 960 GB * HIKV / MSI.',
-        prodPrecio: 'u$s 93',
+        prodPrecio: 'u$s 93 - (SIN STOCK)',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
@@ -541,7 +541,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SSD 960 GB KING.',
-        prodPrecio: 'u$s 105',
+        prodPrecio: 'u$s 99',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'kingstone'
     },
@@ -550,7 +550,7 @@ export const products = [
         prodName: 'SSD 1 TB-M2 PCI EX* KING.',
         prodImg1: '/img/discosSSD/KINGSTONE 1TB.png',
         prodDescription: 'SSD 1 TB-M2 PCI EX* KING.',
-        prodPrecio: 'u$s 87',
+        prodPrecio: 'u$s 89',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'kingstone'
     },
@@ -584,7 +584,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'HDD 1 TB SATA 2,5.',
-        prodPrecio: 'u$s 82',
+        prodPrecio: 'u$s 85',
         prodCategoria: 'DiscoHDD',
         prodMarca: ''
     },
@@ -595,7 +595,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'HDD 2 TB SATA 3,5.',
-        prodPrecio: 'u$s 93',
+        prodPrecio: 'u$s 95',
         prodCategoria: 'DiscoHDD',
         prodMarca: ''
     },
@@ -846,18 +846,18 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SWITCH 16 TL-SG1016D GIGA.',
-        prodPrecio: 'u$s (a consultar)',
+        prodPrecio: 'u$s (SIN STOCK)',
         prodCategoria: 'Conectividad',
         prodMarca: ''
     },
     {
         id: 78,
-        prodName: 'SWITCH 16 TL-SG1016 GIGA.',
+        prodName: 'SWITCH 16 TL-SG1016 GIGA RACK.',
         prodImg1: '',
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SWITCH 16 TL-SG1016 GIGA.',
-        prodPrecio: 'u$s (a consultar)',
+        prodPrecio: 'u$s 89',
         prodCategoria: 'Conectividad',
         prodMarca: ''
     },
@@ -900,7 +900,7 @@ export const products = [
         prodImg1: '/img/conectividad/ROUTER TPLINK C24 1.png',
         prodImg2: '/img/conectividad/ROUTER TPLINK C24 2.png',
         prodDescription: 'ARCHER C24 AC750.',
-        prodPrecio: 'u$s 28',
+        prodPrecio: 'u$s 28 (SIN STOCK)',
         prodCategoria: 'Conectividad',
         prodMarca: ''
     },
@@ -911,7 +911,7 @@ export const products = [
         prodImg2: '/img/conectividad/TPLINK AC1350 2.png',
         prodImg3: '/img/conectividad/TPLINK AC1350 3.png',
         prodDescription: 'ARCHER C58HP AC1350.',
-        prodPrecio: 'u$s 94',
+        prodPrecio: 'u$s 94 (SIN STOCK)',
         prodCategoria: 'Conectividad',
         prodMarca: ''
     },
@@ -922,7 +922,7 @@ export const products = [
         prodImg2: '/img/conectividad/TPLINK AX12 2.png',
         prodImg3: '/img/conectividad/TPLINK AX12 3.png',
         prodDescription: 'ARCHER AX12 AX1500.',
-        prodPrecio: 'u$s 48',
+        prodPrecio: 'u$s 48 - (SIN STOCK)',
         prodCategoria: 'Conectividad',
         prodMarca: ''
     },
@@ -933,7 +933,7 @@ export const products = [
         prodImg2: '/img/conectividad/TPLINK AX23 2.png',
         prodImg3: '/img/conectividad/TPLINK AX23 3.png',
         prodDescription: 'ARCHER AX23 AX1800.',
-        prodPrecio: 'u$s 75',
+        prodPrecio: 'u$s 75 - (SIN STOCK)',
         prodCategoria: 'Conectividad',
         prodMarca: ''
     },
@@ -944,7 +944,7 @@ export const products = [
         prodImg2: '/img/conectividad/TPLINK AX3000 2.png',
         prodImg3: '/img/conectividad/TPLINK AX3000 3.png',
         prodDescription: 'ARCHER AX55 AX3000.',
-        prodPrecio: 'u$s 94',
+        prodPrecio: 'u$s 94 - (SIN STOCK)',
         prodCategoria: 'Conectividad',
         prodMarca: ''
     },
@@ -986,7 +986,7 @@ export const products = [
         prodName: '19" LG 19M38A-B VGA.',
         prodImg1: '/img/monitores/LG LED 19M38.png',
         prodDescription: '19" LG 19M38A-B VGA.',
-        prodPrecio: 'u$s 104',
+        prodPrecio: 'u$s 106',
         prodCategoria: 'Monitores',
         prodMarca: 'lg'
     },
@@ -1046,7 +1046,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: '24" LG 24MK430.',
-        prodPrecio: 'u$s 165',
+        prodPrecio: 'u$s 165 - (SIN STOCK)',
         prodCategoria: 'Monitores',
         prodMarca: 'lg'
     },
@@ -1056,7 +1056,7 @@ export const products = [
         prodName: 'HP LASER 107 A.',
         prodImg1: '/img/impresoras/HP L107a.png',
         prodDescription: 'HP LASER 107 A.',
-        prodPrecio: 'u$s 190',
+        prodPrecio: 'u$s 190 - (SIN STOCK)',
         prodCategoria: 'impresoras',
         prodMarca: 'hp'
     },
@@ -1076,7 +1076,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'EPSON TINTAS 544.',
-        prodPrecio: 'u$s 16',
+        prodPrecio: 'u$s 17',
         prodCategoria: 'impresoras',
         prodMarca: 'epson'
     },
@@ -1099,7 +1099,7 @@ export const products = [
         prodImg2: '/img/gabinetes/KELYX teclado mause parlantes 1.png',
         prodImg3: '/img/gabinetes/KELYX teclado mause parlantes 2.png',
         prodDescription: 'KIT KELYX 727 SLIM. Gabinete + Teclado + Mouse + Parlantes',
-        prodPrecio: 'u$s 64',
+        prodPrecio: 'u$s 67',
         prodCategoria: 'gabinetes',
         prodMarca: ''
     },
@@ -1120,7 +1120,7 @@ export const products = [
         prodImg2: '/img/gabinetes/SENTEY GABINETE NEGRO Y ROJO 1.png',
         prodImg3: '/img/gabinetes/SENTEY GABINETE NEGRO Y ROJO 3.png',
         prodDescription: 'SENTEY PM20-SF (sin fuente).',
-        prodPrecio: 'u$s 63',
+        prodPrecio: 'u$s 59',
         prodCategoria: 'gabinetes',
         prodMarca: ''
     },
@@ -1143,7 +1143,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'FUENTE 500 SLIM.',
-        prodPrecio: 'u$s 29',
+        prodPrecio: 'u$s 29 - (SIN STOCK)',
         prodCategoria: 'fuentes',
         prodMarca: ''
     },
@@ -1214,7 +1214,7 @@ export const products = [
         prodImg1: '/img/fuentes/SENTEY 600 FUENTE 1.png',
         prodImg2: '/img/fuentes/SENTEY 600 FUENTE 2.png',
         prodDescription: 'FUENTE HBP600-GS SENTEY 80P-BRO.',
-        prodPrecio: 'u$s 84',
+        prodPrecio: 'u$s 84 - (SIN STOCK)',
         prodCategoria: 'fuentes',
         prodMarca: ''
     },
@@ -1224,7 +1224,7 @@ export const products = [
         prodImg1: '/img/fuentes/ZENTEY 700W 1.png',
         prodImg2: '/img/fuentes/ZENTEY 700W 2.png',
         prodDescription: 'FUENTE HBP700-GS SENTEY 80P-BRO.',
-        prodPrecio: 'u$s 92',
+        prodPrecio: 'u$s 92 - (SIN STOCK)',
         prodCategoria: 'fuentes',
         prodMarca: ''
     },
@@ -1544,7 +1544,7 @@ export const products = [
         prodImg1: '/img/teclados/GENIUS KM200 1.png',
         prodImg2: '/img/teclados/GENIUS KM200 2.png',
         prodDescription: 'TECL + MOU KM-200 / KM160.',
-        prodPrecio: 'u$s 17',
+        prodPrecio: 'u$s 15',
         prodCategoria: 'teclados',
         prodMarca: 'genius'
     },
@@ -1723,7 +1723,7 @@ export const products = [
         prodName: 'LOGITECH H390.',
         prodImg1: '/img/sonido/AURICULARES LOGITECH H390.png',
         prodDescription: 'LOGITECH H390.',
-        prodPrecio: 'u$s 57',
+        prodPrecio: 'u$s 57 - (SIN STOCK)',
         prodCategoria: 'sonido',
         prodMarca: 'logitech'
     },
@@ -1774,7 +1774,7 @@ export const products = [
     },
     {
         id: 165,
-        prodName: 'FAN COOLER INTEL 13-15-17.',
+        prodName: 'FAN COOLER INTEL i3-i5-i7.',
         prodImg1: '',
         prodImg2: '',
         prodImg3: '',
@@ -1791,7 +1791,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'PORT SERIAL PCI EXP MANATHAN.',
-        prodPrecio: 'u$s 41',
+        prodPrecio: 'u$s 41 - (sin stock)',
         prodCategoria: 'puertos',
         prodMarca: ''
     },
@@ -1802,7 +1802,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'PORT SERIAL PCI EXP 2.',
-        prodPrecio: 'u$s 29',
+        prodPrecio: 'u$s 41',
         prodCategoria: 'puertos',
         prodMarca: ''
     },
@@ -2078,7 +2078,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'CONVERSOR HDMI-DVI 24+1',
-        prodPrecio: 'u$s (a consultar)',
+        prodPrecio: 'u$s (sin stock)',
         prodCategoria: 'adaptadores',
         prodMarca: ''
     },
@@ -2123,7 +2123,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'UPS 500 Lyonn',
-        prodPrecio: 'u$s (a consultar)',
+        prodPrecio: 'u$s 119',
         prodCategoria: 'estabilizadores',
         prodMarca: ''
     },
@@ -2158,7 +2158,7 @@ export const products = [
         prodCategoria: 'estabilizadores',
         prodMarca: ''
     },
-    {
+    /* {
         id: 200,
         prodName: 'BATERIA 12V 7A.',
         prodImg1: '',
@@ -2168,7 +2168,7 @@ export const products = [
         prodPrecio: 'u$s 28',
         prodCategoria: 'estabilizadores',
         prodMarca: ''
-    },
+    }, */
     /* ACCESORIOS */
     {
         id: 201,
@@ -2243,7 +2243,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'GRASA SILICONADA 10cc.',
-        prodPrecio: 'u$s 3',
+        prodPrecio: 'u$s 3 - (sin stock)',
         prodCategoria: 'accesorios',
         prodMarca: ''
     },
@@ -2287,7 +2287,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'CABLE UTP CAT5 ROLLO 305mts INT',
-        prodPrecio: 'u$s 72',
+        prodPrecio: 'u$s 66',
         prodCategoria: 'accesorios',
         prodMarca: ''
     },
@@ -2419,7 +2419,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'CABLE ADAP MOLEX A SATA',
-        prodPrecio: 'u$s 4',
+        prodPrecio: 'u$s 3',
         prodCategoria: 'adaptadores',
         prodMarca: ''
     },
@@ -2430,7 +2430,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'BOX 2.5 USB 3.0',
-        prodPrecio: 'u$s 12',
+        prodPrecio: 'u$s 12 - (SIN STOCK)',
         prodCategoria: 'accesorios',
         prodMarca: ''
     },
@@ -2463,7 +2463,7 @@ export const products = [
         prodImg2: '/img/sonido/AURICULARES SCORPIO 2.png',
         prodImg3: '/img/sonido/AURICULARES SCORPIO 3.png',
         prodDescription: 'AURICULARES GAMING ESCORPION.',
-        prodPrecio: 'u$s ',
+        prodPrecio: 'u$s - (SIN STOCK) ',
         prodCategoria: 'sonido',
         prodMarca: ''
     },
@@ -2473,7 +2473,7 @@ export const products = [
         prodImg1: '/img/seguridad/VIDEO RECORDER 1.png',
         prodImg2: '/img/seguridad/VIDEO RECORDER 2.png',
         prodDescription: 'HDCVI DIGITAL VIDEO RECORDER.',
-        prodPrecio: 'u$s (a consultar)',
+        prodPrecio: 'u$s - (SIN STOCK)',
         prodCategoria: 'seguridad',
         prodMarca: 'dahua'
     },
@@ -2483,7 +2483,7 @@ export const products = [
         prodImg1: '/img/mouse/GENIUS DX110 1.png',
         prodImg2: '/img/mouse/GENIUS DX110 2.png',
         prodDescription: 'GENIUS PS2 DX110 USB.',
-        prodPrecio: 'u$s 8',
+        prodPrecio: 'u$s 6',
         prodCategoria: 'mouse',
         prodMarca: 'genius'
     },
@@ -2493,7 +2493,7 @@ export const products = [
         prodImg1: '/img/conectividad/TP LINK TL SF1005 D 1.png',
         prodImg2: '/img/conectividad/TP LINK TL SF1005 D 2.png',
         prodDescription: 'SWITCH 5 TL-SF1005D.',
-        prodPrecio: 'u$s 11',
+        prodPrecio: 'u$s 11 - (SIN STOCK)',
         prodCategoria: 'Conectividad',
         prodMarca: ''
     },
@@ -2502,7 +2502,7 @@ export const products = [
         prodName: 'TECL + MOU MK120 LOGITECH.',
         prodImg1: '/img/teclados/MK120 LOGITECH.png',
         prodDescription: 'TECL + MOU MK120 LOGITECH',
-        prodPrecio: 'u$s (a consultar)',
+        prodPrecio: 'u$s 19',
         prodCategoria: 'teclados',
         prodMarca: 'logitech'
     },
@@ -2512,8 +2512,41 @@ export const products = [
         prodImg1: '/img/gabinetes/SENTEY GABINETE TRASPARENTE 1.png',
         prodImg2: '/img/gabinetes/SENTEY GABINETE TRASPARENTE 2.png',
         prodDescription: 'SENTEY PM20-SF (sin fuente) Transparente.',
-        prodPrecio: 'u$s 63',
+        prodPrecio: 'u$s 59',
         prodCategoria: 'gabinetes',
         prodMarca: ''
+    },
+    {
+        id: 233,
+        prodName: 'SODDIMM DDR4 32 GB',
+        prodImg1: '',
+        prodImg2: '',
+        prodImg3: '',
+        prodDescription: 'Soddimm DDR4 32GB - 3000',
+        prodPrecio: 'u$s 93',
+        prodCategoria: 'MemoriasNotebook',
+        prodMarca: ''
+    },
+    {
+        id: 234,
+        prodName: 'MSI B520M-A PRO.',
+        prodImg1: '',
+        prodImg2: '',
+        prodImg3: '',
+        prodDescription: 'Msi B520M-A Pro.',
+        prodPrecio: 'u$s 98',
+        prodCategoria: 'Motherboards',
+        prodMarca: 'msi'
+    },
+    {
+        id: 235,
+        prodName: 'COOLER INTEL/AMD TT UX100 ARGB',
+        prodImg1: '',
+        prodImg2: '',
+        prodImg3: '',
+        prodDescription: 'COOLER INTEL/AMD TT UX100 ARGB',
+        prodPrecio: 'u$s 23',
+        prodCategoria: 'cooler',
+        prodMarca: 'intel'
     },
 ]
