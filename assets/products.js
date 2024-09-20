@@ -10,17 +10,17 @@ export const products = [
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
-    /* {
+    {
         id: 2,
         prodName: 'DDR3 8 GB - 1600',
         prodImg1: '/img/memorias/HIKER DDR3 8GB 1.png',
         prodImg2: '/img/memorias/HIKER DDR3 8GB 2.png',
         prodDescription: 'Memoria Ram DDR3 8GB - 1600',
-        prodPrecio: 'u$s 14 - (SIN STOCK)',
+        prodPrecio: 'u$s 12',
         prodCategoria: 'Memorias',
         prodMarca: 'hiksemi'
     },
-    {
+    /* {
         id: 3,
         prodName: 'DDR4 4 GB - 2400',
         prodImg1: '',
@@ -40,7 +40,7 @@ export const products = [
         prodImg3: '',
         prodImg4: '',
         prodDescription: 'Memoria Ram DDR4 8GB - 3000',
-        prodPrecio: 'u$s 21',
+        prodPrecio: 'u$s 19',
         prodCategoria: 'Memorias',
         prodMarca: ''
     },
@@ -174,7 +174,7 @@ export const products = [
         prodCategoria: 'Memorias',
         prodMarca: ''
     },
-    {
+    /* {
         id: 16,
         prodName: 'SODDIMM DDR3 4 GB',
         prodImg1: '',
@@ -185,7 +185,7 @@ export const products = [
         prodPrecio: 'u$s 15 - (SIN STOCK)',
         prodCategoria: 'MemoriasNotebook',
         prodMarca: ''
-    },
+    }, */
     {
         id: 17,
         prodName: 'SODDIMM DDR3 8 GB',
@@ -214,7 +214,7 @@ export const products = [
         prodImg1: '/img/memorias/DDR4 8gb ram 1-NOTEBOOK-.png',
         prodImg2: '/img/memorias/DDR4 8gb ram 2-NOTEBOOK-.png',
         prodDescription: 'MARKVISION DDR4 8GB - 3200',
-        prodPrecio: 'u$s 22',
+        prodPrecio: 'u$s 20',
         prodCategoria: 'MemoriasNotebook',
         prodMarca: 'markvision'
     },
@@ -293,7 +293,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/INTEL PENTIUN GOLD 2.png',
         prodImg3: '/img/microProcesadores/INTEL PENTIUN GOLD 3.png',
         prodDescription: 'Micro Intel Pentium G6405.',
-        prodPrecio: 'u$s 113',
+        prodPrecio: 'u$s 105',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'intel'
     },
@@ -304,7 +304,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/INTEL CORE i3 2.png',
         prodImg3: '/img/microProcesadores/INTEL CORE i3 3.png',
         prodDescription: 'Micro Core i3 10100 / 10105.',
-        prodPrecio: 'u$s 145',
+        prodPrecio: 'u$s 135',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'intel'
     },
@@ -315,7 +315,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/COREi5 2.png',
         prodImg3: '/img/microProcesadores/COREi5 3.png',
         prodDescription: 'Micro Core i5 10400.',
-        prodPrecio: 'u$s 202',
+        prodPrecio: 'u$s 197',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'intel'
     },
@@ -1127,12 +1127,12 @@ export const products = [
     /* FUENTES */
     {
         id: 104,
-        prodName: 'FUENTE 550 KELXY.',
+        prodName: 'FUENTE 550 KELXY / NOGA.',
         prodImg1: '',
         prodImg2: '',
         prodImg3: '',
-        prodDescription: 'FUENTE 550 KELXY.',
-        prodPrecio: 'u$s 19',
+        prodDescription: 'FUENTE 550 KELXY / NOGA.',
+        prodPrecio: 'u$s 17',
         prodCategoria: 'fuentes',
         prodMarca: ''
     },
@@ -1496,24 +1496,24 @@ export const products = [
     {
         id: 138,
         prodName: 'LENOVO IP 3 15ITL6.',
-        prodImg1: '',
-        prodImg2: '',
-        prodImg3: '',
+        prodImg1: '/img/notebook/LENOVO INTEL.png',
+        prodImg2: '/img/notebook/LENOVO AMD E INTEL.png',
         prodDescription: '15,6 FHD - INTEL 15-8GB SSD 256GB-11S.',
-        prodPrecio: 'u$s 859',
+        prodPrecio: 'SIN STOCK',
         prodCategoria: 'notebook',
-        prodMarca: 'lenovo'
+        prodMarca: 'lenovo',
+        prodStock: 'false'
     },
     {
         id: 139,
         prodName: 'LENOVO IP 1 15ALC7.',
-        prodImg1: '',
-        prodImg2: '',
-        prodImg3: '',
+        prodImg1: '/img/notebook/LENOVO AMD.png',
+        prodImg2: '/img/notebook/LENOVO AMD E INTEL.png',
         prodDescription: '15,6 FHD TN - AMD RYZEN 3-8GB SSD 256GB-11S.',
-        prodPrecio: 'u$s 799',
+        prodPrecio: 'SIN STOCK',
         prodCategoria: 'notebook',
-        prodMarca: 'lenovo'
+        prodMarca: 'lenovo',
+        prodStock: 'false'
     },
     {
         id: 140,
@@ -1553,7 +1553,7 @@ export const products = [
         prodName: 'TECLADO K120.',
         prodImg1: '/img/teclados/K120 LOGITECH.png',
         prodDescription: 'TECLADO K120.',
-        prodPrecio: 'u$s 15',
+        prodPrecio: 'u$s 10',
         prodCategoria: 'teclados',
         prodMarca: 'logitech'
     },
@@ -1563,7 +1563,7 @@ export const products = [
         prodImg1: '/img/teclados/GENIUS MK120 1.png',
         prodImg2: '/img/teclados/GENIUS MK120 2.png',
         prodDescription: 'TECL + MOU MK120.',
-        prodPrecio: 'u$s 19',
+        prodPrecio: 'u$s 16',
         prodCategoria: 'teclados',
         prodMarca: 'genius'
     },
@@ -1572,7 +1572,7 @@ export const products = [
         prodName: 'WI TECL + MOU MK220.',
         prodImg1: '/img/teclados/MK220.png',
         prodDescription: 'WI TECL + MOU MK220.',
-        prodPrecio: 'u$s 28',
+        prodPrecio: 'u$s 23',
         prodCategoria: 'teclados',
         prodMarca: 'logitech'
     },
@@ -1581,7 +1581,7 @@ export const products = [
         prodName: 'WI TECL + MOU MK235.',
         prodImg1: '/img/teclados/MK235.png',
         prodDescription: 'WI TECL + MOU MK235.',
-        prodPrecio: 'u$s 34',
+        prodPrecio: 'u$s 25',
         prodCategoria: 'teclados',
         prodMarca: 'logitech'
     },
@@ -1590,7 +1590,7 @@ export const products = [
         prodName: 'WI TECL + MOU MK270.',
         prodImg1: '/img/teclados/MK270 LOGITECH.png',
         prodDescription: 'WI TECL + MOU MK270.',
-        prodPrecio: 'u$s 31',
+        prodPrecio: 'u$s 29',
         prodCategoria: 'teclados',
         prodMarca: 'logitech'
     },
@@ -1599,7 +1599,7 @@ export const products = [
         prodName: 'WI TECL + MOU MK295.',
         prodImg1: '/img/teclados/MK295 LOGITECH.png',
         prodDescription: 'WI TECL + MOU MK295.',
-        prodPrecio: 'u$s 36',
+        prodPrecio: 'u$s 34',
         prodCategoria: 'teclados',
         prodMarca: 'logitech'
     },
@@ -1630,7 +1630,7 @@ export const products = [
         prodName: 'LOGITECH WI M185.',
         prodImg1: '/img/mouse/M185 Mause Logi.png',
         prodDescription: 'LOGITECH WI M185.',
-        prodPrecio: 'u$s 14',
+        prodPrecio: 'u$s 12',
         prodCategoria: 'mouse',
         prodMarca: 'logitech'
     },
@@ -1639,7 +1639,7 @@ export const products = [
         prodName: 'LOGITECH WI M190.',
         prodImg1: '/img/mouse/M190 LOGI mause.png',
         prodDescription: 'LOGITECH WI M190.',
-        prodPrecio: 'u$s 15',
+        prodPrecio: 'u$s 13',
         prodCategoria: 'mouse',
         prodMarca: 'logitech'
     },
@@ -1714,7 +1714,7 @@ export const products = [
         prodImg2: '/img/sonido/GENIUS AURICULARES 2.png',
         prodImg3: '/img/sonido/GENIUS AURICULARES 3.png',
         prodDescription: 'GENIUS HS-M228.',
-        prodPrecio: 'u$s 11',
+        prodPrecio: 'SIN STOCK',
         prodCategoria: 'sonido',
         prodMarca: 'genius'
     },
@@ -1723,7 +1723,7 @@ export const products = [
         prodName: 'LOGITECH H390.',
         prodImg1: '/img/sonido/AURICULARES LOGITECH H390.png',
         prodDescription: 'LOGITECH H390.',
-        prodPrecio: 'u$s 57 - (SIN STOCK)',
+        prodPrecio: 'u$s 43',
         prodCategoria: 'sonido',
         prodMarca: 'logitech'
     },
@@ -2502,7 +2502,7 @@ export const products = [
         prodName: 'TECL + MOU MK120 LOGITECH.',
         prodImg1: '/img/teclados/MK120 LOGITECH.png',
         prodDescription: 'TECL + MOU MK120 LOGITECH',
-        prodPrecio: 'u$s 19',
+        prodPrecio: 'u$s 16',
         prodCategoria: 'teclados',
         prodMarca: 'logitech'
     },
@@ -2538,7 +2538,7 @@ export const products = [
         prodCategoria: 'Motherboards',
         prodMarca: 'msi'
     },
-    {
+    /* {
         id: 235,
         prodName: 'COOLER INTEL/AMD TT UX100 ARGB',
         prodImg1: '',
@@ -2548,5 +2548,69 @@ export const products = [
         prodPrecio: 'u$s 23',
         prodCategoria: 'cooler',
         prodMarca: 'intel'
+    }, */
+    {
+        id: 236,
+        prodName: 'TP-LINK UE200 USB 2.0 RJ45',
+        prodImg1: '',
+        prodImg2: '',
+        prodImg3: '',
+        prodDescription: 'TP-LINK UE200 USB 2.0 RJ45',
+        prodPrecio: 'u$s 15',
+        prodCategoria: 'Conectividad',
+        prodMarca: 'tp-link'
+    },
+    {
+        id: 237,
+        prodName: 'MERCUSYS MW305R',
+        prodImg1: '',
+        prodImg2: '',
+        prodImg3: '',
+        prodDescription: 'MERCUSYS MW305R',
+        prodPrecio: 'u$s 15',
+        prodCategoria: 'Conectividad',
+        prodMarca: ''
+    },
+    {
+        id: 238,
+        prodName: 'ARCHER C6 AC1200',
+        prodImg1: '',
+        prodImg2: '',
+        prodImg3: '',
+        prodDescription: 'ARCHER C6 AC1200',
+        prodPrecio: 'u$s 45',
+        prodCategoria: 'Conectividad',
+        prodMarca: ''
+    },
+    {
+        id: 239,
+        prodName: 'ARCHER C80 AC1900',
+        prodImg1: '',
+        prodImg2: '',
+        prodImg3: '',
+        prodDescription: 'ARCHER C80 AC1900',
+        prodPrecio: 'u$s 55',
+        prodCategoria: 'Conectividad',
+        prodMarca: ''
+    },
+    {
+        id: 240,
+        prodName: '24" LG 24MS500',
+        prodImg1: '',
+        prodImg2: '',
+        prodImg3: '',
+        prodDescription: '24" LG 24MS500',
+        prodPrecio: 'u$s 149',
+        prodCategoria: 'Monitores',
+        prodMarca: 'lg'
+    },
+    {
+        id: 241,
+        prodName: 'LOGITECH WI M170.',
+        prodImg1: '',
+        prodDescription: 'LOGITECH WI M170.',
+        prodPrecio: 'u$s 9',
+        prodCategoria: 'mouse',
+        prodMarca: 'logitech'
     },
 ]
