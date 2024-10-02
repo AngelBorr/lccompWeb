@@ -315,7 +315,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/COREi5 2.png',
         prodImg3: '/img/microProcesadores/COREi5 3.png',
         prodDescription: 'Micro Core i5 10400.',
-        prodPrecio: 'u$s 197',
+        prodPrecio: 'u$s 195',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'intel'
     },
@@ -415,7 +415,7 @@ export const products = [
         prodName: 'SSD 120 GB HIK.',
         prodImg1: '/img/discosSSD/HIKSEMI 125GB.png',
         prodDescription: 'SSD 120 GB HIK.',
-        prodPrecio: 'u$s 15 - (SIN  STOCK)',
+        prodPrecio: 'u$s 15',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
@@ -430,10 +430,10 @@ export const products = [
     },
     {
         id: 39,
-        prodName: 'SSD 256 GB * HIK.',
+        prodName: 'SSD 240 GB * HIK.',
         prodImg1: '/img/discosSSD/HIKSEMI 256GB.png',
         prodDescription: 'SSD 240 GB * HIK.',
-        prodPrecio: 'u$s 23 - (SIN STOCK)',
+        prodPrecio: 'u$s 21',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
@@ -613,12 +613,12 @@ export const products = [
     /* PLACAS DE VIDEO */
     {
         id: 56,
-        prodName: 'GEFORCE GT 1030 2GB.',
+        prodName: 'GEFORCE GT 1030 4GB.',
         prodImg1: '/img/placaVideo/GEFORCE GT1030 1.png',
         prodImg2: '/img/placaVideo/GEFORCE GT1030 2.png',
         prodImg3: '/img/placaVideo/GEFORCE GT1030 3.png',
-        prodDescription: 'GEFORCE GT 1030 2GB.',
-        prodPrecio: 'u$s 135',
+        prodDescription: 'GEFORCE GT 1030 4GB.',
+        prodPrecio: 'u$s 129',
         prodCategoria: 'PlacaVideo',
         prodMarca: 'msi'
     },
@@ -2018,12 +2018,12 @@ export const products = [
     },
     {
         id: 187,
-        prodName: 'CABLE USB 2.0 ALARGUE 1,5mts.',
+        prodName: 'CABLE USB 2.0 ALARGUE 1,8mts.',
         prodImg1: '',
         prodImg2: '',
         prodImg3: '',
-        prodDescription: 'CABLE USB 2.0 ALARGUE 1,5mts.',
-        prodPrecio: 'u$s 6',
+        prodDescription: 'CABLE USB 2.0 ALARGUE 1,8mts.',
+        prodPrecio: 'u$s 5',
         prodCategoria: 'adaptadores',
         prodMarca: ''
     },
@@ -2342,7 +2342,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'PACH CORD 1 Mts.',
-        prodPrecio: 'u$s 2',
+        prodPrecio: 'u$s 3',
         prodCategoria: 'accesorios',
         prodMarca: ''
     },
@@ -2353,7 +2353,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'PACH CORD 2 Mts.',
-        prodPrecio: 'u$s 4',
+        prodPrecio: 'u$s 3.50',
         prodCategoria: 'accesorios',
         prodMarca: ''
     },
@@ -2364,7 +2364,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'PACH CORD 3 Mts.',
-        prodPrecio: 'u$s 5',
+        prodPrecio: 'u$s 4',
         prodCategoria: 'accesorios',
         prodMarca: ''
     },
@@ -2375,7 +2375,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'PACH CORD 5 Mts.',
-        prodPrecio: 'u$s 6',
+        prodPrecio: 'u$s 5',
         prodCategoria: 'accesorios',
         prodMarca: ''
     },
@@ -2430,7 +2430,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'BOX 2.5 USB 3.0',
-        prodPrecio: 'u$s 12 - (SIN STOCK)',
+        prodPrecio: 'u$s 12',
         prodCategoria: 'accesorios',
         prodMarca: ''
     },
@@ -2612,5 +2612,34 @@ export const products = [
         prodPrecio: 'u$s 9',
         prodCategoria: 'mouse',
         prodMarca: 'logitech'
+    },
+    {
+        id: 242,
+        prodName: 'GENIUS SP-U125',
+        prodImg1: '',
+        prodDescription: 'GENIUS SP-U125',
+        prodPrecio: 'u$s 13',
+        prodCategoria: 'sonido',
+        prodMarca: 'genius'
+    },
+    {
+        id: 243,
+        prodName: 'LOGITECH S150',
+        prodImg1: '',
+        prodDescription: 'LOGITECH S150',
+        prodPrecio: 'u$s 20',
+        prodCategoria: 'sonido',
+        prodMarca: 'logitech'
+    },
+    {
+        id: 244,
+        prodName: 'CABLE USB 3.0 ALARGUE 1mts',
+        prodImg1: '',
+        prodImg2: '',
+        prodImg3: '',
+        prodDescription: 'CABLE USB 3.0 ALARGUE 1mts',
+        prodPrecio: 'u$s 7',
+        prodCategoria: 'adaptadores',
+        prodMarca: ''
     },
 ]
