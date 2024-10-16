@@ -6,7 +6,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/AMD ATLHON 2.png',
         prodImg3: '/img/microProcesadores/AMD ATLHON 3.png',
         prodDescription: 'Micro AMD Athlon 3000G',
-        prodPrecio: 'u$s 69',
+        prodPrecio: 'u$s 65',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
@@ -237,7 +237,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/AMD RAIZER3 Con placa 2.png',
         prodImg3: '/img/microProcesadores/AMD RAIZER3 Con placa 3.png',
         prodDescription: 'Micro AMD Ryzen 3 3200G',
-        prodPrecio: 'u$s 95',
+        prodPrecio: 'u$s 88',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
@@ -248,7 +248,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/AMD RAIZER5 2.png',
         prodImg3: '/img/microProcesadores/AMD RAIZER5 3.png',
         prodDescription: 'Micro AMD Ryzen 5 4600G',
-        prodPrecio: 'u$s 185',
+        prodPrecio: 'u$s 146',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
@@ -259,7 +259,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/RYZER5 serie 5000 2.png',
         prodImg3: '/img/microProcesadores/RYZER5 serie 5000 3.png',
         prodDescription: 'Micro AMD Ryzen 5 5600G',
-        prodPrecio: 'u$s 229',
+        prodPrecio: 'u$s 172',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
@@ -271,7 +271,7 @@ export const products = [
         prodImg3: '',
         prodImg4: '',
         prodDescription: 'Micro AMD Ryzen 5 5600X sin video.',
-        prodPrecio: 'u$s 295',
+        prodPrecio: 'u$s 199',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
@@ -282,7 +282,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/AMD RAIZER7 2.png',
         prodImg3: '/img/microProcesadores/AMD RAIZER7 3.png',
         prodDescription: 'Micro AMD Ryzen 7 5700G.',
-        prodPrecio: 'u$s 335',
+        prodPrecio: 'u$s 239',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
@@ -293,7 +293,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/INTEL PENTIUN GOLD 2.png',
         prodImg3: '/img/microProcesadores/INTEL PENTIUN GOLD 3.png',
         prodDescription: 'Micro Intel Pentium G6405.',
-        prodPrecio: 'u$s 105',
+        prodPrecio: 'u$s 99',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'intel'
     },
@@ -304,7 +304,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/INTEL CORE i3 2.png',
         prodImg3: '/img/microProcesadores/INTEL CORE i3 3.png',
         prodDescription: 'Micro Core i3 10100 / 10105.',
-        prodPrecio: 'u$s 135',
+        prodPrecio: 'u$s 129',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'intel'
     },
@@ -315,11 +315,11 @@ export const products = [
         prodImg2: '/img/microProcesadores/COREi5 2.png',
         prodImg3: '/img/microProcesadores/COREi5 3.png',
         prodDescription: 'Micro Core i5 10400.',
-        prodPrecio: 'u$s 195',
+        prodPrecio: 'u$s 186',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'intel'
     },
-    {
+    /* {
         id: 29,
         prodName: 'CORE i7 12700 ALDER LAKE.',
         prodImg1: '/img/microProcesadores/INTEL CORE i7 1.png',
@@ -330,9 +330,9 @@ export const products = [
         prodPrecio: 'u$s 449',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'intel'
-    },
+    }, */
     /* MOTHER */
-    {
+    /* {
         id: 30,
         prodName: 'MSI A520M-A PRO.',
         prodImg1: '/img/motherboard/AMD MOTHER RAIZER A520 1.png',
@@ -342,7 +342,7 @@ export const products = [
         prodPrecio: 'u$s 79',
         prodCategoria: 'Motherboards',
         prodMarca: 'msi'
-    },
+    }, */
     {
         id: 31,
         prodName: 'GIGABYTE B550M K.',
@@ -387,7 +387,7 @@ export const products = [
         prodCategoria: 'Motherboards',
         prodMarca: 'gigabyte'
     },
-    {
+    /* {
         id: 35,
         prodName: 'MSI H610M-G DDR4.',
         prodImg1: '/img/motherboard/INTEL MOTHER 610DDR4-1.png',
@@ -397,7 +397,7 @@ export const products = [
         prodPrecio: 'u$s 114 - (SIN STOCK)',
         prodCategoria: 'Motherboards',
         prodMarca: 'msi'
-    },
+    }, */
     {
         id: 36,
         prodName: 'MSI H610M-G DDR5.',
@@ -415,7 +415,7 @@ export const products = [
         prodName: 'SSD 120 GB HIK.',
         prodImg1: '/img/discosSSD/HIKSEMI 125GB.png',
         prodDescription: 'SSD 120 GB HIK.',
-        prodPrecio: 'u$s 15',
+        prodPrecio: 'u$s 14',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
@@ -483,14 +483,14 @@ export const products = [
     },
     {
         id: 44,
-        prodName: 'SSD 480 GB MSI.',
+        prodName: 'SSD 480 GB HIT.',
         prodImg1: '',
         prodImg2: '',
         prodImg3: '',
-        prodDescription: 'SSD 480 GB MSI.',
-        prodPrecio: 'u$s 49 - (SIN STOCK)',
+        prodDescription: 'SSD 480 GB HIT.',
+        prodPrecio: 'u$s 38',
         prodCategoria: 'DiscoSSD',
-        prodMarca: 'msi'
+        prodMarca: ''
     },
     {
         id: 45,
@@ -2641,5 +2641,34 @@ export const products = [
         prodPrecio: 'u$s 7',
         prodCategoria: 'adaptadores',
         prodMarca: ''
+    },
+    {
+        id: 245,
+        prodName: 'ASUS A520M-K',
+        prodImg1: '',
+        prodDescription: 'ASUS A520M-K',
+        prodPrecio: 'u$s 88',
+        prodCategoria: 'Motherboards',
+        prodMarca: 'asus'
+    },
+    {
+        id: 246,
+        prodName: 'PILA LITIO 2032',
+        prodImg1: '',
+        prodImg2: '',
+        prodImg3: '',
+        prodDescription: 'PILA LITIO 2032',
+        prodPrecio: 'u$s 1',
+        prodCategoria: 'accesorios',
+        prodMarca: ''
+    },
+    {
+        id: 247,
+        prodName: 'GeFORCE RTX 3050 6gb',
+        prodImg1: '/img/placaVideo/GEFORCE RTX 3060 1.png',
+        prodDescription: 'GeFORCE RTX 3050 6gb',
+        prodPrecio: 'u$s 289',
+        prodCategoria: 'PlacaVideo',
+        prodMarca: 'msi'
     },
 ]
