@@ -105,7 +105,7 @@ const ProductList = () => {
                     <option value="accesorios">ACCESORIOS</option>
                 </select>
                 <a className="p-2 w-[25%] text-[9px] md:text-sm lg:text-base truncate flex justify-center bg-white border-[1px] border-[#d7f0e9] hover:bg-[#d7f0e9] rounded cursor-pointer"
-                id="viewPdf" href='/viewPdf' target='_blank'>LISTA COMPLETA</a>
+                id="viewPdf" href='/viewPdf' target=''>LISTA COMPLETA</a>
             </div>
             <main className="w-full h-auto gap-2 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-2 xl:grid-cols-5 border-[2px] border-[#78b081] rounded-lg p-2">
                 {filteredProducts.map((prod) => (
