@@ -315,11 +315,11 @@ export const products = [
         prodImg2: '/img/microProcesadores/COREi5 2.png',
         prodImg3: '/img/microProcesadores/COREi5 3.png',
         prodDescription: 'Micro Core i5 10400.',
-        prodPrecio: 'u$s 186',
+        prodPrecio: 'u$s 189',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'intel'
     },
-    /* {
+    {
         id: 29,
         prodName: 'CORE i7 12700 ALDER LAKE.',
         prodImg1: '/img/microProcesadores/INTEL CORE i7 1.png',
@@ -327,10 +327,10 @@ export const products = [
         prodImg3: '/img/microProcesadores/INTEL CORE i7 3.png',
         prodImg4: '',
         prodDescription: 'Micro Core i7 12700 Alder Lake.',
-        prodPrecio: 'u$s 449',
+        prodPrecio: 'u$s 399',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'intel'
-    }, */
+    },
     /* MOTHER */
     /* {
         id: 30,
@@ -387,17 +387,17 @@ export const products = [
         prodCategoria: 'Motherboards',
         prodMarca: 'gigabyte'
     },
-    /* {
+    {
         id: 35,
         prodName: 'MSI H610M-G DDR4.',
         prodImg1: '/img/motherboard/INTEL MOTHER 610DDR4-1.png',
         prodImg2: '/img/motherboard/INTEL MOTHER 610DDR4-2.png',
         prodImg3: '/img/motherboard/INTEL MOTHER 610DDR4-3.png',
         prodDescription: 'Msi H610M-G DDR4.',
-        prodPrecio: 'u$s 114 - (SIN STOCK)',
+        prodPrecio: 'u$s 96',
         prodCategoria: 'Motherboards',
         prodMarca: 'msi'
-    }, */
+    },
     {
         id: 36,
         prodName: 'MSI H610M-G DDR5.',
@@ -872,7 +872,7 @@ export const products = [
         prodCategoria: 'Conectividad',
         prodMarca: 'tp-link'
     },
-    {
+    /* {
         id: 80,
         prodName: 'MERCUSYS AC1200 MR30G.',
         prodImg1: '/img/conectividad/MERCUSIS 1.png',
@@ -882,7 +882,7 @@ export const products = [
         prodPrecio: 'u$s 34',
         prodCategoria: 'Conectividad',
         prodMarca: ''
-    },
+    }, */
     {
         id: 81,
         prodName: 'ARCHER C5 AC1200.',
@@ -1088,7 +1088,7 @@ export const products = [
         prodImg2: '/img/gabinetes/KELIX teclado y mause 1.png',
         prodImg3: '/img/gabinetes/KELIX teclado y mause 2.png',
         prodDescription: 'KIT KELYX 728/SENTEY G38/G50. Gabinete + Teclado + Mouse',
-        prodPrecio: 'u$s 51',
+        prodPrecio: 'u$s 47',
         prodCategoria: 'gabinetes',
         prodMarca: ''
     },
@@ -1214,9 +1214,9 @@ export const products = [
         prodImg1: '/img/fuentes/SENTEY 600 FUENTE 1.png',
         prodImg2: '/img/fuentes/SENTEY 600 FUENTE 2.png',
         prodDescription: 'FUENTE HBP600-GS SENTEY 80P-BRO.',
-        prodPrecio: 'u$s 84 - (SIN STOCK)',
+        prodPrecio: 'u$s 78',
         prodCategoria: 'fuentes',
-        prodMarca: ''
+        prodMarca: 'sentey'
     },
     {
         id: 113,
@@ -1224,7 +1224,7 @@ export const products = [
         prodImg1: '/img/fuentes/ZENTEY 700W 1.png',
         prodImg2: '/img/fuentes/ZENTEY 700W 2.png',
         prodDescription: 'FUENTE HBP700-GS SENTEY 80P-BRO.',
-        prodPrecio: 'u$s 92 - (SIN STOCK)',
+        prodPrecio: 'u$s 89',
         prodCategoria: 'fuentes',
         prodMarca: ''
     },
@@ -2670,5 +2670,23 @@ export const products = [
         prodPrecio: 'u$s 289',
         prodCategoria: 'PlacaVideo',
         prodMarca: 'msi'
+    },
+    {
+        id: 248,
+        prodName: 'MSI B450M-PRO',
+        prodImg1: '',
+        prodDescription: 'MSI B450M-PRO',
+        prodPrecio: 'u$s 89',
+        prodCategoria: 'Motherboards',
+        prodMarca: 'msi'
+    },
+    {
+        id: 249,
+        prodName: 'ATI RADEON RX 580 8gb',
+        prodImg1: '',
+        prodDescription: 'ATI RADEON RX 580 8gb',
+        prodPrecio: 'u$s 189',
+        prodCategoria: 'PlacaVideo',
+        prodMarca: ''
     },
 ]
