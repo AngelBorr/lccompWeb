@@ -394,7 +394,7 @@ export const products = [
         prodImg2: '/img/motherboard/INTEL MOTHER 610DDR4-2.png',
         prodImg3: '/img/motherboard/INTEL MOTHER 610DDR4-3.png',
         prodDescription: 'Msi H610M-G DDR4.',
-        prodPrecio: 'u$s 96',
+        prodPrecio: 'u$s 99',
         prodCategoria: 'Motherboards',
         prodMarca: 'msi'
     },
@@ -405,7 +405,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'Msi H610M-G DDR5.',
-        prodPrecio: 'u$s 129 - (SIN STOCK)',
+        prodPrecio: 'u$s 127',
         prodCategoria: 'Motherboards',
         prodMarca: 'msi'
     },
@@ -437,7 +437,7 @@ export const products = [
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
-    {
+    /* {
         id: 40,
         prodName: 'SSD 240 GB MSI.',
         prodImg1: '',
@@ -447,7 +447,7 @@ export const products = [
         prodPrecio: 'u$s 28 - (SIN STOCK)',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'msi'
-    },
+    }, */
     {
         id: 41,
         prodName: 'SSD 240 GB * KING.',
@@ -455,7 +455,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SSD 240 GB * KING.',
-        prodPrecio: 'u$s 36',
+        prodPrecio: 'u$s 32',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'kingstone'
     },
@@ -466,7 +466,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SSD 250 GB - M2* HIK.',
-        prodPrecio: 'u$s 27 - (SIN STOCK)',
+        prodPrecio: 'u$s 26',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
@@ -477,7 +477,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SSD 250 GB - M2* KING.',
-        prodPrecio: 'u$s 44',
+        prodPrecio: 'u$s 39',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'kingstone'
     },
@@ -499,7 +499,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SSD 480 GB KING.',
-        prodPrecio: 'u$s 51',
+        prodPrecio: 'u$s 44',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'kingstone'
     },
@@ -508,7 +508,7 @@ export const products = [
         prodName: 'SSD 512 GB - M2 HIK.',
         prodImg1: '/img/discosSSD/HIKSEMI 512GB.png',
         prodDescription: 'SSD 500 GB - M2 HIK.',
-        prodPrecio: 'u$s 54',
+        prodPrecio: 'u$s 39',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
@@ -519,18 +519,18 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SSD 500 GB - M2* KING.',
-        prodPrecio: 'u$s 59',
+        prodPrecio: 'u$s 47',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'kingstone'
     },
     {
         id: 48,
-        prodName: 'SSD 960 GB * HIKV / MSI.',
+        prodName: 'SSD 960 GB * HIK / MSI.',
         prodImg1: '/img/discosSSD/HIKVISION 960GB.png',
         prodImg2: '',
         prodImg3: '',
-        prodDescription: 'SSD 960 GB * HIKV / MSI.',
-        prodPrecio: 'u$s 93 - (SIN STOCK)',
+        prodDescription: 'SSD 960 GB * HIK / MSI.',
+        prodPrecio: 'u$s 76',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
@@ -541,16 +541,16 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SSD 960 GB KING.',
-        prodPrecio: 'u$s 99',
+        prodPrecio: 'u$s 73',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'kingstone'
     },
     {
         id: 50,
-        prodName: 'SSD 1 TB-M2 PCI EX* KING.',
+        prodName: 'SSD 1 TB-M2 NVMe PCI EX* KING.',
         prodImg1: '/img/discosSSD/KINGSTONE 1TB.png',
-        prodDescription: 'SSD 1 TB-M2 PCI EX* KING.',
-        prodPrecio: 'u$s 89',
+        prodDescription: 'SSD 1 TB-M2 NVMe PCI EX* KING.',
+        prodPrecio: 'u$s 79',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'kingstone'
     },
@@ -561,7 +561,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SSD 2 TB HIK.',
-        prodPrecio: 'u$s 170',
+        prodPrecio: 'u$s 149',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
@@ -572,7 +572,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SSD 2 TB-M2* HIK.',
-        prodPrecio: 'u$s 175',
+        prodPrecio: 'u$s 149',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
@@ -584,7 +584,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'HDD 1 TB SATA 2,5.',
-        prodPrecio: 'u$s 85',
+        prodPrecio: 'u$s 76',
         prodCategoria: 'DiscoHDD',
         prodMarca: ''
     },
@@ -595,7 +595,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'HDD 2 TB SATA 3,5.',
-        prodPrecio: 'u$s 95',
+        prodPrecio: 'u$s 85',
         prodCategoria: 'DiscoHDD',
         prodMarca: ''
     },
@@ -606,7 +606,7 @@ export const products = [
         prodImg2: '/img/discosHDD/EXTERNAL CASE 2.png',
         prodImg3: '/img/discosHDD/EXTERNAL CASE 3.png',
         prodDescription: 'HDD 2 TB EXTERNO USB 3.0.',
-        prodPrecio: 'u$s 105',
+        prodPrecio: 'u$s 117',
         prodCategoria: 'DiscoHDD',
         prodMarca: ''
     },
@@ -622,7 +622,7 @@ export const products = [
         prodCategoria: 'PlacaVideo',
         prodMarca: 'msi'
     },
-    {
+    /* {
         id: 57,
         prodName: 'GeFORCE RTX 3060 Ventus 2X 12gb.',
         prodImg1: '/img/placaVideo/GEFORCE RTX 3060 1.png',
@@ -632,7 +632,7 @@ export const products = [
         prodPrecio: 'u$s 469',
         prodCategoria: 'PlacaVideo',
         prodMarca: 'msi'
-    },
+    }, */
     /* CONECTIVIDAD */
     {
         id: 58,
@@ -1051,7 +1051,7 @@ export const products = [
         prodMarca: 'lg'
     },
     /* IMPRESORAS */
-    {
+    /* {
         id: 97,
         prodName: 'HP LASER 107 A.',
         prodImg1: '/img/impresoras/HP L107a.png',
@@ -1059,7 +1059,7 @@ export const products = [
         prodPrecio: 'u$s 190 - (SIN STOCK)',
         prodCategoria: 'impresoras',
         prodMarca: 'hp'
-    },
+    }, */
     {
         id: 98,
         prodName: 'EPSON L3210 MF.',
@@ -1493,7 +1493,7 @@ export const products = [
         prodMarca: ''
     },
     /* NOTEBOOK */
-    {
+    /* {
         id: 138,
         prodName: 'LENOVO IP 3 15ITL6.',
         prodImg1: '/img/notebook/LENOVO INTEL.png',
@@ -1503,14 +1503,14 @@ export const products = [
         prodCategoria: 'notebook',
         prodMarca: 'lenovo',
         prodStock: 'false'
-    },
+    }, */
     {
         id: 139,
         prodName: 'LENOVO IP 1 15ALC7.',
         prodImg1: '/img/notebook/LENOVO AMD.png',
         prodImg2: '/img/notebook/LENOVO AMD E INTEL.png',
-        prodDescription: '15,6 FHD TN - AMD RYZEN 3-8GB SSD 256GB-11S.',
-        prodPrecio: 'SIN STOCK',
+        prodDescription: 'LENOVO IP 1 15ALC7 - 15,6 AMD R5-8GB-512GB',
+        prodPrecio: 'u$s 709',
         prodCategoria: 'notebook',
         prodMarca: 'lenovo',
         prodStock: 'false'
@@ -2441,7 +2441,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'WEBCAM LOGITECH C270',
-        prodPrecio: 'u$s 42',
+        prodPrecio: 'u$s 35',
         prodCategoria: 'Conectividad',
         prodMarca: 'logitech'
     },
@@ -2688,5 +2688,59 @@ export const products = [
         prodPrecio: 'u$s 189',
         prodCategoria: 'PlacaVideo',
         prodMarca: ''
+    },
+    {
+        id: 250,
+        prodName: 'SSD 1 TB-M2 NVMe PCI EX* HIK.',
+        prodImg1: '',
+        prodDescription: 'SSD 1 TB-M2 NVMe PCI EX* HIK.',
+        prodPrecio: 'u$s 63',
+        prodCategoria: 'DiscoSSD',
+        prodMarca: 'hiksemi'
+    },
+    {
+        id: 251,
+        prodName: 'SSD 1 TB-M2 NVMe PCI EX* GIGA',
+        prodImg1: '',
+        prodDescription: 'SSD 1 TB-M2 NVMe PCI EX* GIGA',
+        prodPrecio: 'u$s 87',
+        prodCategoria: 'DiscoSSD',
+        prodMarca: 'gigabyte'
+    },
+    {
+        id: 252,
+        prodName: 'HP LASER M111W',
+        prodImg1: '',        
+        prodDescription: 'HP LASER M111W',
+        prodPrecio: 'u$s 179',
+        prodCategoria: 'impresoras',
+        prodMarca: 'hp'
+    },
+    {
+        id: 253,
+        prodName: 'LENOVO IP 15AMN8',
+        prodImg1: '/img/notebook/LENOVO AMD.png',
+        prodDescription: 'LENOVO IP 15AMN8 - 15,6 AMD R3-8GB-512GB-W11',
+        prodPrecio: 'u$s 789',
+        prodCategoria: 'notebook',
+        prodMarca: 'lenovo'
+    },
+    {
+        id: 254,
+        prodName: 'LENOVO IP 15ABR8',
+        prodImg1: '/img/notebook/LENOVO AMD.png',
+        prodDescription: 'LENOVO IP 15AMN8 - 15,6 AMD R7-8GB-512GB-W11',
+        prodPrecio: 'u$s 1120',
+        prodCategoria: 'notebook',
+        prodMarca: 'lenovo'
+    },
+    {
+        id: 255,
+        prodName: 'LENOVO IP 15IAH8',
+        prodImg1: '/img/notebook/LENOVO AMD.png',
+        prodDescription: 'LENOVO IP 15IAH8 - 15,6 INTEL I5-8GB-512GB-W11',
+        prodPrecio: 'u$s 949',
+        prodCategoria: 'notebook',
+        prodMarca: 'lenovo'
     },
 ]
