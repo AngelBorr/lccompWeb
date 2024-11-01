@@ -102,7 +102,7 @@ export const products = [
         prodCategoria: 'Memorias',
         prodMarca: ''
     },
-    {
+    /* {
         id: 10,
         prodName: 'PEN DRIVE 128 GB',
         prodImg1: '',
@@ -113,7 +113,7 @@ export const products = [
         prodPrecio: 'u$s 14',
         prodCategoria: 'Memorias',
         prodMarca: ''
-    },
+    }, */
     {
         id: 11,
         prodName: 'MICRO SD 32 GB',
@@ -237,7 +237,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/AMD RAIZER3 Con placa 2.png',
         prodImg3: '/img/microProcesadores/AMD RAIZER3 Con placa 3.png',
         prodDescription: 'Micro AMD Ryzen 3 3200G',
-        prodPrecio: 'u$s 88',
+        prodPrecio: 'u$s 91',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
@@ -325,7 +325,6 @@ export const products = [
         prodImg1: '/img/microProcesadores/INTEL CORE i7 1.png',
         prodImg2: '/img/microProcesadores/INTEL CORE i7 2.png',
         prodImg3: '/img/microProcesadores/INTEL CORE i7 3.png',
-        prodImg4: '',
         prodDescription: 'Micro Core i7 12700 Alder Lake.',
         prodPrecio: 'u$s 399',
         prodCategoria: 'MicroProcesador',
@@ -437,17 +436,15 @@ export const products = [
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
-    /* {
+    {
         id: 40,
-        prodName: 'SSD 240 GB MSI.',
+        prodName: 'SSD 240 GB GIGA / WD',
         prodImg1: '',
-        prodImg2: '',
-        prodImg3: '',
-        prodDescription: 'SSD 240 GB MSI.',
-        prodPrecio: 'u$s 28 - (SIN STOCK)',
+        prodDescription: 'SSD 240 GB GIGA / WD',
+        prodPrecio: 'u$s 27',
         prodCategoria: 'DiscoSSD',
-        prodMarca: 'msi'
-    }, */
+        prodMarca: 'gigabyte'
+    },
     {
         id: 41,
         prodName: 'SSD 240 GB * KING.',
@@ -883,7 +880,7 @@ export const products = [
         prodCategoria: 'Conectividad',
         prodMarca: ''
     }, */
-    {
+    /* {
         id: 81,
         prodName: 'ARCHER C5 AC1200.',
         prodImg1: '',
@@ -893,14 +890,14 @@ export const products = [
         prodPrecio: 'u$s 59',
         prodCategoria: 'Conectividad',
         prodMarca: ''
-    },
+    }, */
     {
         id: 82,
         prodName: 'ARCHER C24 AC750.',
         prodImg1: '/img/conectividad/ROUTER TPLINK C24 1.png',
         prodImg2: '/img/conectividad/ROUTER TPLINK C24 2.png',
         prodDescription: 'ARCHER C24 AC750.',
-        prodPrecio: 'u$s 28 (SIN STOCK)',
+        prodPrecio: 'u$s 29',
         prodCategoria: 'Conectividad',
         prodMarca: ''
     },
@@ -1013,9 +1010,7 @@ export const products = [
     {
         id: 93,
         prodName: '22" PHILIPS FHD HDMI 221V8/77.',
-        prodImg1: '',
-        prodImg2: '',
-        prodImg3: '',
+        prodImg1: '/img/monitores/PHILIP LED V-LINE 18.5 .png',
         prodDescription: '22" PHILIPS FHD HDMI 221V8/77.',
         prodPrecio: 'u$s 135',
         prodCategoria: 'Monitores',
@@ -1043,8 +1038,6 @@ export const products = [
         id: 96,
         prodName: '24" LG 24MK430.',
         prodImg1: '',
-        prodImg2: '',
-        prodImg3: '',
         prodDescription: '24" LG 24MK430.',
         prodPrecio: 'u$s 165 - (SIN STOCK)',
         prodCategoria: 'Monitores',
@@ -1092,7 +1085,7 @@ export const products = [
         prodCategoria: 'gabinetes',
         prodMarca: ''
     },
-    {
+    /* {
         id: 101,
         prodName: 'KIT KELYX 727 SLIM.',
         prodImg1: '/img/gabinetes/KELYX teclado mause parlantes 3.png',
@@ -1102,8 +1095,8 @@ export const products = [
         prodPrecio: 'u$s 67',
         prodCategoria: 'gabinetes',
         prodMarca: ''
-    },
-    {
+    }, */
+    /* {
         id: 102,
         prodName: 'SENTEY 2424 SLIM.',
         prodImg1: '/img/gabinetes/SENTEY GABINETE 1.png',
@@ -1112,7 +1105,7 @@ export const products = [
         prodPrecio: 'u$s 65',
         prodCategoria: 'gabinetes',
         prodMarca: ''
-    },
+    }, */
     {
         id: 103,
         prodName: 'SENTEY PM20-SF (sin fuente).',
@@ -1510,7 +1503,7 @@ export const products = [
         prodImg1: '/img/notebook/LENOVO AMD.png',
         prodImg2: '/img/notebook/LENOVO AMD E INTEL.png',
         prodDescription: 'LENOVO IP 1 15ALC7 - 15,6 AMD R5-8GB-512GB',
-        prodPrecio: 'u$s 709',
+        prodPrecio: 'u$s 739',
         prodCategoria: 'notebook',
         prodMarca: 'lenovo',
         prodStock: 'false'
@@ -1567,7 +1560,7 @@ export const products = [
         prodCategoria: 'teclados',
         prodMarca: 'genius'
     },
-    {
+    /* {
         id: 145,
         prodName: 'WI TECL + MOU MK220.',
         prodImg1: '/img/teclados/MK220.png',
@@ -1575,7 +1568,7 @@ export const products = [
         prodPrecio: 'u$s 23',
         prodCategoria: 'teclados',
         prodMarca: 'logitech'
-    },
+    }, */
     {
         id: 146,
         prodName: 'WI TECL + MOU MK235.',
@@ -2276,7 +2269,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'RESMA BOREAL A4 75GRS.',
-        prodPrecio: 'u$s 8',
+        prodPrecio: 'u$s 7',
         prodCategoria: 'accesorios',
         prodMarca: ''
     },
@@ -2571,7 +2564,7 @@ export const products = [
         prodCategoria: 'Conectividad',
         prodMarca: ''
     },
-    {
+    /* {
         id: 238,
         prodName: 'ARCHER C6 AC1200',
         prodImg1: '',
@@ -2581,8 +2574,8 @@ export const products = [
         prodPrecio: 'u$s 45',
         prodCategoria: 'Conectividad',
         prodMarca: ''
-    },
-    {
+    }, */
+    /* {
         id: 239,
         prodName: 'ARCHER C80 AC1900',
         prodImg1: '',
@@ -2592,8 +2585,8 @@ export const products = [
         prodPrecio: 'u$s 55',
         prodCategoria: 'Conectividad',
         prodMarca: ''
-    },
-    {
+    }, */
+    /* {
         id: 240,
         prodName: '24" LG 24MS500',
         prodImg1: '',
@@ -2603,7 +2596,7 @@ export const products = [
         prodPrecio: 'u$s 149',
         prodCategoria: 'Monitores',
         prodMarca: 'lg'
-    },
+    }, */
     {
         id: 241,
         prodName: 'LOGITECH WI M170.',
@@ -2651,7 +2644,7 @@ export const products = [
         prodCategoria: 'Motherboards',
         prodMarca: 'asus'
     },
-    {
+    /* {
         id: 246,
         prodName: 'PILA LITIO 2032',
         prodImg1: '',
@@ -2661,7 +2654,7 @@ export const products = [
         prodPrecio: 'u$s 1',
         prodCategoria: 'accesorios',
         prodMarca: ''
-    },
+    }, */
     {
         id: 247,
         prodName: 'GeFORCE RTX 3050 6gb',
@@ -2720,7 +2713,7 @@ export const products = [
         id: 253,
         prodName: 'LENOVO IP 15AMN8',
         prodImg1: '/img/notebook/LENOVO AMD.png',
-        prodDescription: 'LENOVO IP 15AMN8 - 15,6 AMD R3-8GB-512GB-W11',
+        prodDescription: 'LENOVO IP 15AMN8 - 15,6 AMD R3-8GB-256GB-W11',
         prodPrecio: 'u$s 789',
         prodCategoria: 'notebook',
         prodMarca: 'lenovo'
@@ -2729,7 +2722,7 @@ export const products = [
         id: 254,
         prodName: 'LENOVO IP 15ABR8',
         prodImg1: '/img/notebook/LENOVO AMD.png',
-        prodDescription: 'LENOVO IP 15AMN8 - 15,6 AMD R7-8GB-512GB-W11',
+        prodDescription: 'LENOVO IP 15AMN8 - 15,6 AMD R7-16GB-512GB-W11',
         prodPrecio: 'u$s 1120',
         prodCategoria: 'notebook',
         prodMarca: 'lenovo'
@@ -2742,5 +2735,23 @@ export const products = [
         prodPrecio: 'u$s 949',
         prodCategoria: 'notebook',
         prodMarca: 'lenovo'
+    },
+    {
+        id: 256,
+        prodName: 'SSD 480 GB GIGA / WD.',
+        prodImg1: '',
+        prodDescription: 'SSD 480 GB GIGA / WD',
+        prodPrecio: 'u$s 41',
+        prodCategoria: 'DiscoSSD',
+        prodMarca: 'gigabyte'
+    },
+    {
+        id: 257,
+        prodName: '24” PHILIPS 241V8L/77',
+        prodImg1: '/img/monitores/PHILIP LED V-LINE 18.5 .png',
+        prodDescription: '24” PHILIPS 241V8L/77',
+        prodPrecio: 'u$s 175',
+        prodCategoria: 'Monitores',
+        prodMarca: 'philips'
     },
 ]
