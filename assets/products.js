@@ -20,27 +20,21 @@ export const products = [
         prodCategoria: 'Memorias',
         prodMarca: 'hiksemi'
     },
-    /* {
+    {
         id: 3,
         prodName: 'DDR4 4 GB - 2400',
         prodImg1: '',
-        prodImg2: '',
-        prodImg3: '',
-        prodImg4: '',
         prodDescription: 'Memoria Ram DDR4 4GB - 2400',
         prodPrecio: 'u$s 13',
         prodCategoria: 'Memorias',
         prodMarca: ''
-    }, */
+    },
     {
         id: 4,
-        prodName: 'DDR4 8 GB - 3000',
+        prodName: 'DDR4 8 GB - 3000 / 3200',
         prodImg1: '',
-        prodImg2: '',
-        prodImg3: '',
-        prodImg4: '',
-        prodDescription: 'Memoria Ram DDR4 8GB - 3000',
-        prodPrecio: 'u$s 19',
+        prodDescription: 'Memoria Ram DDR4 8GB - 3000  / 3200',
+        prodPrecio: 'u$s 22',
         prodCategoria: 'Memorias',
         prodMarca: ''
     },
@@ -102,7 +96,7 @@ export const products = [
         prodCategoria: 'Memorias',
         prodMarca: ''
     },
-    /* {
+    {
         id: 10,
         prodName: 'PEN DRIVE 128 GB',
         prodImg1: '',
@@ -110,10 +104,10 @@ export const products = [
         prodImg3: '',
         prodImg4: '',
         prodDescription: 'Pen Drive 128GB usb 3.2',
-        prodPrecio: 'u$s 14',
+        prodPrecio: 'u$s 11',
         prodCategoria: 'Memorias',
         prodMarca: ''
-    }, */
+    },
     {
         id: 11,
         prodName: 'MICRO SD 32 GB',
@@ -248,7 +242,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/AMD RAIZER5 2.png',
         prodImg3: '/img/microProcesadores/AMD RAIZER5 3.png',
         prodDescription: 'Micro AMD Ryzen 5 4600G',
-        prodPrecio: 'u$s 146',
+        prodPrecio: 'u$s 149',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
@@ -275,7 +269,7 @@ export const products = [
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
-    {
+    /* {
         id: 25,
         prodName: 'RYZEN 7 5700G.',
         prodImg1: '/img/microProcesadores/AMD RAIZER7 1.png',
@@ -285,7 +279,7 @@ export const products = [
         prodPrecio: 'u$s 239',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
-    },
+    }, */
     {
         id: 26,
         prodName: 'INTEL PENTIUM G6405.',
@@ -331,7 +325,7 @@ export const products = [
         prodMarca: 'intel'
     },
     /* MOTHER */
-    /* {
+    {
         id: 30,
         prodName: 'MSI A520M-A PRO.',
         prodImg1: '/img/motherboard/AMD MOTHER RAIZER A520 1.png',
@@ -341,7 +335,7 @@ export const products = [
         prodPrecio: 'u$s 79',
         prodCategoria: 'Motherboards',
         prodMarca: 'msi'
-    }, */
+    },
     {
         id: 31,
         prodName: 'GIGABYTE B550M K.',
@@ -452,7 +446,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SSD 240 GB * KING.',
-        prodPrecio: 'u$s 32',
+        prodPrecio: 'u$s 28',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'kingstone'
     },
@@ -555,10 +549,8 @@ export const products = [
         id: 51,
         prodName: 'SSD 2 TB HIK.',
         prodImg1: '',
-        prodImg2: '',
-        prodImg3: '',
         prodDescription: 'SSD 2 TB HIK.',
-        prodPrecio: 'u$s 149',
+        prodPrecio: 'u$s 139',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
@@ -566,10 +558,8 @@ export const products = [
         id: 52,
         prodName: 'SSD 2 TB-M2* HIK.',
         prodImg1: '',
-        prodImg2: '',
-        prodImg3: '',
         prodDescription: 'SSD 2 TB-M2* HIK.',
-        prodPrecio: 'u$s 149',
+        prodPrecio: 'u$s 139',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
@@ -641,7 +631,7 @@ export const products = [
         prodCategoria: 'Conectividad',
         prodMarca: 'tp-link'
     },
-    {
+    /* {
         id: 59,
         prodName: 'TP-LINK UB400 BT.',
         prodImg1: '',
@@ -651,7 +641,7 @@ export const products = [
         prodPrecio: 'u$s 9',
         prodCategoria: 'Conectividad',
         prodMarca: 'tp-link'
-    },
+    }, */
     {
         id: 60,
         prodName: 'HUB USB 2.0 4P.',
@@ -761,7 +751,7 @@ export const products = [
         prodCategoria: 'Conectividad',
         prodMarca: 'tp-link'
     },
-    {
+    /* {
         id: 70,
         prodName: 'W USB ARCHER AC600 T2U.',
         prodImg1: '',
@@ -771,7 +761,7 @@ export const products = [
         prodPrecio: 'u$s 12',
         prodCategoria: 'Conectividad',
         prodMarca: 'tp-link'
-    },
+    }, */
     {
         id: 71,
         prodName: 'W USB ARCHER AC1300 T3U.',
@@ -794,7 +784,7 @@ export const products = [
         prodCategoria: 'Conectividad',
         prodMarca: 'tp-link'
     },
-    {
+    /* {
         id: 73,
         prodName: 'W USB ARCHER AC1900 T9UH.',
         prodImg1: '',
@@ -804,7 +794,7 @@ export const products = [
         prodPrecio: 'u$s 33',
         prodCategoria: 'Conectividad',
         prodMarca: 'tp-link'
-    },
+    }, */
     {
         id: 74,
         prodName: 'SWITCH 5 TL-SG1005D GIGA.',
@@ -908,7 +898,7 @@ export const products = [
         prodImg2: '/img/conectividad/TPLINK AC1350 2.png',
         prodImg3: '/img/conectividad/TPLINK AC1350 3.png',
         prodDescription: 'ARCHER C58HP AC1350.',
-        prodPrecio: 'u$s 94 (SIN STOCK)',
+        prodPrecio: 'u$s 89',
         prodCategoria: 'Conectividad',
         prodMarca: ''
     },
@@ -983,11 +973,11 @@ export const products = [
         prodName: '19" LG 19M38A-B VGA.',
         prodImg1: '/img/monitores/LG LED 19M38.png',
         prodDescription: '19" LG 19M38A-B VGA.',
-        prodPrecio: 'u$s 106',
+        prodPrecio: 'u$s 109',
         prodCategoria: 'Monitores',
         prodMarca: 'lg'
     },
-    {
+    /* {
         id: 91,
         prodName: '19" PHILIPS HDMI.',
         prodImg1: '/img/monitores/PHILIP LED V-LINE 18.5 .png',
@@ -995,7 +985,7 @@ export const products = [
         prodPrecio: 'u$s 119',
         prodCategoria: 'Monitores',
         prodMarca: 'philips'
-    },
+    }, */
     {
         id: 92,
         prodName: '20" VIEWSONIC VGA/DVI.',
@@ -1106,7 +1096,7 @@ export const products = [
         prodCategoria: 'gabinetes',
         prodMarca: ''
     }, */
-    {
+    /* {
         id: 103,
         prodName: 'SENTEY PM20-SF (sin fuente).',
         prodImg1: '/img/gabinetes/SENTEY GABINETE NEGRO Y ROJO 2.png',
@@ -1116,7 +1106,7 @@ export const products = [
         prodPrecio: 'u$s 59',
         prodCategoria: 'gabinetes',
         prodMarca: ''
-    },
+    }, */
     /* FUENTES */
     {
         id: 104,
@@ -1229,7 +1219,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'DAHUA 4CH 720P.',
-        prodPrecio: 'u$s 67',
+        prodPrecio: 'u$s 59',
         prodCategoria: 'seguridad',
         prodMarca: 'dahua'
     },
@@ -1360,7 +1350,7 @@ export const products = [
         prodImg1: '/img/seguridad/CAMARA BULLET 1.png',
         prodImg2: '/img/seguridad/CAMARA BULLET 2.png',
         prodDescription: 'CAMARA INFRA DAHUA BULLET 2MP.',
-        prodPrecio: 'u$s 29',
+        prodPrecio: 'u$s 26',
         prodCategoria: 'seguridad',
         prodMarca: 'dahua'
     },
@@ -1371,7 +1361,7 @@ export const products = [
         prodImg2: '/img/seguridad/AJHUA CAMARA 2.png',
         prodImg3: '',
         prodDescription: 'CAMARA INFRA DAHUA DOMO 2MP.',
-        prodPrecio: 'u$s 29',
+        prodPrecio: 'u$s 26',
         prodCategoria: 'seguridad',
         prodMarca: 'dahua'
     },
@@ -2087,7 +2077,7 @@ export const products = [
         prodCategoria: 'estabilizadores',
         prodMarca: ''
     },
-    {
+    /* {
         id: 194,
         prodName: 'ESTAB. 1000 VA-6B Future.',
         prodImg1: '',
@@ -2097,7 +2087,7 @@ export const products = [
         prodPrecio: 'u$s 23',
         prodCategoria: 'estabilizadores',
         prodMarca: ''
-    },
+    }, */
     {
         id: 195,
         prodName: 'ESTAB. 1200 VA - 6B Lyonn.',
@@ -2328,7 +2318,7 @@ export const products = [
         prodCategoria: 'accesorios',
         prodMarca: ''
     },
-    {
+    /* {
         id: 216,
         prodName: 'PACH CORD 1 Mts.',
         prodImg1: '',
@@ -2338,7 +2328,7 @@ export const products = [
         prodPrecio: 'u$s 3',
         prodCategoria: 'accesorios',
         prodMarca: ''
-    },
+    }, */
     {
         id: 217,
         prodName: 'PACH CORD 2 Mts.',
@@ -2427,7 +2417,7 @@ export const products = [
         prodCategoria: 'accesorios',
         prodMarca: ''
     },
-    {
+    /* {
         id: 225,
         prodName: 'WEBCAM LOGITECH C270',
         prodImg1: '',
@@ -2437,7 +2427,7 @@ export const products = [
         prodPrecio: 'u$s 35',
         prodCategoria: 'Conectividad',
         prodMarca: 'logitech'
-    },
+    }, */
     {
         id: 226,
         prodName: 'GENIUS WI 7000/7010.',
@@ -2549,7 +2539,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'TP-LINK UE200 USB 2.0 RJ45',
-        prodPrecio: 'u$s 15',
+        prodPrecio: 'u$s 16',
         prodCategoria: 'Conectividad',
         prodMarca: 'tp-link'
     },
@@ -2753,5 +2743,25 @@ export const products = [
         prodPrecio: 'u$s 175',
         prodCategoria: 'Monitores',
         prodMarca: 'philips'
+    },
+    {
+        id: 258,
+        prodName: 'CORE i5 12400.',
+        prodImg1: '/img/microProcesadores/COREi5 1.png',
+        prodDescription: 'Micro Core i5 12400.',
+        prodPrecio: 'u$s 210',
+        prodCategoria: 'MicroProcesador',
+        prodMarca: 'intel'
+    },
+    {
+        id: 259,
+        prodName: 'MERCUSYS MW302R',
+        prodImg1: '',
+        prodImg2: '',
+        prodImg3: '',
+        prodDescription: 'MERCUSYS MW302R',
+        prodPrecio: 'u$s 15',
+        prodCategoria: 'Conectividad',
+        prodMarca: ''
     },
 ]

@@ -12,15 +12,15 @@ export const listProductDestacados = [
         prodMarca: 'hiksemi'
     },
     {
-        id: 25,
-        prodName: 'RYZEN 7 5700G.',
-        prodImg1: '/img/microProcesadores/AMD RAIZER7 1.png',
-        prodImg2: '/img/microProcesadores/AMD RAIZER7 2.png',
-        prodImg3: '/img/microProcesadores/AMD RAIZER7 3.png',
-        prodDescription: 'Micro AMD Ryzen 7 5700G.',
-        prodPrecio: 'u$s 239',
+        id: 26,
+        prodName: 'INTEL PENTIUM G6405.',
+        prodImg1: '/img/microProcesadores/INTEL PENTIUN GOLD 1.png',
+        prodImg2: '/img/microProcesadores/INTEL PENTIUN GOLD 2.png',
+        prodImg3: '/img/microProcesadores/INTEL PENTIUN GOLD 3.png',
+        prodDescription: 'Micro Intel Pentium G6405.',
+        prodPrecio: 'u$s 99',
         prodCategoria: 'MicroProcesador',
-        prodMarca: 'amd'
+        prodMarca: 'intel'
     },
     {
         id: 35,
@@ -48,7 +48,7 @@ export const listProductDestacados = [
         prodImg1: '/img/seguridad/CAMARA BULLET 1.png',
         prodImg2: '/img/seguridad/CAMARA BULLET 2.png',
         prodDescription: 'CAMARA INFRA DAHUA BULLET 2MP.',
-        prodPrecio: 'u$s 29',
+        prodPrecio: 'u$s 26',
         prodCategoria: 'seguridad',
         prodMarca: 'dahua'
     },
