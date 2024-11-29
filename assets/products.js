@@ -34,7 +34,7 @@ export const products = [
         prodName: 'DDR4 8 GB - 3000 / 3200',
         prodImg1: '',
         prodDescription: 'Memoria Ram DDR4 8GB - 3000  / 3200',
-        prodPrecio: 'u$s 22',
+        prodPrecio: 'u$s 19',
         prodCategoria: 'Memorias',
         prodMarca: ''
     },
@@ -454,10 +454,8 @@ export const products = [
         id: 42,
         prodName: 'SSD 250 GB - M2* HIK.',
         prodImg1: '',
-        prodImg2: '',
-        prodImg3: '',
         prodDescription: 'SSD 250 GB - M2* HIK.',
-        prodPrecio: 'u$s 26',
+        prodPrecio: 'u$s 23',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
@@ -479,7 +477,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SSD 480 GB HIT.',
-        prodPrecio: 'u$s 38',
+        prodPrecio: 'u$s 36',
         prodCategoria: 'DiscoSSD',
         prodMarca: ''
     },
@@ -2627,10 +2625,10 @@ export const products = [
     },
     {
         id: 245,
-        prodName: 'ASUS A520M-K',
+        prodName: 'ASUS A520M-A',
         prodImg1: '',
-        prodDescription: 'ASUS A520M-K',
-        prodPrecio: 'u$s 88',
+        prodDescription: 'ASUS A520M-A',
+        prodPrecio: 'u$s 98',
         prodCategoria: 'Motherboards',
         prodMarca: 'asus'
     },
@@ -2763,5 +2761,32 @@ export const products = [
         prodPrecio: 'u$s 15',
         prodCategoria: 'Conectividad',
         prodMarca: ''
+    },
+    {
+        id: 260,
+        prodName: 'GIGABYTE A520M K.',
+        prodImg1: '/img/motherboard/AMD MOTHER RAIZER B550 1.png',        
+        prodDescription: 'Gigabyte A520M K.',
+        prodPrecio: 'u$s 84',
+        prodCategoria: 'Motherboards',
+        prodMarca: 'gigabyte'
+    },
+    {
+        id: 261,
+        prodName: 'WEBCAM GENIUS ECAM 8000',
+        prodImg1: '',
+        prodDescription: 'WEBCAM GENIUS ECAM 8000',
+        prodPrecio: 'u$s 41',
+        prodCategoria: 'Conectividad',
+        prodMarca: 'genius'
+    },
+    {
+        id: 262,
+        prodName: 'WEBCAM GENIUS QCAM 6000',
+        prodImg1: '',
+        prodDescription: 'WEBCAM GENIUS QCAM 6000',
+        prodPrecio: 'u$s 42',
+        prodCategoria: 'Conectividad',
+        prodMarca: 'genius'
     },
 ]
