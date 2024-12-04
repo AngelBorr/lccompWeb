@@ -10,7 +10,7 @@ export const products = [
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
-    {
+    /* {
         id: 2,
         prodName: 'DDR3 8 GB - 1600',
         prodImg1: '/img/memorias/HIKER DDR3 8GB 1.png',
@@ -19,7 +19,7 @@ export const products = [
         prodPrecio: 'u$s 12',
         prodCategoria: 'Memorias',
         prodMarca: 'hiksemi'
-    },
+    }, */
     {
         id: 3,
         prodName: 'DDR4 4 GB - 2400',
@@ -186,7 +186,7 @@ export const products = [
         prodImg1: '/img/memorias/HIKER DDR3-NOTEBOOK 8 GB 1.png',
         prodImg2: '/img/memorias/HIKER DDR3-NOTEBOOK 8GB 2.png',
         prodDescription: 'Soddimm DDR3 8GB - 1600',
-        prodPrecio: 'u$s 15',
+        prodPrecio: 'u$s 15 - (sin stock)',
         prodCategoria: 'MemoriasNotebook',
         prodMarca: ''
     },
@@ -1491,7 +1491,7 @@ export const products = [
         prodImg1: '/img/notebook/LENOVO AMD.png',
         prodImg2: '/img/notebook/LENOVO AMD E INTEL.png',
         prodDescription: 'LENOVO IP 1 15ALC7 - 15,6 AMD R5-8GB-512GB',
-        prodPrecio: 'u$s 739',
+        prodPrecio: 'u$s 709',
         prodCategoria: 'notebook',
         prodMarca: 'lenovo',
         prodStock: 'false'
@@ -2415,17 +2415,15 @@ export const products = [
         prodCategoria: 'accesorios',
         prodMarca: ''
     },
-    /* {
+    {
         id: 225,
         prodName: 'WEBCAM LOGITECH C270',
         prodImg1: '',
-        prodImg2: '',
-        prodImg3: '',
         prodDescription: 'WEBCAM LOGITECH C270',
         prodPrecio: 'u$s 35',
         prodCategoria: 'Conectividad',
         prodMarca: 'logitech'
-    }, */
+    },
     {
         id: 226,
         prodName: 'GENIUS WI 7000/7010.',
@@ -2697,7 +2695,7 @@ export const products = [
         prodCategoria: 'impresoras',
         prodMarca: 'hp'
     },
-    {
+    /* {
         id: 253,
         prodName: 'LENOVO IP 15AMN8',
         prodImg1: '/img/notebook/LENOVO AMD.png',
@@ -2714,13 +2712,13 @@ export const products = [
         prodPrecio: 'u$s 1120',
         prodCategoria: 'notebook',
         prodMarca: 'lenovo'
-    },
+    }, */
     {
         id: 255,
         prodName: 'LENOVO IP 15IAH8',
         prodImg1: '/img/notebook/LENOVO AMD.png',
         prodDescription: 'LENOVO IP 15IAH8 - 15,6 INTEL I5-8GB-512GB-W11',
-        prodPrecio: 'u$s 949',
+        prodPrecio: 'u$s 819',
         prodCategoria: 'notebook',
         prodMarca: 'lenovo'
     },
@@ -2771,7 +2769,7 @@ export const products = [
         prodCategoria: 'Motherboards',
         prodMarca: 'gigabyte'
     },
-    {
+    /* {
         id: 261,
         prodName: 'WEBCAM GENIUS ECAM 8000',
         prodImg1: '',
@@ -2779,7 +2777,7 @@ export const products = [
         prodPrecio: 'u$s 41',
         prodCategoria: 'Conectividad',
         prodMarca: 'genius'
-    },
+    }, */
     {
         id: 262,
         prodName: 'WEBCAM GENIUS QCAM 6000',
@@ -2788,5 +2786,14 @@ export const products = [
         prodPrecio: 'u$s 42',
         prodCategoria: 'Conectividad',
         prodMarca: 'genius'
+    },
+    {
+        id: 263,
+        prodName: 'GAME PAD LOGITECH F710 WIRE',
+        prodImg1: '',
+        prodDescription: 'GAME PAD LOGITECH F710 WIRE',
+        prodPrecio: 'u$s 55',
+        prodCategoria: 'accesorios',
+        prodMarca: 'logitech'
     },
 ]
