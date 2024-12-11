@@ -31,10 +31,10 @@ export const products = [
     },
     {
         id: 4,
-        prodName: 'DDR4 8 GB - 3000 / 3200',
+        prodName: 'DDR4 8 GB - 2666 / 3000',
         prodImg1: '',
-        prodDescription: 'Memoria Ram DDR4 8GB - 3000  / 3200',
-        prodPrecio: 'u$s 19',
+        prodDescription: 'Memoria Ram DDR4 8GB - 2666 / 3000',
+        prodPrecio: 'u$s 17',
         prodCategoria: 'Memorias',
         prodMarca: ''
     },
@@ -231,7 +231,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/AMD RAIZER3 Con placa 2.png',
         prodImg3: '/img/microProcesadores/AMD RAIZER3 Con placa 3.png',
         prodDescription: 'Micro AMD Ryzen 3 3200G',
-        prodPrecio: 'u$s 91',
+        prodPrecio: 'u$s 87',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
@@ -242,7 +242,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/AMD RAIZER5 2.png',
         prodImg3: '/img/microProcesadores/AMD RAIZER5 3.png',
         prodDescription: 'Micro AMD Ryzen 5 4600G',
-        prodPrecio: 'u$s 149',
+        prodPrecio: 'u$s 142',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
@@ -309,7 +309,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/COREi5 2.png',
         prodImg3: '/img/microProcesadores/COREi5 3.png',
         prodDescription: 'Micro Core i5 10400.',
-        prodPrecio: 'u$s 189',
+        prodPrecio: 'u$s 199',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'intel'
     },
@@ -347,7 +347,7 @@ export const products = [
         prodCategoria: 'Motherboards',
         prodMarca: 'gigabyte'
     },
-    {
+    /* {
         id: 32,
         prodName: 'MSI H510M-B 10°.',
         prodImg1: '/img/motherboard/INTEL PRO MOTHER  PRO510 1.png',
@@ -357,7 +357,7 @@ export const products = [
         prodPrecio: 'u$s 79',
         prodCategoria: 'Motherboards',
         prodMarca: 'gigabyte'
-    },
+    }, */
     {
         id: 33,
         prodName: 'MSI B560M PRO 10° y 11°.',
@@ -430,7 +430,7 @@ export const products = [
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
-    {
+    /* {
         id: 40,
         prodName: 'SSD 240 GB GIGA / WD',
         prodImg1: '',
@@ -438,7 +438,7 @@ export const products = [
         prodPrecio: 'u$s 27',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'gigabyte'
-    },
+    }, */
     {
         id: 41,
         prodName: 'SSD 240 GB * KING.',
@@ -584,7 +584,7 @@ export const products = [
         prodCategoria: 'DiscoHDD',
         prodMarca: ''
     },
-    {
+    /* {
         id: 55,
         prodName: 'HDD 2 TB EXTERNO USB 3.0.',
         prodImg1: '/img/discosHDD/EXTERNAL CASE 1.png',
@@ -594,7 +594,7 @@ export const products = [
         prodPrecio: 'u$s 117',
         prodCategoria: 'DiscoHDD',
         prodMarca: ''
-    },
+    }, */
     /* PLACAS DE VIDEO */
     {
         id: 56,
@@ -971,20 +971,20 @@ export const products = [
         prodName: '19" LG 19M38A-B VGA.',
         prodImg1: '/img/monitores/LG LED 19M38.png',
         prodDescription: '19" LG 19M38A-B VGA.',
-        prodPrecio: 'u$s 109',
+        prodPrecio: 'u$s 106',
         prodCategoria: 'Monitores',
         prodMarca: 'lg'
     },
-    /* {
+    {
         id: 91,
-        prodName: '19" PHILIPS HDMI.',
+        prodName: '24" PHILIPS 241V8L/77',
         prodImg1: '/img/monitores/PHILIP LED V-LINE 18.5 .png',
-        prodDescription: '19" PHILIPS HDMI.',
-        prodPrecio: 'u$s 119',
+        prodDescription: '24" PHILIPS 241V8L/77',
+        prodPrecio: 'u$s 175',
         prodCategoria: 'Monitores',
         prodMarca: 'philips'
-    }, */
-    {
+    },
+    /* {
         id: 92,
         prodName: '20" VIEWSONIC VGA/DVI.',
         prodImg1: '',
@@ -1003,13 +1003,13 @@ export const products = [
         prodPrecio: 'u$s 135',
         prodCategoria: 'Monitores',
         prodMarca: 'philips'
-    },
+    }, */
     {
         id: 94,
-        prodName: '22" LG 22MP410.',
+        prodName: '20” LG MK400',
         prodImg1: '/img/monitores/LG 20MP410 21.5.jpg',
-        prodDescription: '22" LG 22MP410.',
-        prodPrecio: 'u$s 139',
+        prodDescription: '20” LG MK400.',
+        prodPrecio: 'u$s 135',
         prodCategoria: 'Monitores',
         prodMarca: 'lg'
     },
@@ -1022,7 +1022,7 @@ export const products = [
         prodCategoria: 'Monitores',
         prodMarca: 'lg'
     },
-    {
+    /* {
         id: 96,
         prodName: '24" LG 24MK430.',
         prodImg1: '',
@@ -1030,7 +1030,7 @@ export const products = [
         prodPrecio: 'u$s 165 - (SIN STOCK)',
         prodCategoria: 'Monitores',
         prodMarca: 'lg'
-    },
+    }, */
     /* IMPRESORAS */
     /* {
         id: 97,
@@ -1069,7 +1069,7 @@ export const products = [
         prodImg2: '/img/gabinetes/KELIX teclado y mause 1.png',
         prodImg3: '/img/gabinetes/KELIX teclado y mause 2.png',
         prodDescription: 'KIT KELYX 728/SENTEY G38/G50. Gabinete + Teclado + Mouse',
-        prodPrecio: 'u$s 47',
+        prodPrecio: 'u$s 48',
         prodCategoria: 'gabinetes',
         prodMarca: ''
     },
@@ -1084,16 +1084,15 @@ export const products = [
         prodCategoria: 'gabinetes',
         prodMarca: ''
     }, */
-    /* {
+    {
         id: 102,
-        prodName: 'SENTEY 2424 SLIM.',
+        prodName: 'KIT SLIM NOVA',
         prodImg1: '/img/gabinetes/SENTEY GABINETE 1.png',
-        prodImg2: '/img/gabinetes/SENTEY GABINETE 2.png',
-        prodDescription: 'SENTEY 2424 SLIM.',
-        prodPrecio: 'u$s 65',
+        prodDescription: 'KIT SLIM NOVA',
+        prodPrecio: 'u$s 66',
         prodCategoria: 'gabinetes',
         prodMarca: ''
-    }, */
+    },
     /* {
         id: 103,
         prodName: 'SENTEY PM20-SF (sin fuente).',
@@ -1670,14 +1669,12 @@ export const products = [
     },
     {
         id: 157,
-        prodName: 'AURICULAR MP3/MP4.',
+        prodName: 'AURICULAR GENIUS HS-M300',
         prodImg1: '',
-        prodImg2: '',
-        prodImg3: '',
-        prodDescription: 'AURICULAR MP3/MP4.',
-        prodPrecio: 'u$s 3',
+        prodDescription: 'AURICULAR GENIUS HS-M300',
+        prodPrecio: 'u$s 9',
         prodCategoria: 'sonido',
-        prodMarca: ''
+        prodMarca: 'genius'
     },
     {
         id: 158,
@@ -2097,7 +2094,7 @@ export const products = [
         prodCategoria: 'estabilizadores',
         prodMarca: ''
     },
-    {
+    /* {
         id: 196,
         prodName: 'UPS 500 Lyonn',
         prodImg1: '',
@@ -2107,7 +2104,7 @@ export const products = [
         prodPrecio: 'u$s 119',
         prodCategoria: 'estabilizadores',
         prodMarca: ''
-    },
+    }, */
     {
         id: 197,
         prodName: 'UPS 800 Lyonn',
@@ -2641,7 +2638,7 @@ export const products = [
         prodCategoria: 'accesorios',
         prodMarca: ''
     }, */
-    {
+    /* {
         id: 247,
         prodName: 'GeFORCE RTX 3050 6gb',
         prodImg1: '/img/placaVideo/GEFORCE RTX 3060 1.png',
@@ -2649,7 +2646,7 @@ export const products = [
         prodPrecio: 'u$s 289',
         prodCategoria: 'PlacaVideo',
         prodMarca: 'msi'
-    },
+    }, */
     {
         id: 248,
         prodName: 'MSI B450M-PRO',
