@@ -25,7 +25,7 @@ export const products = [
         prodName: 'DDR4 4 GB - 2400',
         prodImg1: '',
         prodDescription: 'Memoria Ram DDR4 4GB - 2400',
-        prodPrecio: 'u$s 13',
+        prodPrecio: 'u$s 14',
         prodCategoria: 'Memorias',
         prodMarca: ''
     },
@@ -179,7 +179,7 @@ export const products = [
         prodPrecio: 'u$s 15 - (SIN STOCK)',
         prodCategoria: 'MemoriasNotebook',
         prodMarca: ''
-    }, */
+    },
     {
         id: 17,
         prodName: 'SODDIMM DDR3 8 GB',
@@ -189,14 +189,11 @@ export const products = [
         prodPrecio: 'u$s 15 - (sin stock)',
         prodCategoria: 'MemoriasNotebook',
         prodMarca: ''
-    },
+    }, */
     {
         id: 18,
         prodName: 'SODDIMM DDR4 4 GB',
         prodImg1: '',
-        prodImg2: '',
-        prodImg3: '',
-        prodImg4: '',
         prodDescription: 'Soddimm DDR4 4GB - 3200',
         prodPrecio: 'u$s 18',
         prodCategoria: 'MemoriasNotebook',
@@ -219,7 +216,7 @@ export const products = [
         prodImg2: '/img/memorias/PCA4 16gb-NOTEBOOK-memoria ram 2.png',
         prodImg3: '/img/memorias/PCA4 16gb-NOTEBOOK-memoria ram 3.png',
         prodDescription: 'Soddimm DDR4 16GB - 2400',
-        prodPrecio: 'u$s 41',
+        prodPrecio: 'u$s 49',
         prodCategoria: 'MemoriasNotebook',
         prodMarca: ''
     },
@@ -298,7 +295,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/INTEL CORE i3 2.png',
         prodImg3: '/img/microProcesadores/INTEL CORE i3 3.png',
         prodDescription: 'Micro Core i3 10100 / 10105.',
-        prodPrecio: 'u$s 129',
+        prodPrecio: 'u$s 119',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'intel'
     },
@@ -309,7 +306,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/COREi5 2.png',
         prodImg3: '/img/microProcesadores/COREi5 3.png',
         prodDescription: 'Micro Core i5 10400.',
-        prodPrecio: 'u$s 199',
+        prodPrecio: 'u$s 177',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'intel'
     },
@@ -320,7 +317,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/INTEL CORE i7 2.png',
         prodImg3: '/img/microProcesadores/INTEL CORE i7 3.png',
         prodDescription: 'Micro Core i7 12700 Alder Lake.',
-        prodPrecio: 'u$s 399',
+        prodPrecio: 'u$s 379',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'intel'
     },
@@ -343,7 +340,7 @@ export const products = [
         prodImg2: '/img/motherboard/AMD MOTHER RAIZER B550 2.png',
         prodImg3: '/img/motherboard/AMD MOTHER RAIZER B550 3.png',
         prodDescription: 'Gigabyte B550M K.',
-        prodPrecio: 'u$s 119 - (SIN STOCK)',
+        prodPrecio: 'u$s 115',
         prodCategoria: 'Motherboards',
         prodMarca: 'gigabyte'
     },
@@ -376,7 +373,7 @@ export const products = [
         prodImg2: '/img/motherboard/GIGABITE H510M 2.png',
         prodImg3: '/img/motherboard/GIGABITE H510M 3.png',
         prodDescription: 'GIGABYTE H510M-H 10° y 11°.',
-        prodPrecio: 'u$s 79',
+        prodPrecio: 'u$s 94',
         prodCategoria: 'Motherboards',
         prodMarca: 'gigabyte'
     },
@@ -446,7 +443,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SSD 240 GB * KING.',
-        prodPrecio: 'u$s 28',
+        prodPrecio: 'u$s 31',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'kingstone'
     },
@@ -472,12 +469,10 @@ export const products = [
     },
     {
         id: 44,
-        prodName: 'SSD 480 GB HIT.',
+        prodName: 'SSD 480 GB HIK.',
         prodImg1: '',
-        prodImg2: '',
-        prodImg3: '',
-        prodDescription: 'SSD 480 GB HIT.',
-        prodPrecio: 'u$s 36',
+        prodDescription: 'SSD 480 GB HIK.',
+        prodPrecio: 'u$s 35',
         prodCategoria: 'DiscoSSD',
         prodMarca: ''
     },
@@ -548,7 +543,7 @@ export const products = [
         prodName: 'SSD 2 TB HIK.',
         prodImg1: '',
         prodDescription: 'SSD 2 TB HIK.',
-        prodPrecio: 'u$s 139',
+        prodPrecio: 'u$s 121',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
@@ -557,7 +552,7 @@ export const products = [
         prodName: 'SSD 2 TB-M2* HIK.',
         prodImg1: '',
         prodDescription: 'SSD 2 TB-M2* HIK.',
-        prodPrecio: 'u$s 139',
+        prodPrecio: 'u$s 126',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
@@ -889,7 +884,7 @@ export const products = [
         prodCategoria: 'Conectividad',
         prodMarca: ''
     },
-    {
+    /* {
         id: 83,
         prodName: 'ARCHER C58HP AC1350.',
         prodImg1: '/img/conectividad/TPLINK AC1350 1.png',
@@ -899,7 +894,7 @@ export const products = [
         prodPrecio: 'u$s 89',
         prodCategoria: 'Conectividad',
         prodMarca: ''
-    },
+    }, */
     {
         id: 84,
         prodName: 'ARCHER AX12 AX1500.',
@@ -1046,7 +1041,7 @@ export const products = [
         prodName: 'EPSON L3210 MF.',
         prodImg1: '/img/impresoras/EPSON IMPRESORA L3210.png',
         prodDescription: 'EPSON L3210 MF.',
-        prodPrecio: 'u$s 435',
+        prodPrecio: 'u$s 369',
         prodCategoria: 'impresoras',
         prodMarca: 'epson'
     },
@@ -1167,7 +1162,7 @@ export const products = [
         prodCategoria: 'fuentes',
         prodMarca: ''
     },
-    {
+    /* {
         id: 110,
         prodName: 'FUENTE SNP550-GS SENTEY 80P.',
         prodImg1: '/img/fuentes/ZENTEY 550W 1.png',
@@ -1187,7 +1182,7 @@ export const products = [
         prodPrecio: 'u$s 77',
         prodCategoria: 'fuentes',
         prodMarca: ''
-    },
+    }, */
     {
         id: 112,
         prodName: 'FUENTE HBP600-GS SENTEY 80P-BRO.',
@@ -1605,7 +1600,7 @@ export const products = [
         prodCategoria: 'mouse',
         prodMarca: 'genius'
     },
-    {
+    /* {
         id: 151,
         prodName: 'LOGITECH WI M185.',
         prodImg1: '/img/mouse/M185 Mause Logi.png',
@@ -1613,7 +1608,7 @@ export const products = [
         prodPrecio: 'u$s 12',
         prodCategoria: 'mouse',
         prodMarca: 'logitech'
-    },
+    }, */
     {
         id: 152,
         prodName: 'LOGITECH WI M190.',
@@ -1632,7 +1627,7 @@ export const products = [
         prodCategoria: 'mouse',
         prodMarca: 'logitech'
     },
-    {
+    /* {
         id: 154,
         prodName: 'MOUSE PAD.',
         prodImg1: '',
@@ -1642,7 +1637,7 @@ export const products = [
         prodPrecio: 'u$s 5',
         prodCategoria: 'mouse',
         prodMarca: ''
-    },
+    }, */
     /* SONIDO */
     {
         id: 155,
@@ -1796,7 +1791,7 @@ export const products = [
         prodMarca: ''
     },
     /* ADAPTADORES */
-    {
+    /* {
         id: 169,
         prodName: 'CABLE HDMI 1.5mts.',
         prodImg1: '',
@@ -1806,7 +1801,7 @@ export const products = [
         prodPrecio: 'u$s 4',
         prodCategoria: 'adaptadores',
         prodMarca: ''
-    },
+    }, */
     {
         id: 170,
         prodName: 'CABLE HDMI 3mts.',
@@ -2499,18 +2494,18 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'Soddimm DDR4 32GB - 3000',
-        prodPrecio: 'u$s 93',
+        prodPrecio: 'u$s 64',
         prodCategoria: 'MemoriasNotebook',
         prodMarca: ''
     },
     {
         id: 234,
-        prodName: 'MSI B520M-A PRO.',
+        prodName: 'MSI B550M-A PRO.',
         prodImg1: '',
         prodImg2: '',
         prodImg3: '',
-        prodDescription: 'Msi B520M-A Pro.',
-        prodPrecio: 'u$s 98',
+        prodDescription: 'Msi B550M-A Pro.',
+        prodPrecio: 'u$s 96',
         prodCategoria: 'Motherboards',
         prodMarca: 'msi'
     },
@@ -2579,7 +2574,7 @@ export const products = [
         prodPrecio: 'u$s 149',
         prodCategoria: 'Monitores',
         prodMarca: 'lg'
-    }, */
+    }, 
     {
         id: 241,
         prodName: 'LOGITECH WI M170.',
@@ -2588,7 +2583,7 @@ export const products = [
         prodPrecio: 'u$s 9',
         prodCategoria: 'mouse',
         prodMarca: 'logitech'
-    },
+    },*/
     {
         id: 242,
         prodName: 'GENIUS SP-U125',
@@ -2656,7 +2651,7 @@ export const products = [
         prodCategoria: 'Motherboards',
         prodMarca: 'msi'
     },
-    {
+    /* {
         id: 249,
         prodName: 'ATI RADEON RX 580 8gb',
         prodImg1: '',
@@ -2664,13 +2659,13 @@ export const products = [
         prodPrecio: 'u$s 189',
         prodCategoria: 'PlacaVideo',
         prodMarca: ''
-    },
+    }, */
     {
         id: 250,
         prodName: 'SSD 1 TB-M2 NVMe PCI EX* HIK.',
         prodImg1: '',
         prodDescription: 'SSD 1 TB-M2 NVMe PCI EX* HIK.',
-        prodPrecio: 'u$s 63',
+        prodPrecio: 'u$s 85',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
@@ -2715,7 +2710,7 @@ export const products = [
         prodName: 'LENOVO IP 15IAH8',
         prodImg1: '/img/notebook/LENOVO AMD.png',
         prodDescription: 'LENOVO IP 15IAH8 - 15,6 INTEL I5-8GB-512GB-W11',
-        prodPrecio: 'u$s 819',
+        prodPrecio: 'u$s 809',
         prodCategoria: 'notebook',
         prodMarca: 'lenovo'
     },
@@ -2742,7 +2737,7 @@ export const products = [
         prodName: 'CORE i5 12400.',
         prodImg1: '/img/microProcesadores/COREi5 1.png',
         prodDescription: 'Micro Core i5 12400.',
-        prodPrecio: 'u$s 210',
+        prodPrecio: 'u$s 196',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'intel'
     },
@@ -2792,5 +2787,23 @@ export const products = [
         prodPrecio: 'u$s 55',
         prodCategoria: 'accesorios',
         prodMarca: 'logitech'
+    },
+    {
+        id: 264,
+        prodName: 'MICRO SD 256 GB NEO',
+        prodImg1: '',
+        prodDescription: 'MICRO SD 256 GB NEO',
+        prodPrecio: 'u$s 27',
+        prodCategoria: 'Memorias',
+        prodMarca: ''
+    },
+    {
+        id: 265,
+        prodName: 'SODDIMM DDR4 8 GB - 2666/3200',
+        prodImg1: '',
+        prodDescription: 'SODDIMM DDR4 8 GB - 2666/3200',
+        prodPrecio: 'u$s 25',
+        prodCategoria: 'MemoriasNotebook',
+        prodMarca: ''
     },
 ]
