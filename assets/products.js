@@ -6,11 +6,11 @@ export const products = [
         prodImg2: '/img/microProcesadores/AMD ATLHON 2.png',
         prodImg3: '/img/microProcesadores/AMD ATLHON 3.png',
         prodDescription: 'Micro AMD Athlon 3000G',
-        prodPrecio: 'u$s 65',
+        prodPrecio: 'u$s 59',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
-    /* {
+    {
         id: 2,
         prodName: 'DDR3 8 GB - 1600',
         prodImg1: '/img/memorias/HIKER DDR3 8GB 1.png',
@@ -19,13 +19,13 @@ export const products = [
         prodPrecio: 'u$s 12',
         prodCategoria: 'Memorias',
         prodMarca: 'hiksemi'
-    }, */
+    },
     {
         id: 3,
         prodName: 'DDR4 4 GB - 2400',
         prodImg1: '',
         prodDescription: 'Memoria Ram DDR4 4GB - 2400',
-        prodPrecio: 'u$s 14',
+        prodPrecio: 'u$s 13',
         prodCategoria: 'Memorias',
         prodMarca: ''
     },
@@ -34,17 +34,17 @@ export const products = [
         prodName: 'DDR4 8 GB - 2666 / 3000',
         prodImg1: '',
         prodDescription: 'Memoria Ram DDR4 8GB - 2666 / 3000',
-        prodPrecio: 'u$s 17',
+        prodPrecio: 'u$s 15',
         prodCategoria: 'Memorias',
         prodMarca: ''
     },
     {
         id: 5,
-        prodName: 'DDR4 16 GB - 2400',
+        prodName: 'DDR4 16 GB - 2400/3200',
         prodImg1: '/img/memorias/MARKVISION DDR4 16gb 1.png',
         prodImg2: '/img/memorias/MARKVISION DDR4 16gb 2.png',
-        prodDescription: 'Memoria Ram DDR4 16GB - 2400',
-        prodPrecio: 'u$s 38',
+        prodDescription: 'Memoria Ram DDR4 16GB - 2400/3200',
+        prodPrecio: 'u$s 33',
         prodCategoria: 'Memorias',
         prodMarca: ''
     },
@@ -56,7 +56,7 @@ export const products = [
         prodImg3: '/img/memorias/ADMOR DDR5 16Gb 2.png',
         prodImg4: '',
         prodDescription: 'Memoria Ram DDR5 16GB - 4800',
-        prodPrecio: 'u$s 69',
+        prodPrecio: 'u$s 49',
         prodCategoria: 'Memorias',
         prodMarca: 'hiksemi'
     },
@@ -68,7 +68,7 @@ export const products = [
         prodImg3: '',
         prodImg4: '',
         prodDescription: 'Memoria Ram DDR5 32GB - 5600',
-        prodPrecio: 'u$s 144',
+        prodPrecio: 'u$s 96',
         prodCategoria: 'Memorias',
         prodMarca: ''
     },
@@ -179,17 +179,17 @@ export const products = [
         prodPrecio: 'u$s 15 - (SIN STOCK)',
         prodCategoria: 'MemoriasNotebook',
         prodMarca: ''
-    },
+    },*/
     {
         id: 17,
         prodName: 'SODDIMM DDR3 8 GB',
         prodImg1: '/img/memorias/HIKER DDR3-NOTEBOOK 8 GB 1.png',
         prodImg2: '/img/memorias/HIKER DDR3-NOTEBOOK 8GB 2.png',
         prodDescription: 'Soddimm DDR3 8GB - 1600',
-        prodPrecio: 'u$s 15 - (sin stock)',
+        prodPrecio: 'u$s 12',
         prodCategoria: 'MemoriasNotebook',
         prodMarca: ''
-    }, */
+    }, 
     {
         id: 18,
         prodName: 'SODDIMM DDR4 4 GB',
@@ -228,18 +228,18 @@ export const products = [
         prodImg2: '/img/microProcesadores/AMD RAIZER3 Con placa 2.png',
         prodImg3: '/img/microProcesadores/AMD RAIZER3 Con placa 3.png',
         prodDescription: 'Micro AMD Ryzen 3 3200G',
-        prodPrecio: 'u$s 87',
+        prodPrecio: 'u$s 79',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
     {
         id: 22,
-        prodName: 'RYZEN 5 4600G.',
+        prodName: 'RYZEN 5 5600GT', //modificado
         prodImg1: '/img/microProcesadores/AMD RAIZER5 1.png',
         prodImg2: '/img/microProcesadores/AMD RAIZER5 2.png',
         prodImg3: '/img/microProcesadores/AMD RAIZER5 3.png',
-        prodDescription: 'Micro AMD Ryzen 5 4600G',
-        prodPrecio: 'u$s 142',
+        prodDescription: 'Micro AMD RYZEN 5 5600GT',
+        prodPrecio: 'u$s 179',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
@@ -250,7 +250,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/RYZER5 serie 5000 2.png',
         prodImg3: '/img/microProcesadores/RYZER5 serie 5000 3.png',
         prodDescription: 'Micro AMD Ryzen 5 5600G',
-        prodPrecio: 'u$s 172',
+        prodPrecio: 'u$s 199',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
@@ -266,17 +266,17 @@ export const products = [
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
     },
-    /* {
+    {
         id: 25,
         prodName: 'RYZEN 7 5700G.',
         prodImg1: '/img/microProcesadores/AMD RAIZER7 1.png',
         prodImg2: '/img/microProcesadores/AMD RAIZER7 2.png',
         prodImg3: '/img/microProcesadores/AMD RAIZER7 3.png',
         prodDescription: 'Micro AMD Ryzen 7 5700G.',
-        prodPrecio: 'u$s 239',
+        prodPrecio: 'u$s 199',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'amd'
-    }, */
+    },
     {
         id: 26,
         prodName: 'INTEL PENTIUM G6405.',
@@ -306,7 +306,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/COREi5 2.png',
         prodImg3: '/img/microProcesadores/COREi5 3.png',
         prodDescription: 'Micro Core i5 10400.',
-        prodPrecio: 'u$s 177',
+        prodPrecio: 'u$s 169',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'intel'
     },
@@ -317,7 +317,7 @@ export const products = [
         prodImg2: '/img/microProcesadores/INTEL CORE i7 2.png',
         prodImg3: '/img/microProcesadores/INTEL CORE i7 3.png',
         prodDescription: 'Micro Core i7 12700 Alder Lake.',
-        prodPrecio: 'u$s 379',
+        prodPrecio: 'u$s 399',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'intel'
     },
@@ -405,11 +405,11 @@ export const products = [
         prodName: 'SSD 120 GB HIK.',
         prodImg1: '/img/discosSSD/HIKSEMI 125GB.png',
         prodDescription: 'SSD 120 GB HIK.',
-        prodPrecio: 'u$s 14',
+        prodPrecio: 'u$s 12',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
-    {
+    /* {
         id: 38,
         prodName: 'SSD 120 GB-M2 HIK.',
         prodImg1: '/img/discosSSD/HIKSEMI 128GM.png',
@@ -417,13 +417,13 @@ export const products = [
         prodPrecio: 'u$s 17',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
-    },
+    }, */
     {
         id: 39,
-        prodName: 'SSD 240 GB * HIK.',
+        prodName: 'SSD 240 GB * HIK',
         prodImg1: '/img/discosSSD/HIKSEMI 256GB.png',
-        prodDescription: 'SSD 240 GB * HIK.',
-        prodPrecio: 'u$s 21',
+        prodDescription: 'SSD 240 GB * HIK',
+        prodPrecio: 'u$s 19',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
@@ -443,7 +443,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SSD 240 GB * KING.',
-        prodPrecio: 'u$s 31',
+        prodPrecio: 'u$s 32',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'kingstone'
     },
@@ -472,7 +472,7 @@ export const products = [
         prodName: 'SSD 480 GB HIK.',
         prodImg1: '',
         prodDescription: 'SSD 480 GB HIK.',
-        prodPrecio: 'u$s 35',
+        prodPrecio: 'u$s 33',
         prodCategoria: 'DiscoSSD',
         prodMarca: ''
     },
@@ -483,11 +483,11 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'SSD 480 GB KING.',
-        prodPrecio: 'u$s 44',
+        prodPrecio: 'u$s 40',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'kingstone'
     },
-    {
+    /* {
         id: 46,
         prodName: 'SSD 512 GB - M2 HIK.',
         prodImg1: '/img/discosSSD/HIKSEMI 512GB.png',
@@ -506,7 +506,7 @@ export const products = [
         prodPrecio: 'u$s 47',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'kingstone'
-    },
+    }, */
     {
         id: 48,
         prodName: 'SSD 960 GB * HIK / MSI.',
@@ -529,7 +529,7 @@ export const products = [
         prodCategoria: 'DiscoSSD',
         prodMarca: 'kingstone'
     },
-    {
+    /* {
         id: 50,
         prodName: 'SSD 1 TB-M2 NVMe PCI EX* KING.',
         prodImg1: '/img/discosSSD/KINGSTONE 1TB.png',
@@ -537,7 +537,7 @@ export const products = [
         prodPrecio: 'u$s 79',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'kingstone'
-    },
+    }, 
     {
         id: 51,
         prodName: 'SSD 2 TB HIK.',
@@ -546,7 +546,7 @@ export const products = [
         prodPrecio: 'u$s 121',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
-    },
+    },*/
     {
         id: 52,
         prodName: 'SSD 2 TB-M2* HIK.',
@@ -711,7 +711,7 @@ export const products = [
         prodCategoria: 'Conectividad',
         prodMarca: 'tp-link'
     },
-    {
+    /* {
         id: 67,
         prodName: 'W PCI EX ARCHER AC1200 T4E.',
         prodImg1: '',
@@ -721,7 +721,7 @@ export const products = [
         prodPrecio: 'u$s 29',
         prodCategoria: 'Conectividad',
         prodMarca: 'tp-link'
-    },
+    }, */
     {
         id: 68,
         prodName: 'W PCI EX ARCHER AC1200 T5E.',
@@ -730,7 +730,7 @@ export const products = [
         prodImg3: '/img/conectividad/TPLINK AC1200 3.png',
         prodImg4: '/img/conectividad/TPLINK AC1200 4.png',
         prodDescription: 'W PCI EX ARCHER AC1200 T5E.',
-        prodPrecio: 'u$s 31',
+        prodPrecio: 'u$s -',
         prodCategoria: 'Conectividad',
         prodMarca: 'tp-link'
     },
@@ -740,7 +740,7 @@ export const products = [
         prodImg1: '/img/conectividad/TPLINK TLWN822 1.png',
         prodImg2: '/img/conectividad/TPLINK TL822 2.png',
         prodDescription: 'W USB TP-LINK TL-WN822N.',
-        prodPrecio: 'u$s 19',
+        prodPrecio: 'u$s -',
         prodCategoria: 'Conectividad',
         prodMarca: 'tp-link'
     },
@@ -884,7 +884,7 @@ export const products = [
         prodCategoria: 'Conectividad',
         prodMarca: ''
     },
-    /* {
+    {
         id: 83,
         prodName: 'ARCHER C58HP AC1350.',
         prodImg1: '/img/conectividad/TPLINK AC1350 1.png',
@@ -894,7 +894,7 @@ export const products = [
         prodPrecio: 'u$s 89',
         prodCategoria: 'Conectividad',
         prodMarca: ''
-    }, */
+    },
     {
         id: 84,
         prodName: 'ARCHER AX12 AX1500.',
@@ -935,7 +935,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'RE200 RANGE EXT AC750 rept.',
-        prodPrecio: 'u$s 29',
+        prodPrecio: 'u$s -',
         prodCategoria: 'Conectividad',
         prodMarca: ''
     },
@@ -963,34 +963,32 @@ export const products = [
     /* MONITORES */
     {
         id: 90,
-        prodName: '19" LG 19M38A-B VGA.',
+        prodName: '19" LG 19M38A-B VGA / HIKVISION',
         prodImg1: '/img/monitores/LG LED 19M38.png',
-        prodDescription: '19" LG 19M38A-B VGA.',
-        prodPrecio: 'u$s 106',
+        prodDescription: '19" LG 19M38A-B VGA / HIKVISION',
+        prodPrecio: 'u$s 107',
         prodCategoria: 'Monitores',
         prodMarca: 'lg'
     },
-    {
+    /* {
         id: 91,
         prodName: '24" PHILIPS 241V8L/77',
         prodImg1: '/img/monitores/PHILIP LED V-LINE 18.5 .png',
         prodDescription: '24" PHILIPS 241V8L/77',
-        prodPrecio: 'u$s 175',
+        prodPrecio: 'u$s -',
         prodCategoria: 'Monitores',
         prodMarca: 'philips'
-    },
-    /* {
+    }, */
+    {
         id: 92,
-        prodName: '20" VIEWSONIC VGA/DVI.',
+        prodName: '20” VIEWSONIC VA20555M',
         prodImg1: '',
-        prodImg2: '',
-        prodImg3: '',
-        prodDescription: '20" VIEWSONIC VGA/DVI.',
-        prodPrecio: 'u$s 124',
+        prodDescription: '20” VIEWSONIC VA20555M',
+        prodPrecio: 'u$s 119',
         prodCategoria: 'Monitores',
         prodMarca: 'viewsonic'
     },
-    {
+    /*{
         id: 93,
         prodName: '22" PHILIPS FHD HDMI 221V8/77.',
         prodImg1: '/img/monitores/PHILIP LED V-LINE 18.5 .png',
@@ -1001,18 +999,18 @@ export const products = [
     }, */
     {
         id: 94,
-        prodName: '20” LG MK400',
+        prodName: '20” LG MK600',
         prodImg1: '/img/monitores/LG 20MP410 21.5.jpg',
         prodDescription: '20” LG MK400.',
-        prodPrecio: 'u$s 135',
+        prodPrecio: 'u$s -',
         prodCategoria: 'Monitores',
         prodMarca: 'lg'
     },
     {
         id: 95,
-        prodName: '22" LG 22MK600.',
+        prodName: '22" LG MK600.',
         prodImg1: '/img/monitores/LG 20MK400 19.5.png',
-        prodDescription: '22" LG 22MK600.',
+        prodDescription: '22" LG MK600.',
         prodPrecio: 'u$s 192',
         prodCategoria: 'Monitores',
         prodMarca: 'lg'
@@ -1081,10 +1079,10 @@ export const products = [
     }, */
     {
         id: 102,
-        prodName: 'KIT SLIM NOVA',
+        prodName: 'KIT SLIM',
         prodImg1: '/img/gabinetes/SENTEY GABINETE 1.png',
-        prodDescription: 'KIT SLIM NOVA',
-        prodPrecio: 'u$s 66',
+        prodDescription: 'KIT SLIM',
+        prodPrecio: 'u$s 65',
         prodCategoria: 'gabinetes',
         prodMarca: ''
     },
@@ -2412,7 +2410,7 @@ export const products = [
         prodName: 'WEBCAM LOGITECH C270',
         prodImg1: '',
         prodDescription: 'WEBCAM LOGITECH C270',
-        prodPrecio: 'u$s 35',
+        prodPrecio: 'u$s 28',
         prodCategoria: 'Conectividad',
         prodMarca: 'logitech'
     },
@@ -2622,7 +2620,7 @@ export const products = [
         prodCategoria: 'Motherboards',
         prodMarca: 'asus'
     },
-    /* {
+    {
         id: 246,
         prodName: 'PILA LITIO 2032',
         prodImg1: '',
@@ -2632,7 +2630,7 @@ export const products = [
         prodPrecio: 'u$s 1',
         prodCategoria: 'accesorios',
         prodMarca: ''
-    }, */
+    },
     /* {
         id: 247,
         prodName: 'GeFORCE RTX 3050 6gb',
@@ -2665,7 +2663,7 @@ export const products = [
         prodName: 'SSD 1 TB-M2 NVMe PCI EX* HIK.',
         prodImg1: '',
         prodDescription: 'SSD 1 TB-M2 NVMe PCI EX* HIK.',
-        prodPrecio: 'u$s 85',
+        prodPrecio: 'u$s 90',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'hiksemi'
     },
@@ -2674,7 +2672,7 @@ export const products = [
         prodName: 'SSD 1 TB-M2 NVMe PCI EX* GIGA',
         prodImg1: '',
         prodDescription: 'SSD 1 TB-M2 NVMe PCI EX* GIGA',
-        prodPrecio: 'u$s 87',
+        prodPrecio: 'u$s 89',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'gigabyte'
     },
@@ -2737,7 +2735,7 @@ export const products = [
         prodName: 'CORE i5 12400.',
         prodImg1: '/img/microProcesadores/COREi5 1.png',
         prodDescription: 'Micro Core i5 12400.',
-        prodPrecio: 'u$s 196',
+        prodPrecio: 'u$s 215',
         prodCategoria: 'MicroProcesador',
         prodMarca: 'intel'
     },
@@ -2790,20 +2788,56 @@ export const products = [
     },
     {
         id: 264,
-        prodName: 'MICRO SD 256 GB NEO',
+        prodName: 'ASROCK H510M-HDV',
         prodImg1: '',
-        prodDescription: 'MICRO SD 256 GB NEO',
-        prodPrecio: 'u$s 27',
-        prodCategoria: 'Memorias',
+        prodDescription: 'ASROCK H510M-HDV',
+        prodPrecio: 'u$s 79',
+        prodCategoria: 'Motherboards',
         prodMarca: ''
     },
     {
         id: 265,
-        prodName: 'SODDIMM DDR4 8 GB - 2666/3200',
+        prodName: 'DDR4 32 GB - 3200',
         prodImg1: '',
-        prodDescription: 'SODDIMM DDR4 8 GB - 2666/3200',
-        prodPrecio: 'u$s 25',
-        prodCategoria: 'MemoriasNotebook',
+        prodDescription: 'Memoria Ram DDR4 32GB - 3200',
+        prodPrecio: 'u$s 70',
+        prodCategoria: 'Memorias',
         prodMarca: ''
+    },
+    {
+        id: 266,
+        prodName: 'DDR4 16 GB - 3200 FURY RGB',
+        prodImg1: '',
+        prodDescription: 'DDR4 16 GB - 3200 FURY RGB',
+        prodPrecio: 'u$s 56',
+        prodCategoria: 'Memorias',
+        prodMarca: ''
+    },
+    {
+        id: 267,
+        prodName: 'SSD 500 GB - M2 * NVMe * MSI',
+        prodImg1: '',
+        prodDescription: 'SSD 500 GB - M2 * NVMe * MSI',
+        prodPrecio: 'u$s 42',
+        prodCategoria: 'DiscoSSD',
+        prodMarca: 'msi'
+    },
+    {
+        id: 268,
+        prodName: '22” HIKVISION',
+        prodImg1: '',
+        prodDescription: '22” HIKVISION',
+        prodPrecio: 'u$s 126',
+        prodCategoria: 'Monitores',
+        prodMarca: 'lg'
+    },
+    {
+        id: 269,
+        prodName: '24” HIKVISION',
+        prodImg1: '',
+        prodDescription: '24” HIKVISION',
+        prodPrecio: 'u$s 149',
+        prodCategoria: 'Monitores',
+        prodMarca: 'lg'
     },
 ]
