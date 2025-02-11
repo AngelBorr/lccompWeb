@@ -668,7 +668,7 @@ export const products = [
         prodCategoria: 'Conectividad',
         prodMarca: ''
     },
-    {
+    /* {
         id: 63,
         prodName: 'TP-LINK UE300C USB 3.0 RJ45.',
         prodImg1: '',
@@ -678,7 +678,7 @@ export const products = [
         prodPrecio: 'u$s 21',
         prodCategoria: 'Conectividad',
         prodMarca: 'tp-link'
-    },
+    }, */
     {
         id: 64,
         prodName: 'TP-LINK UE306 USB 3.0 RJ45.',
@@ -744,17 +744,17 @@ export const products = [
         prodCategoria: 'Conectividad',
         prodMarca: 'tp-link'
     },
-    /* {
+    {
         id: 70,
         prodName: 'W USB ARCHER AC600 T2U.',
         prodImg1: '',
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'W USB ARCHER AC600 T2U.',
-        prodPrecio: 'u$s 12',
+        prodPrecio: 'u$s 13',
         prodCategoria: 'Conectividad',
         prodMarca: 'tp-link'
-    }, */
+    },
     {
         id: 71,
         prodName: 'W USB ARCHER AC1300 T3U.',
@@ -762,7 +762,7 @@ export const products = [
         prodImg2: '',
         prodImg3: '',
         prodDescription: 'W USB ARCHER AC1300 T3U.',
-        prodPrecio: 'u$s 20',
+        prodPrecio: 'u$s 18',
         prodCategoria: 'Conectividad',
         prodMarca: 'tp-link'
     },
@@ -1039,7 +1039,7 @@ export const products = [
         prodName: 'EPSON L3210 MF.',
         prodImg1: '/img/impresoras/EPSON IMPRESORA L3210.png',
         prodDescription: 'EPSON L3210 MF.',
-        prodPrecio: 'u$s 369',
+        prodPrecio: 'u$s 359',
         prodCategoria: 'impresoras',
         prodMarca: 'epson'
     },
@@ -1057,7 +1057,7 @@ export const products = [
     /* GABINETES */
     {
         id: 100,
-        prodName: 'KIT KELYX 728/SENTEY G38/G50.',
+        prodName: 'KIT KELYX 728/SENTEY G50.',
         prodImg1: '/img/gabinetes/KELIX teclado y mause 3.png',
         prodImg2: '/img/gabinetes/KELIX teclado y mause 1.png',
         prodImg3: '/img/gabinetes/KELIX teclado y mause 2.png',
@@ -1073,7 +1073,7 @@ export const products = [
         prodImg2: '/img/gabinetes/KELYX teclado mause parlantes 1.png',
         prodImg3: '/img/gabinetes/KELYX teclado mause parlantes 2.png',
         prodDescription: 'KIT KELYX 727 SLIM. Gabinete + Teclado + Mouse + Parlantes',
-        prodPrecio: 'u$s 67',
+        prodPrecio: 'u$s 65',
         prodCategoria: 'gabinetes',
         prodMarca: ''
     }, */
@@ -1086,17 +1086,17 @@ export const products = [
         prodCategoria: 'gabinetes',
         prodMarca: ''
     },
-    /* {
+    {
         id: 103,
-        prodName: 'SENTEY PM20-SF (sin fuente).',
+        prodName: 'SENTEY S20/R20',
         prodImg1: '/img/gabinetes/SENTEY GABINETE NEGRO Y ROJO 2.png',
         prodImg2: '/img/gabinetes/SENTEY GABINETE NEGRO Y ROJO 1.png',
         prodImg3: '/img/gabinetes/SENTEY GABINETE NEGRO Y ROJO 3.png',
-        prodDescription: 'SENTEY PM20-SF (sin fuente).',
+        prodDescription: 'SENTEY S20/R20',
         prodPrecio: 'u$s 59',
         prodCategoria: 'gabinetes',
         prodMarca: ''
-    }, */
+    },
     /* FUENTES */
     {
         id: 104,
@@ -1169,18 +1169,18 @@ export const products = [
         prodPrecio: 'u$s 64',
         prodCategoria: 'fuentes',
         prodMarca: 'sentey'
-    },
+    },*/
     {
         id: 111,
-        prodName: 'FUENTE SNP650-GS SENTEY 80P.',
+        prodName: 'FUENTE SNP650-GS SENTEY 80P - BRO',
         prodImg1: '/img/fuentes/SNP650 FUENTE 1.png',
         prodImg2: '/img/fuentes/SNP650 FUENTE 2.png',
         prodImg3: '/img/fuentes/SNP650 FUENTE 3.png',
-        prodDescription: 'FUENTE SNP650-GS SENTEY 80P.',
-        prodPrecio: 'u$s 77',
+        prodDescription: 'FUENTE SNP650-GS SENTEY 80P - BRO',
+        prodPrecio: 'u$s 59',
         prodCategoria: 'fuentes',
         prodMarca: ''
-    }, */
+    }, 
     {
         id: 112,
         prodName: 'FUENTE HBP600-GS SENTEY 80P-BRO.',
@@ -1483,7 +1483,7 @@ export const products = [
         prodImg1: '/img/notebook/LENOVO AMD.png',
         prodImg2: '/img/notebook/LENOVO AMD E INTEL.png',
         prodDescription: 'LENOVO IP 1 15ALC7 - 15,6 AMD R5-8GB-512GB',
-        prodPrecio: 'u$s 709',
+        prodPrecio: 'u$s 690',
         prodCategoria: 'notebook',
         prodMarca: 'lenovo',
         prodStock: 'false'
@@ -1579,10 +1579,10 @@ export const products = [
     /* MOUSE */
     {
         id: 149,
-        prodName: 'LOGITECH M110 USB.',
+        prodName: 'LOGITECH M110 USB / M90',
         prodImg1: '/img/mouse/LOGI M110 1.png',
         prodImg2: '/img/mouse/LOGI M110 2.png',
-        prodDescription: 'Logitech M110 USB.',
+        prodDescription: 'Logitech M110 USB / M90',
         prodPrecio: 'u$s 8',
         prodCategoria: 'mouse',
         prodMarca: 'logitech'
@@ -1625,17 +1625,15 @@ export const products = [
         prodCategoria: 'mouse',
         prodMarca: 'logitech'
     },
-    /* {
+    {
         id: 154,
-        prodName: 'MOUSE PAD.',
+        prodName: 'MOUSE PAD GEL',
         prodImg1: '',
-        prodImg2: '',
-        prodImg3: '',
-        prodDescription: 'MOUSE PAD.',
-        prodPrecio: 'u$s 5',
+        prodDescription: 'MOUSE PAD GEL',
+        prodPrecio: 'u$s 6',
         prodCategoria: 'mouse',
         prodMarca: ''
-    }, */
+    },
     /* SONIDO */
     {
         id: 155,
@@ -2708,7 +2706,7 @@ export const products = [
         prodName: 'LENOVO IP 15IAH8',
         prodImg1: '/img/notebook/LENOVO AMD.png',
         prodDescription: 'LENOVO IP 15IAH8 - 15,6 INTEL I5-8GB-512GB-W11',
-        prodPrecio: 'u$s 809',
+        prodPrecio: 'u$s 790',
         prodCategoria: 'notebook',
         prodMarca: 'lenovo'
     },
@@ -2839,5 +2837,42 @@ export const products = [
         prodPrecio: 'u$s 149',
         prodCategoria: 'Monitores',
         prodMarca: 'lg'
+    },
+    {
+        id: 270,
+        prodName: 'RYZEN 5 4600G.',
+        prodImg1: '',
+        prodDescription: 'Micro AMD Ryzen 5 4600G',
+        prodPrecio: 'u$s 149',
+        prodCategoria: 'MicroProcesador',
+        prodMarca: 'amd'
+    },
+    {
+        id: 271,
+        prodName: 'TP-LINK TL-WN781ND PCIEX',
+        prodImg1: '',
+        prodDescription: 'TP-LINK TL-WN781ND PCIEX',
+        prodPrecio: 'u$s 10',
+        prodCategoria: 'Conectividad',
+        prodMarca: 'tp-link'
+    },
+    {
+        id: 272,
+        prodName: 'TP-LINK TL-WN881ND PCIEX',
+        prodImg1: '',
+        prodDescription: 'TP-LINK TL-WN881ND PCIEX',
+        prodPrecio: 'u$s 15',
+        prodCategoria: 'Conectividad',
+        prodMarca: 'tp-link'
+    },
+    {
+        id: 273,
+        prodName: 'FUENTE HBP500-GS SENTEY 80P - BRO',
+        prodImg1: '/img/fuentes/SENTEY 600 FUENTE 1.png',
+        prodImg2: '/img/fuentes/SENTEY 600 FUENTE 2.png',
+        prodDescription: 'FUENTE HBP500-GS SENTEY 80P - BRO',
+        prodPrecio: 'u$s 55',
+        prodCategoria: 'fuentes',
+        prodMarca: 'sentey'
     },
 ]
