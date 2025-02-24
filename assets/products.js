@@ -62,13 +62,10 @@ export const products = [
   },
   {
     id: 7,
-    prodName: 'DDR5 32 GB - 5600',
+    prodName: 'DDR5 32 GB / KIN - 5600',
     prodImg1: '',
-    prodImg2: '',
-    prodImg3: '',
-    prodImg4: '',
-    prodDescription: 'Memoria Ram DDR5 32GB - 5600',
-    prodPrecio: 'u$s 96',
+    prodDescription: 'Memoria Ram DDR5 32GB / KIN - 5600',
+    prodPrecio: 'u$s 114',
     prodCategoria: 'Memorias',
     prodMarca: ''
   },
@@ -306,7 +303,7 @@ export const products = [
     prodImg2: '/img/microProcesadores/COREi5 2.png',
     prodImg3: '/img/microProcesadores/COREi5 3.png',
     prodDescription: 'Micro Core i5 10400.',
-    prodPrecio: 'u$s 169',
+    prodPrecio: 'u$s 179',
     prodCategoria: 'MicroProcesador',
     prodMarca: 'intel'
   },
@@ -317,7 +314,7 @@ export const products = [
     prodImg2: '/img/microProcesadores/INTEL CORE i7 2.png',
     prodImg3: '/img/microProcesadores/INTEL CORE i7 3.png',
     prodDescription: 'Micro Core i7 12700 Alder Lake.',
-    prodPrecio: 'u$s 399',
+    prodPrecio: 'u$s 419',
     prodCategoria: 'MicroProcesador',
     prodMarca: 'intel'
   },
@@ -390,12 +387,10 @@ export const products = [
   },
   {
     id: 36,
-    prodName: 'MSI H610M-G DDR5.',
+    prodName: 'GIGABYTE H610M DDR5',
     prodImg1: '',
-    prodImg2: '',
-    prodImg3: '',
-    prodDescription: 'Msi H610M-G DDR5.',
-    prodPrecio: 'u$s 127',
+    prodDescription: 'GIGABYTE H610M DDR5',
+    prodPrecio: 'u$s 105',
     prodCategoria: 'Motherboards',
     prodMarca: 'msi'
   },
@@ -480,10 +475,8 @@ export const products = [
     id: 45,
     prodName: 'SSD 480 GB KING.',
     prodImg1: '',
-    prodImg2: '',
-    prodImg3: '',
     prodDescription: 'SSD 480 GB KING.',
-    prodPrecio: 'u$s 40',
+    prodPrecio: 'u$s 38',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'kingstone'
   },
@@ -525,7 +518,7 @@ export const products = [
     prodImg2: '',
     prodImg3: '',
     prodDescription: 'SSD 960 GB KING.',
-    prodPrecio: 'u$s 73',
+    prodPrecio: 'u$s 65',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'kingstone'
   },
@@ -673,7 +666,7 @@ export const products = [
     prodName: 'TP-LINK UE300C USB 3.0 RJ45.',
     prodImg1: '',
     prodDescription: 'TP-LINK UE300C USB 3.0 RJ45.',
-    prodPrecio: 'u$s 28',
+    prodPrecio: 'u$s -',
     prodCategoria: 'Conectividad',
     prodMarca: 'tp-link'
   },
@@ -1043,11 +1036,9 @@ export const products = [
   },
   {
     id: 99,
-    prodName: 'EPSON TINTAS 544.',
+    prodName: 'EPSON TINTAS 544 - COLOR',
     prodImg1: '',
-    prodImg2: '',
-    prodImg3: '',
-    prodDescription: 'EPSON TINTAS 544.',
+    prodDescription: 'EPSON TINTAS 544 - COLOR',
     prodPrecio: 'u$s 13',
     prodCategoria: 'impresoras',
     prodMarca: 'epson'
@@ -1175,7 +1166,7 @@ export const products = [
     prodImg2: '/img/fuentes/SNP650 FUENTE 2.png',
     prodImg3: '/img/fuentes/SNP650 FUENTE 3.png',
     prodDescription: 'FUENTE SNP650-GS SENTEY 80P',
-    prodPrecio: 'u$s 59',
+    prodPrecio: 'u$s -',
     prodCategoria: 'fuentes',
     prodMarca: ''
   },
@@ -1185,7 +1176,7 @@ export const products = [
     prodImg1: '/img/fuentes/SENTEY 600 FUENTE 1.png',
     prodImg2: '/img/fuentes/SENTEY 600 FUENTE 2.png',
     prodDescription: 'FUENTE HBP600-GS SENTEY 80P-BRO.',
-    prodPrecio: 'u$s 78',
+    prodPrecio: 'u$s 69',
     prodCategoria: 'fuentes',
     prodMarca: 'sentey'
   },
@@ -1195,7 +1186,7 @@ export const products = [
     prodImg1: '/img/fuentes/ZENTEY 700W 1.png',
     prodImg2: '/img/fuentes/ZENTEY 700W 2.png',
     prodDescription: 'FUENTE HBP700-GS SENTEY 80P-BRO.',
-    prodPrecio: 'u$s 89',
+    prodPrecio: 'u$s 79',
     prodCategoria: 'fuentes',
     prodMarca: ''
   },
@@ -1570,7 +1561,7 @@ export const products = [
     prodName: 'WI TECL + MOU MK295.',
     prodImg1: '/img/teclados/MK295 LOGITECH.png',
     prodDescription: 'WI TECL + MOU MK295.',
-    prodPrecio: 'u$s 34',
+    prodPrecio: 'u$s -',
     prodCategoria: 'teclados',
     prodMarca: 'logitech'
   },
@@ -2404,7 +2395,7 @@ export const products = [
     prodName: 'WEBCAM LOGITECH C270',
     prodImg1: '',
     prodDescription: 'WEBCAM LOGITECH C270',
-    prodPrecio: 'u$s 28',
+    prodPrecio: 'u$s -',
     prodCategoria: 'Conectividad',
     prodMarca: 'logitech'
   },
@@ -2456,7 +2447,7 @@ export const products = [
     prodImg1: '/img/conectividad/TP LINK TL SF1005 D 1.png',
     prodImg2: '/img/conectividad/TP LINK TL SF1005 D 2.png',
     prodDescription: 'SWITCH 5 TL-SF1005D.',
-    prodPrecio: 'u$s 11 - (SIN STOCK)',
+    prodPrecio: 'u$s 11',
     prodCategoria: 'Conectividad',
     prodMarca: ''
   },
@@ -2517,7 +2508,7 @@ export const products = [
     prodName: 'TP-LINK UE200 USB 2.0 RJ45',
     prodImg1: '',
     prodDescription: 'TP-LINK UE200 USB 2.0 RJ45',
-    prodPrecio: 'u$s 18',
+    prodPrecio: 'u$s -',
     prodCategoria: 'Conectividad',
     prodMarca: 'tp-link'
   },
@@ -2655,15 +2646,15 @@ export const products = [
     prodName: 'SSD 1 TB-M2 NVMe PCI EX* HIK.',
     prodImg1: '',
     prodDescription: 'SSD 1 TB-M2 NVMe PCI EX* HIK.',
-    prodPrecio: 'u$s 90',
+    prodPrecio: 'u$s 79',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'hiksemi'
   },
   {
     id: 251,
-    prodName: 'SSD 1 TB-M2 NVMe PCI EX* GIGA',
+    prodName: 'SSD 1 TB-M2 NVMe * KING',
     prodImg1: '',
-    prodDescription: 'SSD 1 TB-M2 NVMe PCI EX* GIGA',
+    prodDescription: 'SSD 1 TB-M2 NVMe * KING',
     prodPrecio: 'u$s 89',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'gigabyte'
@@ -2828,7 +2819,7 @@ export const products = [
     prodName: '24” HIKVISION',
     prodImg1: '',
     prodDescription: '24” HIKVISION',
-    prodPrecio: 'u$s 149',
+    prodPrecio: 'u$s -',
     prodCategoria: 'Monitores',
     prodMarca: 'lg'
   },
@@ -2868,5 +2859,14 @@ export const products = [
     prodPrecio: 'u$s 55',
     prodCategoria: 'fuentes',
     prodMarca: 'sentey'
+  },
+  {
+    id: 274,
+    prodName: 'EPSON TINTAS 544 - NEGRO',
+    prodImg1: '',
+    prodDescription: 'EPSON TINTAS 544 - NEGRO',
+    prodPrecio: 'u$s 16',
+    prodCategoria: 'impresoras',
+    prodMarca: 'epson'
   }
 ]
