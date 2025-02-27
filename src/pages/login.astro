@@ -1,17 +1,15 @@
 ---
-import LayoutAdmin from "../layouts/LayoutAdmin.astro";
-
-/*const loginForm = document.getElementById("loginForm");
+const loginForm = document.getElementById("loginForm");
 const emailInput = document.getElementById("email");
 const passwordInput = document.getElementById("password");
 const emailError = document.getElementById("emailError");
 const passwordError = document.getElementById("passwordError");
 
- loginForm?.addEventListener("submit", function (event) {
+/* loginForm?.addEventListener("submit", (event) => {
   let isValid = true;
 
   // Validación del email
-  if (!emailInput?.validity.valid) {
+  if (!emailInput?.va) {
     emailError?.classList.remove("hidden");
     isValid = false;
   } else {
@@ -33,7 +31,7 @@ const passwordError = document.getElementById("passwordError");
 }); */
 ---
 
-<LayoutAdmin title="viewLogin">
+<section title="viewLogin">
     <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
         <div class="sm:mx-auto sm:w-full sm:max-w-sm">
             <img class="mx-auto h-14 w-auto" src="/img/small-logo.png" alt="logoLccomp">            
@@ -52,7 +50,7 @@ const passwordError = document.getElementById("passwordError");
                 <div class="flex items-center justify-between">
                     <label for="password" class="block text-sm/6 font-medium text-gray-900">Password</label>
                     <div class="text-sm">
-                    <a href="#" class="font-semibold text-indigo-600 hover:text-indigo-500">¿Has olvidado tu contraseña?</a>
+                    <a href="#" class="font-semibold text-indigo-600 hover:text-indigo-500">¿ Has olvidado tu contraseña ?</a>
                     </div>
                 </div>
                 <div class="mt-2">
@@ -66,4 +64,4 @@ const passwordError = document.getElementById("passwordError");
             </form>
         </div>
     </div>
-</LayoutAdmin>
+</section>
