@@ -16,7 +16,7 @@ export const products = [
     prodImg1: '/img/memorias/HIKER DDR3 8GB 1.png',
     prodImg2: '/img/memorias/HIKER DDR3 8GB 2.png',
     prodDescription: 'Memoria Ram DDR3 8GB - 1600',
-    prodPrecio: 'u$s 12',
+    prodPrecio: 'u$s -',
     prodCategoria: 'Memorias',
     prodMarca: 'hiksemi'
   },
@@ -44,7 +44,7 @@ export const products = [
     prodImg1: '/img/memorias/MARKVISION DDR4 16gb 1.png',
     prodImg2: '/img/memorias/MARKVISION DDR4 16gb 2.png',
     prodDescription: 'Memoria Ram DDR4 16GB - 2400/3200',
-    prodPrecio: 'u$s 33',
+    prodPrecio: 'u$s 29',
     prodCategoria: 'Memorias',
     prodMarca: ''
   },
@@ -179,7 +179,7 @@ export const products = [
     },*/
   {
     id: 17,
-    prodName: 'SODDIMM DDR3 8 GB',
+    prodName: 'SODDIMM DDR3 8 GB - 1600',
     prodImg1: '/img/memorias/HIKER DDR3-NOTEBOOK 8 GB 1.png',
     prodImg2: '/img/memorias/HIKER DDR3-NOTEBOOK 8GB 2.png',
     prodDescription: 'Soddimm DDR3 8GB - 1600',
@@ -189,10 +189,10 @@ export const products = [
   },
   {
     id: 18,
-    prodName: 'SODDIMM DDR4 4 GB',
+    prodName: 'SODDIMM DDR4 4 GB - 3200',
     prodImg1: '',
     prodDescription: 'Soddimm DDR4 4GB - 3200',
-    prodPrecio: 'u$s 18',
+    prodPrecio: 'u$s 16',
     prodCategoria: 'MemoriasNotebook',
     prodMarca: ''
   },
@@ -202,7 +202,7 @@ export const products = [
     prodImg1: '/img/memorias/DDR4 8gb ram 1-NOTEBOOK-.png',
     prodImg2: '/img/memorias/DDR4 8gb ram 2-NOTEBOOK-.png',
     prodDescription: 'MARKVISION DDR4 8GB - 3200',
-    prodPrecio: 'u$s 20',
+    prodPrecio: 'u$s 18',
     prodCategoria: 'MemoriasNotebook',
     prodMarca: 'markvision'
   },
@@ -225,7 +225,7 @@ export const products = [
     prodImg2: '/img/microProcesadores/AMD RAIZER3 Con placa 2.png',
     prodImg3: '/img/microProcesadores/AMD RAIZER3 Con placa 3.png',
     prodDescription: 'Micro AMD Ryzen 3 3200G',
-    prodPrecio: 'u$s 79',
+    prodPrecio: 'u$s 83',
     prodCategoria: 'MicroProcesador',
     prodMarca: 'amd'
   },
@@ -292,7 +292,7 @@ export const products = [
     prodImg2: '/img/microProcesadores/INTEL CORE i3 2.png',
     prodImg3: '/img/microProcesadores/INTEL CORE i3 3.png',
     prodDescription: 'Micro Core i3 10100 / 10105.',
-    prodPrecio: 'u$s 119',
+    prodPrecio: 'u$s 123',
     prodCategoria: 'MicroProcesador',
     prodMarca: 'intel'
   },
@@ -504,10 +504,8 @@ export const products = [
     id: 48,
     prodName: 'SSD 960 GB * HIK / MSI.',
     prodImg1: '/img/discosSSD/HIKVISION 960GB.png',
-    prodImg2: '',
-    prodImg3: '',
     prodDescription: 'SSD 960 GB * HIK / MSI.',
-    prodPrecio: 'u$s 76',
+    prodPrecio: 'u$s -',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'hiksemi'
   },
@@ -1502,10 +1500,10 @@ export const products = [
   },
   {
     id: 142,
-    prodName: 'TECL + MOU KM-200 / KM160.',
+    prodName: 'TECL + MOU KM-200',
     prodImg1: '/img/teclados/GENIUS KM200 1.png',
     prodImg2: '/img/teclados/GENIUS KM200 2.png',
-    prodDescription: 'TECL + MOU KM-200 / KM160.',
+    prodDescription: 'TECL + MOU KM-200',
     prodPrecio: 'u$s 15',
     prodCategoria: 'teclados',
     prodMarca: 'genius'
@@ -2792,7 +2790,7 @@ export const products = [
     prodName: 'DDR4 16 GB - 3200 FURY RGB',
     prodImg1: '',
     prodDescription: 'DDR4 16 GB - 3200 FURY RGB',
-    prodPrecio: 'u$s 56',
+    prodPrecio: 'u$s -',
     prodCategoria: 'Memorias',
     prodMarca: ''
   },
@@ -2819,7 +2817,7 @@ export const products = [
     prodName: '24” HIKVISION',
     prodImg1: '',
     prodDescription: '24” HIKVISION',
-    prodPrecio: 'u$s -',
+    prodPrecio: 'u$s 152',
     prodCategoria: 'Monitores',
     prodMarca: 'lg'
   },
@@ -2868,5 +2866,14 @@ export const products = [
     prodPrecio: 'u$s 16',
     prodCategoria: 'impresoras',
     prodMarca: 'epson'
+  },
+  {
+    id: 275,
+    prodName: 'HP 250 G10',
+    prodImg1: '',
+    prodDescription: 'HP 250 G10 - 15,6 / INTEL i7-1355U-8GB-512 PC FreeDOs',
+    prodPrecio: 'u$s 1050',
+    prodCategoria: 'notebook',
+    prodMarca: 'hp'
   }
 ]
