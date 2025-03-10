@@ -31,19 +31,19 @@ export const products = [
   },
   {
     id: 4,
-    prodName: 'DDR4 8 GB - 2666 / 3000',
+    prodName: 'DDR4 8 GB - 2666 / 3200',
     prodImg1: '',
-    prodDescription: 'Memoria Ram DDR4 8GB - 2666 / 3000',
-    prodPrecio: 'u$s 15',
+    prodDescription: 'Memoria Ram DDR4 8 GB - 2666 / 3200',
+    prodPrecio: 'u$s 14',
     prodCategoria: 'Memorias',
     prodMarca: ''
   },
   {
     id: 5,
-    prodName: 'DDR4 16 GB - 2400/3200',
+    prodName: 'DDR4 16 GB - 3200',
     prodImg1: '/img/memorias/MARKVISION DDR4 16gb 1.png',
     prodImg2: '/img/memorias/MARKVISION DDR4 16gb 2.png',
-    prodDescription: 'Memoria Ram DDR4 16GB - 2400/3200',
+    prodDescription: 'Memoria Ram DDR4 16GB - 3200',
     prodPrecio: 'u$s 29',
     prodCategoria: 'Memorias',
     prodMarca: ''
@@ -56,7 +56,7 @@ export const products = [
     prodImg3: '/img/memorias/ADMOR DDR5 16Gb 2.png',
     prodImg4: '',
     prodDescription: 'Memoria Ram DDR5 16GB - 4800',
-    prodPrecio: 'u$s 49',
+    prodPrecio: 'u$s -',
     prodCategoria: 'Memorias',
     prodMarca: 'hiksemi'
   },
@@ -192,19 +192,19 @@ export const products = [
     prodName: 'SODDIMM DDR4 4 GB - 3200',
     prodImg1: '',
     prodDescription: 'Soddimm DDR4 4GB - 3200',
-    prodPrecio: 'u$s 16',
+    prodPrecio: 'u$s 12',
     prodCategoria: 'MemoriasNotebook',
     prodMarca: ''
   },
   {
     id: 19,
-    prodName: 'MARKVISION DDR4 8 GB',
+    prodName: 'SODDIMM DDR4 8 GB - 3200 / KING',
     prodImg1: '/img/memorias/DDR4 8gb ram 1-NOTEBOOK-.png',
     prodImg2: '/img/memorias/DDR4 8gb ram 2-NOTEBOOK-.png',
-    prodDescription: 'MARKVISION DDR4 8GB - 3200',
-    prodPrecio: 'u$s 18',
+    prodDescription: 'SODDIMM DDR4 8GB - 3200 / KING',
+    prodPrecio: 'u$s 15',
     prodCategoria: 'MemoriasNotebook',
-    prodMarca: 'markvision'
+    prodMarca: ''
   },
   {
     id: 20,
@@ -213,7 +213,7 @@ export const products = [
     prodImg2: '/img/memorias/PCA4 16gb-NOTEBOOK-memoria ram 2.png',
     prodImg3: '/img/memorias/PCA4 16gb-NOTEBOOK-memoria ram 3.png',
     prodDescription: 'Soddimm DDR4 16GB - 2400',
-    prodPrecio: 'u$s 49',
+    prodPrecio: 'u$s 29',
     prodCategoria: 'MemoriasNotebook',
     prodMarca: ''
   },
@@ -225,7 +225,7 @@ export const products = [
     prodImg2: '/img/microProcesadores/AMD RAIZER3 Con placa 2.png',
     prodImg3: '/img/microProcesadores/AMD RAIZER3 Con placa 3.png',
     prodDescription: 'Micro AMD Ryzen 3 3200G',
-    prodPrecio: 'u$s 83',
+    prodPrecio: 'u$s 81',
     prodCategoria: 'MicroProcesador',
     prodMarca: 'amd'
   },
@@ -270,7 +270,7 @@ export const products = [
     prodImg2: '/img/microProcesadores/AMD RAIZER7 2.png',
     prodImg3: '/img/microProcesadores/AMD RAIZER7 3.png',
     prodDescription: 'Micro AMD Ryzen 7 5700G.',
-    prodPrecio: 'u$s 199',
+    prodPrecio: 'u$s -',
     prodCategoria: 'MicroProcesador',
     prodMarca: 'amd'
   },
@@ -415,9 +415,9 @@ export const products = [
     }, */
   {
     id: 39,
-    prodName: 'SSD 240 GB * HIK',
+    prodName: 'SSD 240 GB * HIK / ADATA',
     prodImg1: '/img/discosSSD/HIKSEMI 256GB.png',
-    prodDescription: 'SSD 240 GB * HIK',
+    prodDescription: 'SSD 240 GB * HIK / ADATA',
     prodPrecio: 'u$s 19',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'hiksemi'
@@ -664,7 +664,7 @@ export const products = [
     prodName: 'TP-LINK UE300C USB 3.0 RJ45.',
     prodImg1: '',
     prodDescription: 'TP-LINK UE300C USB 3.0 RJ45.',
-    prodPrecio: 'u$s -',
+    prodPrecio: 'u$s 27',
     prodCategoria: 'Conectividad',
     prodMarca: 'tp-link'
   },
@@ -804,7 +804,7 @@ export const products = [
     prodImg2: '/img/conectividad/TPLINK TL-SG1008 3.png',
     prodImg3: '',
     prodDescription: 'SWITCH 8 TL-SG1008D GIGA.',
-    prodPrecio: 'u$s 26',
+    prodPrecio: 'u$s -',
     prodCategoria: 'Conectividad',
     prodMarca: ''
   },
@@ -1025,10 +1025,10 @@ export const products = [
     }, */
   {
     id: 98,
-    prodName: 'EPSON L3210 MF.',
+    prodName: 'EPSON L3210 MF WIFI',
     prodImg1: '/img/impresoras/EPSON IMPRESORA L3210.png',
-    prodDescription: 'EPSON L3210 MF.',
-    prodPrecio: 'u$s 359',
+    prodDescription: 'EPSON L3210 MF WIFI',
+    prodPrecio: 'u$s 369',
     prodCategoria: 'impresoras',
     prodMarca: 'epson'
   },
@@ -1044,12 +1044,12 @@ export const products = [
   /* GABINETES */
   {
     id: 100,
-    prodName: 'KIT KELYX 728/SENTEY G50.',
+    prodName: 'KIT KELYX 728/SENTEY G50 / MAGNUM',
     prodImg1: '/img/gabinetes/KELIX teclado y mause 3.png',
     prodImg2: '/img/gabinetes/KELIX teclado y mause 1.png',
     prodImg3: '/img/gabinetes/KELIX teclado y mause 2.png',
-    prodDescription: 'KIT KELYX 728/SENTEY G38/G50. Gabinete + Teclado + Mouse',
-    prodPrecio: 'u$s 48',
+    prodDescription: 'KIT KELYX 728/SENTEY G38/G50 / MAGNUM. Gabinete + Teclado + Mouse',
+    prodPrecio: 'u$s 45',
     prodCategoria: 'gabinetes',
     prodMarca: ''
   },
@@ -2472,10 +2472,8 @@ export const products = [
     id: 233,
     prodName: 'SODDIMM DDR4 32 GB',
     prodImg1: '',
-    prodImg2: '',
-    prodImg3: '',
     prodDescription: 'Soddimm DDR4 32GB - 3000',
-    prodPrecio: 'u$s 64',
+    prodPrecio: 'u$s 85',
     prodCategoria: 'MemoriasNotebook',
     prodMarca: ''
   },
@@ -2644,7 +2642,7 @@ export const products = [
     prodName: 'SSD 1 TB-M2 NVMe PCI EX* HIK.',
     prodImg1: '',
     prodDescription: 'SSD 1 TB-M2 NVMe PCI EX* HIK.',
-    prodPrecio: 'u$s 79',
+    prodPrecio: 'u$s 59',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'hiksemi'
   },
@@ -2653,7 +2651,7 @@ export const products = [
     prodName: 'SSD 1 TB-M2 NVMe * KING',
     prodImg1: '',
     prodDescription: 'SSD 1 TB-M2 NVMe * KING',
-    prodPrecio: 'u$s 89',
+    prodPrecio: 'u$s 69',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'gigabyte'
   },
@@ -2736,7 +2734,7 @@ export const products = [
     prodName: 'GIGABYTE A520M K.',
     prodImg1: '/img/motherboard/AMD MOTHER RAIZER B550 1.png',
     prodDescription: 'Gigabyte A520M K.',
-    prodPrecio: 'u$s 78',
+    prodPrecio: 'u$s 76',
     prodCategoria: 'Motherboards',
     prodMarca: 'gigabyte'
   },
@@ -2781,7 +2779,7 @@ export const products = [
     prodName: 'DDR4 32 GB - 3200',
     prodImg1: '',
     prodDescription: 'Memoria Ram DDR4 32GB - 3200',
-    prodPrecio: 'u$s 70',
+    prodPrecio: 'u$s -',
     prodCategoria: 'Memorias',
     prodMarca: ''
   },
@@ -2808,7 +2806,7 @@ export const products = [
     prodName: '22” HIKVISION',
     prodImg1: '',
     prodDescription: '22” HIKVISION',
-    prodPrecio: 'u$s 126',
+    prodPrecio: 'u$s -',
     prodCategoria: 'Monitores',
     prodMarca: 'lg'
   },
@@ -2875,5 +2873,32 @@ export const products = [
     prodPrecio: 'u$s 1050',
     prodCategoria: 'notebook',
     prodMarca: 'hp'
+  },
+  {
+    id: 276,
+    prodName: 'Lic. Windows 11 PRO 64BIT Spanish',
+    prodImg1: '',
+    prodDescription: 'Lic. Windows 11 PRO 64BIT Spanish',
+    prodPrecio: 'u$s 219',
+    prodCategoria: '',
+    prodMarca: ''
+  },
+  {
+    id: 277,
+    prodName: 'Server 2022 STD',
+    prodImg1: '',
+    prodDescription: 'Server 2022 STD',
+    prodPrecio: 'u$s 1209',
+    prodCategoria: '',
+    prodMarca: ''
+  },
+  {
+    id: 278,
+    prodName: 'FUENTE 450 SLIM',
+    prodImg1: '',
+    prodDescription: 'FUENTE 450 SLIM',
+    prodPrecio: 'u$s 25',
+    prodCategoria: 'fuentes',
+    prodMarca: ''
   }
 ]
