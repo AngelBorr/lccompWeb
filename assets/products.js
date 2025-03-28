@@ -25,7 +25,7 @@ export const products = [
     prodName: 'DDR4 4 GB - 2400',
     prodImg1: '',
     prodDescription: 'Memoria Ram DDR4 4GB - 2400',
-    prodPrecio: 'u$s 13',
+    prodPrecio: 'u$s 14',
     prodCategoria: 'Memorias',
     prodMarca: ''
   },
@@ -34,7 +34,7 @@ export const products = [
     prodName: 'DDR4 8 GB - 2666 / 3200',
     prodImg1: '',
     prodDescription: 'Memoria Ram DDR4 8 GB - 2666 / 3200',
-    prodPrecio: 'u$s 14',
+    prodPrecio: 'u$s 16',
     prodCategoria: 'Memorias',
     prodMarca: ''
   },
@@ -44,19 +44,19 @@ export const products = [
     prodImg1: '/img/memorias/MARKVISION DDR4 16gb 1.png',
     prodImg2: '/img/memorias/MARKVISION DDR4 16gb 2.png',
     prodDescription: 'Memoria Ram DDR4 16GB - 3200',
-    prodPrecio: 'u$s 29',
+    prodPrecio: 'u$s 30',
     prodCategoria: 'Memorias',
     prodMarca: ''
   },
   {
     id: 6,
-    prodName: 'DDR5 16 GB - 4800',
+    prodName: 'DDR5 16 GB / KIN - 5800',
     prodImg1: '/img/memorias/ADMOR DDR5 16GB.png',
     prodImg2: '/img/memorias/ADMOR DDR5 16Gb 1.png',
     prodImg3: '/img/memorias/ADMOR DDR5 16Gb 2.png',
     prodImg4: '',
-    prodDescription: 'Memoria Ram DDR5 16GB - 4800',
-    prodPrecio: 'u$s -',
+    prodDescription: 'Memoria Ram DDR5 16 GB / KIN - 5800',
+    prodPrecio: 'u$s 62',
     prodCategoria: 'Memorias',
     prodMarca: 'hiksemi'
   },
@@ -192,7 +192,7 @@ export const products = [
     prodName: 'SODDIMM DDR4 4 GB - 3200',
     prodImg1: '',
     prodDescription: 'Soddimm DDR4 4GB - 3200',
-    prodPrecio: 'u$s 12',
+    prodPrecio: 'u$s 14',
     prodCategoria: 'MemoriasNotebook',
     prodMarca: ''
   },
@@ -202,7 +202,7 @@ export const products = [
     prodImg1: '/img/memorias/DDR4 8gb ram 1-NOTEBOOK-.png',
     prodImg2: '/img/memorias/DDR4 8gb ram 2-NOTEBOOK-.png',
     prodDescription: 'SODDIMM DDR4 8GB - 3200 / KING',
-    prodPrecio: 'u$s 15',
+    prodPrecio: 'u$s 16',
     prodCategoria: 'MemoriasNotebook',
     prodMarca: ''
   },
@@ -213,7 +213,7 @@ export const products = [
     prodImg2: '/img/memorias/PCA4 16gb-NOTEBOOK-memoria ram 2.png',
     prodImg3: '/img/memorias/PCA4 16gb-NOTEBOOK-memoria ram 3.png',
     prodDescription: 'Soddimm DDR4 16GB - 2400',
-    prodPrecio: 'u$s 29',
+    prodPrecio: 'u$s 30',
     prodCategoria: 'MemoriasNotebook',
     prodMarca: ''
   },
@@ -270,7 +270,7 @@ export const products = [
     prodImg2: '/img/microProcesadores/AMD RAIZER7 2.png',
     prodImg3: '/img/microProcesadores/AMD RAIZER7 3.png',
     prodDescription: 'Micro AMD Ryzen 7 5700G.',
-    prodPrecio: 'u$s -',
+    prodPrecio: 'u$s 189',
     prodCategoria: 'MicroProcesador',
     prodMarca: 'amd'
   },
@@ -370,7 +370,7 @@ export const products = [
     prodImg2: '/img/motherboard/GIGABITE H510M 2.png',
     prodImg3: '/img/motherboard/GIGABITE H510M 3.png',
     prodDescription: 'GIGABYTE H510M-H 10° y 11°.',
-    prodPrecio: 'u$s 94',
+    prodPrecio: 'u$s 79',
     prodCategoria: 'Motherboards',
     prodMarca: 'gigabyte'
   },
@@ -400,7 +400,7 @@ export const products = [
     prodName: 'SSD 120 GB HIK.',
     prodImg1: '/img/discosSSD/HIKSEMI 125GB.png',
     prodDescription: 'SSD 120 GB HIK.',
-    prodPrecio: 'u$s 12',
+    prodPrecio: 'u$s 14',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'hiksemi'
   },
@@ -418,7 +418,7 @@ export const products = [
     prodName: 'SSD 240 GB * HIK / ADATA',
     prodImg1: '/img/discosSSD/HIKSEMI 256GB.png',
     prodDescription: 'SSD 240 GB * HIK / ADATA',
-    prodPrecio: 'u$s 19',
+    prodPrecio: 'u$s 25',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'hiksemi'
   },
@@ -435,10 +435,8 @@ export const products = [
     id: 41,
     prodName: 'SSD 240 GB * KING.',
     prodImg1: '',
-    prodImg2: '',
-    prodImg3: '',
     prodDescription: 'SSD 240 GB * KING.',
-    prodPrecio: 'u$s 32',
+    prodPrecio: 'u$s 34',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'kingstone'
   },
@@ -447,7 +445,7 @@ export const products = [
     prodName: 'SSD 250 GB - M2* HIK.',
     prodImg1: '',
     prodDescription: 'SSD 250 GB - M2* HIK.',
-    prodPrecio: 'u$s 23',
+    prodPrecio: 'u$s 25',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'hiksemi'
   },
@@ -458,7 +456,7 @@ export const products = [
     prodImg2: '',
     prodImg3: '',
     prodDescription: 'SSD 250 GB - M2* KING.',
-    prodPrecio: 'u$s 39',
+    prodPrecio: 'u$s 40',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'kingstone'
   },
@@ -467,7 +465,7 @@ export const products = [
     prodName: 'SSD 480 GB HIK.',
     prodImg1: '',
     prodDescription: 'SSD 480 GB HIK.',
-    prodPrecio: 'u$s 33',
+    prodPrecio: 'u$s 35',
     prodCategoria: 'DiscoSSD',
     prodMarca: ''
   },
@@ -476,7 +474,7 @@ export const products = [
     prodName: 'SSD 480 GB KING.',
     prodImg1: '',
     prodDescription: 'SSD 480 GB KING.',
-    prodPrecio: 'u$s 38',
+    prodPrecio: 'u$s 44',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'kingstone'
   },
@@ -513,10 +511,8 @@ export const products = [
     id: 49,
     prodName: 'SSD 960 GB KING.',
     prodImg1: '',
-    prodImg2: '',
-    prodImg3: '',
     prodDescription: 'SSD 960 GB KING.',
-    prodPrecio: 'u$s 65',
+    prodPrecio: 'u$s 67',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'kingstone'
   },
@@ -543,7 +539,7 @@ export const products = [
     prodName: 'SSD 2 TB-M2* HIK.',
     prodImg1: '',
     prodDescription: 'SSD 2 TB-M2* HIK.',
-    prodPrecio: 'u$s 126',
+    prodPrecio: 'u$s 129',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'hiksemi'
   },
@@ -700,17 +696,15 @@ export const products = [
     prodCategoria: 'Conectividad',
     prodMarca: 'tp-link'
   },
-  /* {
-        id: 67,
-        prodName: 'W PCI EX ARCHER AC1200 T4E.',
-        prodImg1: '',
-        prodImg2: '',
-        prodImg3: '',
-        prodDescription: 'W PCI EX ARCHER AC1200 T4E.',
-        prodPrecio: 'u$s 29',
-        prodCategoria: 'Conectividad',
-        prodMarca: 'tp-link'
-    }, */
+  {
+    id: 67,
+    prodName: 'ARCHER C20 AC750',
+    prodImg1: '',
+    prodDescription: 'ARCHER C20 AC750',
+    prodPrecio: 'u$s 28',
+    prodCategoria: 'Conectividad',
+    prodMarca: 'tp-link'
+  },
   {
     id: 68,
     prodName: 'W PCI EX ARCHER AC1200 T5E.',
@@ -744,12 +738,10 @@ export const products = [
     prodCategoria: 'Conectividad',
     prodMarca: 'tp-link'
   },
-  {
+  /* {
     id: 71,
     prodName: 'W USB ARCHER AC1300 T3U.',
     prodImg1: '',
-    prodImg2: '',
-    prodImg3: '',
     prodDescription: 'W USB ARCHER AC1300 T3U.',
     prodPrecio: 'u$s 18',
     prodCategoria: 'Conectividad',
@@ -765,7 +757,7 @@ export const products = [
     prodPrecio: 'u$s 27',
     prodCategoria: 'Conectividad',
     prodMarca: 'tp-link'
-  },
+  }, */
   /* {
         id: 73,
         prodName: 'W USB ARCHER AC1900 T9UH.',
@@ -783,7 +775,7 @@ export const products = [
     prodImg1: '/img/conectividad/TPLINK TL-SG1005 1.png',
     prodImg2: '/img/conectividad/TPLINK TL-SG1005  2.png',
     prodDescription: 'SWITCH 5 TL-SG1005D GIGA.',
-    prodPrecio: 'u$s 19',
+    prodPrecio: 'u$s 17',
     prodCategoria: 'Conectividad',
     prodMarca: ''
   },
@@ -952,10 +944,10 @@ export const products = [
   /* MONITORES */
   {
     id: 90,
-    prodName: '19" LG 19M38A-B VGA / HIKVISION',
+    prodName: '19" HIKVISION / PHILLIPS',
     prodImg1: '/img/monitores/LG LED 19M38.png',
-    prodDescription: '19" LG 19M38A-B VGA / HIKVISION',
-    prodPrecio: 'u$s 107',
+    prodDescription: '19" HIKVISION / PHILLIPS',
+    prodPrecio: 'u$s 119',
     prodCategoria: 'Monitores',
     prodMarca: 'lg'
   },
@@ -968,7 +960,7 @@ export const products = [
         prodCategoria: 'Monitores',
         prodMarca: 'philips'
     }, */
-  {
+  /* {
     id: 92,
     prodName: '20” VIEWSONIC VA20555M',
     prodImg1: '',
@@ -976,7 +968,7 @@ export const products = [
     prodPrecio: 'u$s 119',
     prodCategoria: 'Monitores',
     prodMarca: 'viewsonic'
-  },
+  }, */
   /*{
         id: 93,
         prodName: '22" PHILIPS FHD HDMI 221V8/77.',
@@ -986,7 +978,7 @@ export const products = [
         prodCategoria: 'Monitores',
         prodMarca: 'philips'
     }, */
-  {
+  /* {
     id: 94,
     prodName: '20” LG MK600',
     prodImg1: '/img/monitores/LG 20MP410 21.5.jpg',
@@ -994,7 +986,7 @@ export const products = [
     prodPrecio: 'u$s -',
     prodCategoria: 'Monitores',
     prodMarca: 'lg'
-  },
+  }, */
   {
     id: 95,
     prodName: '22" LG MK600.',
@@ -1044,11 +1036,11 @@ export const products = [
   /* GABINETES */
   {
     id: 100,
-    prodName: 'KIT KELYX 728/SENTEY G50 / MAGNUM',
+    prodName: 'KIT KELYX 728/ MAGNUM',
     prodImg1: '/img/gabinetes/KELIX teclado y mause 3.png',
     prodImg2: '/img/gabinetes/KELIX teclado y mause 1.png',
     prodImg3: '/img/gabinetes/KELIX teclado y mause 2.png',
-    prodDescription: 'KIT KELYX 728/SENTEY G38/G50 / MAGNUM. Gabinete + Teclado + Mouse',
+    prodDescription: 'KIT KELYX 728/ MAGNUM. Gabinete + Teclado + Mouse',
     prodPrecio: 'u$s 45',
     prodCategoria: 'gabinetes',
     prodMarca: ''
@@ -1069,7 +1061,7 @@ export const products = [
     prodName: 'KIT SLIM',
     prodImg1: '/img/gabinetes/SENTEY GABINETE 1.png',
     prodDescription: 'KIT SLIM',
-    prodPrecio: 'u$s 65',
+    prodPrecio: 'u$s 55',
     prodCategoria: 'gabinetes',
     prodMarca: ''
   },
@@ -1113,7 +1105,7 @@ export const products = [
     prodImg1: '/img/fuentes/LNZ 550 FUENTE 1.png',
     prodImg2: '/img/fuentes/LNZ 550 FUENTE 2.png',
     prodDescription: 'FUENTE XS550-PS LNZ.',
-    prodPrecio: 'u$s 19',
+    prodPrecio: 'u$s 17',
     prodCategoria: 'fuentes',
     prodMarca: ''
   },
@@ -1174,7 +1166,7 @@ export const products = [
     prodImg1: '/img/fuentes/SENTEY 600 FUENTE 1.png',
     prodImg2: '/img/fuentes/SENTEY 600 FUENTE 2.png',
     prodDescription: 'FUENTE HBP600-GS SENTEY 80P-BRO.',
-    prodPrecio: 'u$s 69',
+    prodPrecio: 'u$s 66',
     prodCategoria: 'fuentes',
     prodMarca: 'sentey'
   },
@@ -1184,7 +1176,7 @@ export const products = [
     prodImg1: '/img/fuentes/ZENTEY 700W 1.png',
     prodImg2: '/img/fuentes/ZENTEY 700W 2.png',
     prodDescription: 'FUENTE HBP700-GS SENTEY 80P-BRO.',
-    prodPrecio: 'u$s 79',
+    prodPrecio: 'u$s 75',
     prodCategoria: 'fuentes',
     prodMarca: ''
   },
@@ -1453,17 +1445,17 @@ export const products = [
     prodMarca: ''
   },
   /* NOTEBOOK */
-  /* {
-        id: 138,
-        prodName: 'LENOVO IP 3 15ITL6.',
-        prodImg1: '/img/notebook/LENOVO INTEL.png',
-        prodImg2: '/img/notebook/LENOVO AMD E INTEL.png',
-        prodDescription: '15,6 FHD - INTEL 15-8GB SSD 256GB-11S.',
-        prodPrecio: 'SIN STOCK',
-        prodCategoria: 'notebook',
-        prodMarca: 'lenovo',
-        prodStock: 'false'
-    }, */
+  {
+    id: 138,
+    prodName: 'LENOVO IP3 15IAH8',
+    prodImg1: '/img/notebook/LENOVO INTEL.png',
+    prodImg2: '/img/notebook/LENOVO AMD E INTEL.png',
+    prodDescription: 'LENOVO IP3 15IAH8 - 15,6 INTEL i5-8GB-512GB-W11',
+    prodPrecio: 'u$s 792',
+    prodCategoria: 'notebook',
+    prodMarca: 'lenovo',
+    prodStock: 'false'
+  },
   {
     id: 139,
     prodName: 'LENOVO IP1 15ALC7.',
@@ -1554,7 +1546,7 @@ export const products = [
     prodCategoria: 'teclados',
     prodMarca: 'logitech'
   },
-  {
+  /* {
     id: 148,
     prodName: 'WI TECL + MOU MK295.',
     prodImg1: '/img/teclados/MK295 LOGITECH.png',
@@ -1562,7 +1554,7 @@ export const products = [
     prodPrecio: 'u$s -',
     prodCategoria: 'teclados',
     prodMarca: 'logitech'
-  },
+  }, */
   /* MOUSE */
   {
     id: 149,
@@ -1659,7 +1651,7 @@ export const products = [
     prodName: 'GENIUS HS-02B.',
     prodImg1: '/img/sonido/AURICULARES GENIUS HS02.png',
     prodDescription: 'GENIUS HS-02B.',
-    prodPrecio: 'u$s 9',
+    prodPrecio: 'u$s 7',
     prodCategoria: 'sonido',
     prodMarca: 'genius'
   },
@@ -2194,10 +2186,8 @@ export const products = [
     id: 207,
     prodName: 'GRASA SILICONADA 10cc',
     prodImg1: '',
-    prodImg2: '',
-    prodImg3: '',
     prodDescription: 'GRASA SILICONADA 10cc.',
-    prodPrecio: 'u$s 3 - (sin stock)',
+    prodPrecio: 'u$s 4',
     prodCategoria: 'accesorios',
     prodMarca: ''
   },
@@ -2393,7 +2383,7 @@ export const products = [
     prodName: 'WEBCAM LOGITECH C270',
     prodImg1: '',
     prodDescription: 'WEBCAM LOGITECH C270',
-    prodPrecio: 'u$s -',
+    prodPrecio: 'u$s 26',
     prodCategoria: 'Conectividad',
     prodMarca: 'logitech'
   },
@@ -2501,10 +2491,10 @@ export const products = [
     }, */
   {
     id: 236,
-    prodName: 'TP-LINK UE200 USB 2.0 RJ45',
+    prodName: 'TP-LINK UE306 USB',
     prodImg1: '',
-    prodDescription: 'TP-LINK UE200 USB 2.0 RJ45',
-    prodPrecio: 'u$s -',
+    prodDescription: 'TP-LINK UE306 USB',
+    prodPrecio: 'u$s 17',
     prodCategoria: 'Conectividad',
     prodMarca: 'tp-link'
   },
@@ -2642,7 +2632,7 @@ export const products = [
     prodName: 'SSD 1 TB-M2 NVMe PCI EX* HIK.',
     prodImg1: '',
     prodDescription: 'SSD 1 TB-M2 NVMe PCI EX* HIK.',
-    prodPrecio: 'u$s 59',
+    prodPrecio: 'u$s 62',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'hiksemi'
   },
@@ -2651,7 +2641,7 @@ export const products = [
     prodName: 'SSD 1 TB-M2 NVMe * KING',
     prodImg1: '',
     prodDescription: 'SSD 1 TB-M2 NVMe * KING',
-    prodPrecio: 'u$s 69',
+    prodPrecio: 'u$s 68',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'gigabyte'
   },
@@ -2700,7 +2690,7 @@ export const products = [
     prodCategoria: 'DiscoSSD',
     prodMarca: 'gigabyte'
   },
-  {
+  /* {
     id: 257,
     prodName: '24” PHILIPS 241V8L/77',
     prodImg1: '/img/monitores/PHILIP LED V-LINE 18.5 .png',
@@ -2708,7 +2698,7 @@ export const products = [
     prodPrecio: 'u$s 175',
     prodCategoria: 'Monitores',
     prodMarca: 'philips'
-  },
+  }, */
   {
     id: 258,
     prodName: 'CORE i5 12400.',
@@ -2722,10 +2712,8 @@ export const products = [
     id: 259,
     prodName: 'MERCUSYS MW302R',
     prodImg1: '',
-    prodImg2: '',
-    prodImg3: '',
     prodDescription: 'MERCUSYS MW302R',
-    prodPrecio: 'u$s 15',
+    prodPrecio: 'u$s 16',
     prodCategoria: 'Conectividad',
     prodMarca: ''
   },
@@ -2779,7 +2767,7 @@ export const products = [
     prodName: 'DDR4 32 GB - 3200',
     prodImg1: '',
     prodDescription: 'Memoria Ram DDR4 32GB - 3200',
-    prodPrecio: 'u$s -',
+    prodPrecio: 'u$s 69',
     prodCategoria: 'Memorias',
     prodMarca: ''
   },
@@ -2797,7 +2785,7 @@ export const products = [
     prodName: 'SSD 500 GB - M2 * NVMe * MSI',
     prodImg1: '',
     prodDescription: 'SSD 500 GB - M2 * NVMe * MSI',
-    prodPrecio: 'u$s 42',
+    prodPrecio: 'u$s 44',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'msi'
   },
@@ -2806,7 +2794,7 @@ export const products = [
     prodName: '22” HIKVISION',
     prodImg1: '',
     prodDescription: '22” HIKVISION',
-    prodPrecio: 'u$s -',
+    prodPrecio: 'u$s 122',
     prodCategoria: 'Monitores',
     prodMarca: 'lg'
   },
@@ -2824,7 +2812,7 @@ export const products = [
     prodName: 'RYZEN 5 4600G.',
     prodImg1: '',
     prodDescription: 'Micro AMD Ryzen 5 4600G',
-    prodPrecio: 'u$s 145',
+    prodPrecio: 'u$s 149',
     prodCategoria: 'MicroProcesador',
     prodMarca: 'amd'
   },
@@ -2852,7 +2840,7 @@ export const products = [
     prodImg1: '/img/fuentes/SENTEY 600 FUENTE 1.png',
     prodImg2: '/img/fuentes/SENTEY 600 FUENTE 2.png',
     prodDescription: 'FUENTE HBP500-GS SENTEY 80P - BRO',
-    prodPrecio: 'u$s 55',
+    prodPrecio: 'u$s 52',
     prodCategoria: 'fuentes',
     prodMarca: 'sentey'
   },
@@ -2870,7 +2858,7 @@ export const products = [
     prodName: 'HP 250 G10',
     prodImg1: '',
     prodDescription: 'HP 250 G10 - 15,6 / INTEL i7-1355U-8GB-512 PC FreeDOs',
-    prodPrecio: 'u$s 1050',
+    prodPrecio: 'u$s 1030',
     prodCategoria: 'notebook',
     prodMarca: 'hp'
   },
@@ -2899,6 +2887,79 @@ export const products = [
     prodDescription: 'FUENTE 450 SLIM',
     prodPrecio: 'u$s 25',
     prodCategoria: 'fuentes',
+    prodMarca: ''
+  },
+  {
+    id: 279,
+    prodName: 'RYZEN 3 5300G',
+    prodImg1: '',
+    prodDescription: 'Micro AMD Ryzen 3 5300G',
+    prodPrecio: 'u$s 119',
+    prodCategoria: 'MicroProcesador',
+    prodMarca: 'amd'
+  },
+  {
+    id: 280,
+    prodName: 'GRASA DISIPADORA',
+    prodImg1: '',
+    prodDescription: 'GRASA DISIPADORA',
+    prodPrecio: 'u$s 3',
+    prodCategoria: 'accesorios',
+    prodMarca: ''
+  },
+  {
+    id: 281,
+    prodName: 'SSD 500 GB - M2 * NVMe * MSI',
+    prodImg1: '',
+    prodDescription: 'SSD 500 GB - M2 * NVMe * MSI',
+    prodPrecio: 'u$s 44',
+    prodCategoria: 'DiscoSSD',
+    prodMarca: 'msi'
+  },
+  {
+    id: 282,
+    prodName: 'SSD 500 GB - M2 * KING',
+    prodImg1: '',
+    prodDescription: 'SSD 500 GB - M2 * KING',
+    prodPrecio: 'u$s 47',
+    prodCategoria: 'DiscoSSD',
+    prodMarca: 'msi'
+  },
+  {
+    id: 283,
+    prodName: 'GeFORCE GT 730 2gb',
+    prodImg1: '',
+    prodDescription: 'GeFORCE GT 730 2gb',
+    prodPrecio: 'u$s 59',
+    prodCategoria: 'PlacaVideo',
+    prodMarca: 'msi'
+  },
+  {
+    id: 284,
+    prodName: 'RADEON RX560 4gb',
+    prodImg1: '',
+    prodDescription: 'RADEON RX560 4gb',
+    prodPrecio: 'u$s 89',
+    prodCategoria: 'PlacaVideo',
+    prodMarca: 'msi'
+  },
+  {
+    id: 285,
+    prodName: 'FUENTE MBP750-GM SENTEY 80P-BRO',
+    prodImg1: '/img/fuentes/SENTEY 600 FUENTE 1.png',
+    prodImg2: '/img/fuentes/SENTEY 600 FUENTE 2.png',
+    prodDescription: 'FUENTE MBP750-GM SENTEY 80P-BRO',
+    prodPrecio: 'u$s 79',
+    prodCategoria: 'fuentes',
+    prodMarca: 'sentey'
+  },
+  {
+    id: 286,
+    prodName: 'COMPITT PROPHYL',
+    prodImg1: '',
+    prodDescription: 'COMPITT PROPHYL',
+    prodPrecio: 'u$s 5',
+    prodCategoria: 'accesorios',
     prodMarca: ''
   }
 ]
