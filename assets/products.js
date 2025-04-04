@@ -1,5 +1,5 @@
 export const products = [
-  {
+  /* {
     id: 1,
     prodName: 'ATHLON 3000G',
     prodImg1: '/img/microProcesadores/AMD ATLHON 1.png',
@@ -9,7 +9,7 @@ export const products = [
     prodPrecio: 'u$s 59',
     prodCategoria: 'MicroProcesador',
     prodMarca: 'amd'
-  },
+  }, */
   {
     id: 2,
     prodName: 'DDR3 8 GB - 1600',
@@ -212,8 +212,8 @@ export const products = [
     prodImg1: '/img/memorias/PCA4 16gb-NOTEBOOK-memoria ram 1.png',
     prodImg2: '/img/memorias/PCA4 16gb-NOTEBOOK-memoria ram 2.png',
     prodImg3: '/img/memorias/PCA4 16gb-NOTEBOOK-memoria ram 3.png',
-    prodDescription: 'Soddimm DDR4 16GB - 2400',
-    prodPrecio: 'u$s 30',
+    prodDescription: 'Soddimm DDR4 16GB - 2400 * KING',
+    prodPrecio: 'u$s 32',
     prodCategoria: 'MemoriasNotebook',
     prodMarca: ''
   },
@@ -236,7 +236,7 @@ export const products = [
     prodImg2: '/img/microProcesadores/AMD RAIZER5 2.png',
     prodImg3: '/img/microProcesadores/AMD RAIZER5 3.png',
     prodDescription: 'Micro AMD RYZEN 5 5600GT',
-    prodPrecio: 'u$s 179',
+    prodPrecio: 'u$s 169',
     prodCategoria: 'MicroProcesador',
     prodMarca: 'amd'
   },
@@ -462,9 +462,9 @@ export const products = [
   },
   {
     id: 44,
-    prodName: 'SSD 480 GB HIK.',
+    prodName: 'SSD 480 GB * CRU',
     prodImg1: '',
-    prodDescription: 'SSD 480 GB HIK.',
+    prodDescription: 'SSD 480 GB * CRU',
     prodPrecio: 'u$s 35',
     prodCategoria: 'DiscoSSD',
     prodMarca: ''
@@ -872,7 +872,7 @@ export const products = [
     prodImg2: '/img/conectividad/TPLINK AC1350 2.png',
     prodImg3: '/img/conectividad/TPLINK AC1350 3.png',
     prodDescription: 'ARCHER C58HP AC1350.',
-    prodPrecio: 'u$s 89',
+    prodPrecio: 'u$s -',
     prodCategoria: 'Conectividad',
     prodMarca: ''
   },
@@ -1017,10 +1017,10 @@ export const products = [
     }, */
   {
     id: 98,
-    prodName: 'EPSON L3210 MF WIFI',
+    prodName: 'EPSON L3250 MF WIFI',
     prodImg1: '/img/impresoras/EPSON IMPRESORA L3210.png',
-    prodDescription: 'EPSON L3210 MF WIFI',
-    prodPrecio: 'u$s 369',
+    prodDescription: 'EPSON L3250 MF WIFI',
+    prodPrecio: 'u$s -',
     prodCategoria: 'impresoras',
     prodMarca: 'epson'
   },
@@ -1496,7 +1496,7 @@ export const products = [
     prodImg1: '/img/teclados/GENIUS KM200 1.png',
     prodImg2: '/img/teclados/GENIUS KM200 2.png',
     prodDescription: 'TECL + MOU KM-200',
-    prodPrecio: 'u$s 15',
+    prodPrecio: 'u$s 12',
     prodCategoria: 'teclados',
     prodMarca: 'genius'
   },
@@ -1519,16 +1519,16 @@ export const products = [
     prodCategoria: 'teclados',
     prodMarca: 'genius'
   },
-  /* {
-        id: 145,
-        prodName: 'WI TECL + MOU MK220.',
-        prodImg1: '/img/teclados/MK220.png',
-        prodDescription: 'WI TECL + MOU MK220.',
-        prodPrecio: 'u$s 23',
-        prodCategoria: 'teclados',
-        prodMarca: 'logitech'
-    }, */
   {
+    id: 145,
+    prodName: 'WI TECL + MOU MK220.',
+    prodImg1: '/img/teclados/MK220.png',
+    prodDescription: 'WI TECL + MOU MK220.',
+    prodPrecio: 'u$s 25',
+    prodCategoria: 'teclados',
+    prodMarca: 'logitech'
+  },
+  /* {
     id: 146,
     prodName: 'WI TECL + MOU MK235.',
     prodImg1: '/img/teclados/MK235.png',
@@ -1536,7 +1536,7 @@ export const products = [
     prodPrecio: 'u$s 25',
     prodCategoria: 'teclados',
     prodMarca: 'logitech'
-  },
+  }, */
   {
     id: 147,
     prodName: 'WI TECL + MOU MK270.',
@@ -2060,11 +2060,11 @@ export const products = [
     prodImg2: '',
     prodImg3: '',
     prodDescription: 'ESTAB. 1200 VA - 6B Lyonn.',
-    prodPrecio: 'u$s 49',
+    prodPrecio: 'u$s 46',
     prodCategoria: 'estabilizadores',
     prodMarca: ''
   },
-  {
+  /* {
     id: 196,
     prodName: 'UPS 500 Lyonn',
     prodImg1: '',
@@ -2092,7 +2092,7 @@ export const products = [
     prodPrecio: 'u$s 295',
     prodCategoria: 'estabilizadores',
     prodMarca: ''
-  },
+  }, */
   {
     id: 199,
     prodName: 'BATERIA 12V 7A.',
@@ -2228,10 +2228,8 @@ export const products = [
     id: 211,
     prodName: 'CABLE UTP CAT5 ROLLO 305mts INT',
     prodImg1: '',
-    prodImg2: '',
-    prodImg3: '',
     prodDescription: 'CABLE UTP CAT5 ROLLO 305mts INT',
-    prodPrecio: 'u$s 66',
+    prodPrecio: 'u$s 53',
     prodCategoria: 'accesorios',
     prodMarca: ''
   },
@@ -2467,7 +2465,7 @@ export const products = [
     prodCategoria: 'MemoriasNotebook',
     prodMarca: ''
   },
-  {
+  /* {
     id: 234,
     prodName: 'MSI B550M-A PRO.',
     prodImg1: '',
@@ -2477,7 +2475,7 @@ export const products = [
     prodPrecio: 'u$s 96',
     prodCategoria: 'Motherboards',
     prodMarca: 'msi'
-  },
+  }, */
   /* {
         id: 235,
         prodName: 'COOLER INTEL/AMD TT UX100 ARGB',
@@ -2593,10 +2591,8 @@ export const products = [
     id: 246,
     prodName: 'PILA LITIO 2032',
     prodImg1: '',
-    prodImg2: '',
-    prodImg3: '',
     prodDescription: 'PILA LITIO 2032',
-    prodPrecio: 'u$s 1',
+    prodPrecio: 'u$s -',
     prodCategoria: 'accesorios',
     prodMarca: ''
   },
@@ -2659,7 +2655,7 @@ export const products = [
     prodName: 'LENOVO IP3 15AMN8',
     prodImg1: '/img/notebook/LENOVO AMD.png',
     prodDescription: 'LENOVO IP3 15AMN8 - 15,6 AMD R3-8GB-256GB-W11',
-    prodPrecio: 'u$s 619',
+    prodPrecio: 'u$s 599',
     prodCategoria: 'notebook',
     prodMarca: 'lenovo'
   },
@@ -2753,7 +2749,7 @@ export const products = [
     prodCategoria: 'accesorios',
     prodMarca: 'logitech'
   },
-  {
+  /* {
     id: 264,
     prodName: 'ASROCK H510M-HDV',
     prodImg1: '',
@@ -2761,7 +2757,7 @@ export const products = [
     prodPrecio: 'u$s 79',
     prodCategoria: 'Motherboards',
     prodMarca: ''
-  },
+  }, */
   {
     id: 265,
     prodName: 'DDR4 32 GB - 3200',
@@ -2858,7 +2854,7 @@ export const products = [
     prodName: 'HP 250 G10',
     prodImg1: '',
     prodDescription: 'HP 250 G10 - 15,6 / INTEL i7-1355U-8GB-512 PC FreeDOs',
-    prodPrecio: 'u$s 1030',
+    prodPrecio: 'u$s 869',
     prodCategoria: 'notebook',
     prodMarca: 'hp'
   },
@@ -2867,7 +2863,7 @@ export const products = [
     prodName: 'Lic. Windows 11 PRO 64BIT Spanish',
     prodImg1: '',
     prodDescription: 'Lic. Windows 11 PRO 64BIT Spanish',
-    prodPrecio: 'u$s 219',
+    prodPrecio: 'u$s 209',
     prodCategoria: '',
     prodMarca: ''
   },
@@ -2960,6 +2956,87 @@ export const products = [
     prodDescription: 'COMPITT PROPHYL',
     prodPrecio: 'u$s 5',
     prodCategoria: 'accesorios',
+    prodMarca: ''
+  },
+  {
+    id: 287,
+    prodName: 'HP 250 G10',
+    prodImg1: '',
+    prodDescription: 'HP 250 G10 - 15,6 - INTEL i3-1315U-8GB-256 PC FreeDOs',
+    prodPrecio: 'u$s 499',
+    prodCategoria: 'notebook',
+    prodMarca: 'hp'
+  },
+  {
+    id: 288,
+    prodName: 'LENOVO IP3 15AMN8',
+    prodImg1: '/img/notebook/LENOVO AMD.png',
+    prodDescription: 'LENOVO IP3 15AMN8 - 15,6 - AMD R5-8GB-512GB-W11',
+    prodPrecio: 'u$s 629',
+    prodCategoria: 'notebook',
+    prodMarca: 'lenovo'
+  },
+  {
+    id: 289,
+    prodName: 'HP 255 G10',
+    prodImg1: '',
+    prodDescription: 'HP 255 G10 - 15,6 - AMD R3-7330U-8GB-256 PC FreeDOs',
+    prodPrecio: 'u$s 489',
+    prodCategoria: 'notebook',
+    prodMarca: 'hp'
+  },
+  {
+    id: 290,
+    prodName: 'HP 255 G10',
+    prodImg1: '',
+    prodDescription: 'HP 255 G10 - 15,6 - AMD R3-7330U-8GB-256 PC FreeDOs',
+    prodPrecio: 'u$s 489',
+    prodCategoria: 'notebook',
+    prodMarca: 'hp'
+  },
+  {
+    id: 290,
+    prodName: 'HP 255 G10',
+    prodImg1: '',
+    prodDescription: 'HP 255 G10 - 15,6 - AMD R7-7730U-16GB-512 PC WHome',
+    prodPrecio: 'u$s 869',
+    prodCategoria: 'notebook',
+    prodMarca: 'hp'
+  },
+  {
+    id: 291,
+    prodName: 'UPS TRV NEO 650',
+    prodImg1: '',
+    prodDescription: 'UPS TRV NEO 650',
+    prodPrecio: 'u$s 67',
+    prodCategoria: 'estabilizadores',
+    prodMarca: ''
+  },
+  {
+    id: 292,
+    prodName: 'UPS TRV NEO 850',
+    prodImg1: '',
+    prodDescription: 'UPS TRV NEO 850',
+    prodPrecio: 'u$s 80',
+    prodCategoria: 'estabilizadores',
+    prodMarca: ''
+  },
+  {
+    id: 293,
+    prodName: 'UPS HIKVISION 600',
+    prodImg1: '',
+    prodDescription: 'UPS HIKVISION 600',
+    prodPrecio: 'u$s 46',
+    prodCategoria: 'estabilizadores',
+    prodMarca: ''
+  },
+  {
+    id: 294,
+    prodName: 'UPS HIKVISION 1000',
+    prodImg1: '',
+    prodDescription: 'UPS HIKVISION 1000',
+    prodPrecio: 'u$s 69',
+    prodCategoria: 'estabilizadores',
     prodMarca: ''
   }
 ]
