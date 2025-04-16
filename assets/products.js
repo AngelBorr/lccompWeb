@@ -183,7 +183,7 @@ export const products = [
     prodImg1: '/img/memorias/HIKER DDR3-NOTEBOOK 8 GB 1.png',
     prodImg2: '/img/memorias/HIKER DDR3-NOTEBOOK 8GB 2.png',
     prodDescription: 'Soddimm DDR3 8GB - 1600',
-    prodPrecio: 'u$s 12',
+    prodPrecio: 'u$s -',
     prodCategoria: 'MemoriasNotebook',
     prodMarca: ''
   },
@@ -202,7 +202,7 @@ export const products = [
     prodImg1: '/img/memorias/DDR4 8gb ram 1-NOTEBOOK-.png',
     prodImg2: '/img/memorias/DDR4 8gb ram 2-NOTEBOOK-.png',
     prodDescription: 'SODDIMM DDR4 8GB - 3200 / KING',
-    prodPrecio: 'u$s 16',
+    prodPrecio: 'u$s 22',
     prodCategoria: 'MemoriasNotebook',
     prodMarca: ''
   },
@@ -255,11 +255,8 @@ export const products = [
     id: 24,
     prodName: 'RYZEN 5 5600X',
     prodImg1: '',
-    prodImg2: '',
-    prodImg3: '',
-    prodImg4: '',
     prodDescription: 'Micro AMD Ryzen 5 5600X sin video.',
-    prodPrecio: 'u$s 199',
+    prodPrecio: 'u$s 185',
     prodCategoria: 'MicroProcesador',
     prodMarca: 'amd'
   },
@@ -524,16 +521,16 @@ export const products = [
         prodPrecio: 'u$s 79',
         prodCategoria: 'DiscoSSD',
         prodMarca: 'kingstone'
-    }, 
-    {
-        id: 51,
-        prodName: 'SSD 2 TB HIK.',
-        prodImg1: '',
-        prodDescription: 'SSD 2 TB HIK.',
-        prodPrecio: 'u$s 121',
-        prodCategoria: 'DiscoSSD',
-        prodMarca: 'hiksemi'
-    },*/
+    }, */
+  {
+    id: 51,
+    prodName: 'SSD 2 TB HIK.',
+    prodImg1: '',
+    prodDescription: 'SSD 2 TB HIK.',
+    prodPrecio: 'u$s 112',
+    prodCategoria: 'DiscoSSD',
+    prodMarca: 'hiksemi'
+  },
   {
     id: 52,
     prodName: 'SSD 2 TB-M2* HIK.',
@@ -731,10 +728,8 @@ export const products = [
     id: 70,
     prodName: 'W USB ARCHER AC600 T2U.',
     prodImg1: '',
-    prodImg2: '',
-    prodImg3: '',
     prodDescription: 'W USB ARCHER AC600 T2U.',
-    prodPrecio: 'u$s 13',
+    prodPrecio: 'u$s -',
     prodCategoria: 'Conectividad',
     prodMarca: 'tp-link'
   },
@@ -944,9 +939,9 @@ export const products = [
   /* MONITORES */
   {
     id: 90,
-    prodName: '19" HIKVISION / PHILLIPS',
+    prodName: '19" PHILLIPS',
     prodImg1: '/img/monitores/LG LED 19M38.png',
-    prodDescription: '19" HIKVISION / PHILLIPS',
+    prodDescription: '19" PHILLIPS',
     prodPrecio: 'u$s 119',
     prodCategoria: 'Monitores',
     prodMarca: 'lg'
@@ -2433,7 +2428,7 @@ export const products = [
     prodImg1: '/img/conectividad/TP LINK TL SF1005 D 1.png',
     prodImg2: '/img/conectividad/TP LINK TL SF1005 D 2.png',
     prodDescription: 'SWITCH 5 TL-SF1005D.',
-    prodPrecio: 'u$s 11',
+    prodPrecio: 'u$s -',
     prodCategoria: 'Conectividad',
     prodMarca: ''
   },
@@ -3037,6 +3032,60 @@ export const products = [
     prodDescription: 'UPS HIKVISION 1000',
     prodPrecio: 'u$s 69',
     prodCategoria: 'estabilizadores',
+    prodMarca: ''
+  },
+  {
+    id: 295,
+    prodName: 'ADAP CARRY M2 USB / TC',
+    prodImg1: '',
+    prodDescription: 'ADAP CARRY M2 USB / TC',
+    prodPrecio: 'u$s 24',
+    prodCategoria: 'DiscoSSD',
+    prodMarca: ''
+  },
+  {
+    id: 296,
+    prodName: 'RAPTOR BLAZE FORCE TG RGB',
+    prodImg1: '',
+    prodDescription: 'RAPTOR BLAZE FORCE TG RGB',
+    prodPrecio: 'u$s 59',
+    prodCategoria: 'gabinetes',
+    prodMarca: ''
+  },
+  {
+    id: 297,
+    prodName: 'THERMALTAKE TT V100 x1 fan',
+    prodImg1: '',
+    prodDescription: 'THERMALTAKE TT V100 x1 fan',
+    prodPrecio: 'u$s 59',
+    prodCategoria: 'gabinetes',
+    prodMarca: ''
+  },
+  {
+    id: 298,
+    prodName: 'MSI MAG PANO M100R',
+    prodImg1: '',
+    prodDescription: 'MSI MAG PANO M100R',
+    prodPrecio: 'u$s 99',
+    prodCategoria: 'gabinetes',
+    prodMarca: ''
+  },
+  {
+    id: 299,
+    prodName: 'MSI MAG FORCE 120ª',
+    prodImg1: '',
+    prodDescription: 'MSI MAG FORCE 120ª',
+    prodPrecio: 'u$s 85',
+    prodCategoria: 'gabinetes',
+    prodMarca: ''
+  },
+  {
+    id: 300,
+    prodName: 'CABLE UTP CAT6 ROLLO 305mts INT',
+    prodImg1: '',
+    prodDescription: 'CABLE UTP CAT6 ROLLO 305mts INT',
+    prodPrecio: 'u$s 69',
+    prodCategoria: 'accesorios',
     prodMarca: ''
   }
 ]
