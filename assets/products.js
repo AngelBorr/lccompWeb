@@ -34,7 +34,7 @@ export const products = [
     prodName: 'DDR4 8 GB - 2666 / 3200',
     prodImg1: '',
     prodDescription: 'Memoria Ram DDR4 8 GB - 2666 / 3200',
-    prodPrecio: 'u$s 19',
+    prodPrecio: 'u$s 16',
     prodCategoria: 'Memorias',
     prodMarca: ''
   },
@@ -44,7 +44,7 @@ export const products = [
     prodImg1: '/img/memorias/MARKVISION DDR4 16gb 1.png',
     prodImg2: '/img/memorias/MARKVISION DDR4 16gb 2.png',
     prodDescription: 'Memoria Ram DDR4 16GB - 3200',
-    prodPrecio: 'u$s 33',
+    prodPrecio: 'u$s 29',
     prodCategoria: 'Memorias',
     prodMarca: ''
   },
@@ -183,7 +183,7 @@ export const products = [
     prodImg1: '/img/memorias/HIKER DDR3-NOTEBOOK 8 GB 1.png',
     prodImg2: '/img/memorias/HIKER DDR3-NOTEBOOK 8GB 2.png',
     prodDescription: 'Soddimm DDR3 8GB - 1600',
-    prodPrecio: 'u$s -',
+    prodPrecio: 'u$s 12',
     prodCategoria: 'MemoriasNotebook',
     prodMarca: ''
   },
@@ -225,7 +225,7 @@ export const products = [
     prodImg2: '/img/microProcesadores/AMD RAIZER3 Con placa 2.png',
     prodImg3: '/img/microProcesadores/AMD RAIZER3 Con placa 3.png',
     prodDescription: 'Micro AMD Ryzen 3 3200G',
-    prodPrecio: 'u$s 79',
+    prodPrecio: 'u$s 74',
     prodCategoria: 'MicroProcesador',
     prodMarca: 'amd'
   },
@@ -267,7 +267,7 @@ export const products = [
     prodImg2: '/img/microProcesadores/AMD RAIZER7 2.png',
     prodImg3: '/img/microProcesadores/AMD RAIZER7 3.png',
     prodDescription: 'Micro AMD Ryzen 7 5700G.',
-    prodPrecio: 'u$s 185',
+    prodPrecio: 'u$s 189',
     prodCategoria: 'MicroProcesador',
     prodMarca: 'amd'
   },
@@ -311,7 +311,7 @@ export const products = [
     prodImg2: '/img/microProcesadores/INTEL CORE i7 2.png',
     prodImg3: '/img/microProcesadores/INTEL CORE i7 3.png',
     prodDescription: 'Micro Core i7 12700 Alder Lake.',
-    prodPrecio: 'u$s 369',
+    prodPrecio: 'u$s 379',
     prodCategoria: 'MicroProcesador',
     prodMarca: 'intel'
   },
@@ -460,7 +460,7 @@ export const products = [
     prodName: 'SSD 480 GB * CRU',
     prodImg1: '',
     prodDescription: 'SSD 480 GB * CRU',
-    prodPrecio: 'u$s 36',
+    prodPrecio: 'u$s 35',
     prodCategoria: 'DiscoSSD',
     prodMarca: ''
   },
@@ -495,10 +495,10 @@ export const products = [
     }, */
   {
     id: 48,
-    prodName: 'SSD 960 GB * HIK / MSI.',
+    prodName: 'SSD 960 GB * HIK',
     prodImg1: '/img/discosSSD/HIKVISION 960GB.png',
-    prodDescription: 'SSD 960 GB * HIK / MSI.',
-    prodPrecio: 'u$s -',
+    prodDescription: 'SSD 960 GB * HIK',
+    prodPrecio: 'u$s 62',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'hiksemi'
   },
@@ -778,7 +778,7 @@ export const products = [
     prodImg1: '/img/conectividad/TPLINK TL FS1008 1.png',
     prodImg2: '/img/conectividad/TPLINK TL FS1008 2.png',
     prodDescription: 'SWITCH 8 TL-SF1008D.',
-    prodPrecio: 'u$s 15',
+    prodPrecio: 'u$s -',
     prodCategoria: 'Conectividad',
     prodMarca: ''
   },
@@ -797,8 +797,6 @@ export const products = [
     id: 77,
     prodName: 'SWITCH 16 TL-SG1016D GIGA.',
     prodImg1: '',
-    prodImg2: '',
-    prodImg3: '',
     prodDescription: 'SWITCH 16 TL-SG1016D GIGA.',
     prodPrecio: 'u$s (SIN STOCK)',
     prodCategoria: 'Conectividad',
@@ -808,10 +806,8 @@ export const products = [
     id: 78,
     prodName: 'SWITCH 16 TL-SG1016 GIGA RACK.',
     prodImg1: '',
-    prodImg2: '',
-    prodImg3: '',
     prodDescription: 'SWITCH 16 TL-SG1016 GIGA.',
-    prodPrecio: 'u$s 89',
+    prodPrecio: 'u$s 79',
     prodCategoria: 'Conectividad',
     prodMarca: ''
   },
@@ -2874,7 +2870,7 @@ export const products = [
     prodName: 'FUENTE 450 SLIM',
     prodImg1: '',
     prodDescription: 'FUENTE 450 SLIM',
-    prodPrecio: 'u$s 25',
+    prodPrecio: 'u$s -',
     prodCategoria: 'fuentes',
     prodMarca: ''
   },
@@ -3103,5 +3099,41 @@ export const products = [
     prodPrecio: 'u$s 105',
     prodCategoria: 'Monitores',
     prodMarca: 'lg'
+  },
+  {
+    id: 303,
+    prodName: 'SWITCH 5 SF-1005D',
+    prodImg1: '',
+    prodDescription: 'SWITCH 5 SF-1005D',
+    prodPrecio: 'u$s 9',
+    prodCategoria: 'Conectividad',
+    prodMarca: ''
+  },
+  {
+    id: 304,
+    prodName: 'SWITCH 8 SF-1008D',
+    prodImg1: '',
+    prodDescription: 'SWITCH 8 SF-1008D',
+    prodPrecio: 'u$s 11',
+    prodCategoria: 'Conectividad',
+    prodMarca: ''
+  },
+  {
+    id: 305,
+    prodName: 'SWITCH 8 SG-1008D',
+    prodImg1: '',
+    prodDescription: 'SWITCH 8 SG-1008D',
+    prodPrecio: 'u$s 22',
+    prodCategoria: 'Conectividad',
+    prodMarca: ''
+  },
+  {
+    id: 306,
+    prodName: 'TPLINK RE200 AC750 DB',
+    prodImg1: '',
+    prodDescription: 'TPLINK RE200 AC750 DB',
+    prodPrecio: 'u$s 26',
+    prodCategoria: 'Conectividad',
+    prodMarca: 'TP-LINK'
   }
 ]
