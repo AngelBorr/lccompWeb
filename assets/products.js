@@ -934,7 +934,7 @@ export const products = [
   {
     id: 90,
     prodName: '19" PHILLIPS',
-    prodImg1: '/img/monitores/LG LED 19M38.png',
+    prodImg1: '/img/monitores/PHILIP LED V-LINE 18.5 .png',
     prodDescription: '19" PHILLIPS',
     prodPrecio: 'u$s 119',
     prodCategoria: 'Monitores',
@@ -2984,15 +2984,6 @@ export const products = [
     prodMarca: 'hp'
   },
   {
-    id: 290,
-    prodName: 'HP 255 G10',
-    prodImg1: '',
-    prodDescription: 'HP 255 G10 - 15,6 - AMD R7-7730U-16GB-512 PC WHome',
-    prodPrecio: 'u$s 869',
-    prodCategoria: 'notebook',
-    prodMarca: 'hp'
-  },
-  {
     id: 291,
     prodName: 'UPS TRV NEO 650',
     prodImg1: '',
@@ -3135,5 +3126,96 @@ export const products = [
     prodPrecio: 'u$s 26',
     prodCategoria: 'Conectividad',
     prodMarca: 'TP-LINK'
+  },
+  {
+    id: 307,
+    prodName: 'HP 255 G10',
+    prodImg1: '',
+    prodDescription: 'HP 255 G10 - 15,6 - AMD R7-7730U-16GB-512 PC WHome',
+    prodPrecio: 'u$s 869',
+    prodCategoria: 'notebook',
+    prodMarca: 'hp'
+  }, //
+  {
+    id: 308,
+    prodName: 'CPU INTEL - INTEL PENTIUM - DDR4 8GB',
+    prodImg1: '/img/pcArmadas/foto-oficina.png',
+    prodDescription: 'INTEL PENTIUM - DDR4 8GB ',
+    prodPrecio: '$ 310,000',
+    prodCategoria: 'Oficina',
+    prodMarca: '',
+    prodProcesador: 'Intel Pentium',
+    prodMotherBoard: 'Gigabyte / Msi',
+    prodMemoriaRam: 'DDR4 8 GB',
+    prodDiscoInterno: 'SSD 240 GB',
+    prodGabinete: 'Kit'
+  },
+  {
+    id: 309,
+    prodName: 'CPU AMD - AMD RYZEN 3 - DDR4 8GB',
+    prodImg1: '/img/pcArmadas/foto-oficina.png',
+    prodDescription: 'AMD RYZEN 3 - DDR4 8GB',
+    prodPrecio: '$ 309,000',
+    prodCategoria: 'Oficina',
+    prodMarca: '',
+    prodProcesador: 'AMD Ryzen 3',
+    prodMotherBoard: 'Gigabyte / Msi',
+    prodMemoriaRam: 'DDR4 8 GB',
+    prodDiscoInterno: 'SSD 240 GB',
+    prodGabinete: 'Kit'
+  },
+  {
+    id: 310,
+    prodName: 'CPU AMD - INTEL RYZEN 5 - DDR4 8GB',
+    prodImg1: '/img/pcArmadas/foto-oficina.png',
+    prodDescription: 'INTEL RYZEN 5 - DDR4 8GB',
+    prodPrecio: '$ 389,000',
+    prodCategoria: 'Oficina',
+    prodMarca: '',
+    prodProcesador: 'Intel Ryzen 5',
+    prodMotherBoard: 'Gigabyte / Msi',
+    prodMemoriaRam: 'DDR4 8 GB',
+    prodDiscoInterno: 'SSD 240 GB',
+    prodGabinete: 'Kit'
+  },
+  {
+    id: 311,
+    prodName: 'CPU INTEL - INTEL CORE i3 - DDR4 8GB',
+    prodImg1: '/img/pcArmadas/foto-oficina.png',
+    prodDescription: 'Intel Core i3 - DDR4 8GB',
+    prodPrecio: '$ 350,000',
+    prodCategoria: 'Oficina',
+    prodMarca: '',
+    prodProcesador: 'Intel Core i3',
+    prodMotherBoard: 'Gigabyte / Msi',
+    prodMemoriaRam: 'DDR4 8 GB',
+    prodDiscoInterno: 'SSD 240 GB',
+    prodGabinete: 'Kit'
+  },
+  {
+    id: 312,
+    prodName: 'CPU INTEL - INTEL CORE i5 - DDR4 8GB',
+    prodImg1: '/img/pcArmadas/foto-oficina.png',
+    prodDescription: 'INTEL CORE i5 - DDR4 8GB',
+    prodPrecio: '$ 397,000',
+    prodCategoria: 'Oficina',
+    prodMarca: '',
+    prodProcesador: 'Intel Core i5',
+    prodMotherBoard: 'Gigabyte / Msi',
+    prodMemoriaRam: 'DDR4 8 GB',
+    prodDiscoInterno: 'SSD 240 GB',
+    prodGabinete: 'Kit'
+  },
+  {
+    id: 313,
+    prodName: 'GABINETE SLIM',
+    prodImg1: '/img/gabinetes/gabinete-slim-1.png',
+    prodImg2: '/img/gabinetes/gabinete-slim-2.png',
+    prodImg3: '/img/gabinetes/gabinete-slim-3.png',
+    prodImg4: '/img/gabinetes/gabinete-slim-4.png',
+    prodDescription: 'GABINETE SLIM',
+    prodPrecio: '$ 23,500',
+    prodCategoria: 'gabinetes',
+    prodMarca: ''
   }
 ]

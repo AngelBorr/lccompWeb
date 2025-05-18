@@ -23,11 +23,54 @@ function obtener5IdsAleatorios() {
         }
     });
 
-    const cincoProductos = productosMezclados.slice(0, 5);    
-    return cincoProductos
+    if(productosMezclados[1].prodCategoria === 'Oficina' || productosMezclados[1].prodCategoria === 'Gamer'){
+        const dosProductos = productosMezclados.slice(0, 2)
+        return dosProductos
+    }else{
+        const cincoProductos = productosMezclados.slice(0, 5);    
+        return cincoProductos
+    }    
 }
 
-const prodSimilares = obtener5IdsAleatorios()
+let prodSimilares = obtener5IdsAleatorios()
+
+if(categoria === 'Gamer' || categoria === 'Oficina'){
+    const prodFavoritePcArmadas = [
+        {
+            id: 313,
+            prodName: 'GABINETE SLIM',
+            prodImg1: '/img/gabinetes/gabinete-slim-1.png',
+            prodImg2: '/img/gabinetes/gabinete-slim-2.png',
+            prodImg3: '/img/gabinetes/gabinete-slim-3.png',
+            prodImg4: '/img/gabinetes/gabinete-slim-4.png',
+            prodDescription: 'GABINETE SLIM',
+            prodPrecio: '$ 23,500',
+            prodCategoria: 'gabinetes',
+            prodMarca: ''
+        },
+        {
+            id: 90,
+            prodName: '19" PHILLIPS',
+            prodImg1: '/img/monitores/PHILIP LED V-LINE 18.5 .png',
+            prodDescription: '19" PHILLIPS',
+            prodPrecio: 'u$s 119',
+            prodCategoria: 'Monitores',
+            prodMarca: 'lg'
+        },
+        {
+            id: 95,
+            prodName: '22" LG MK600.',
+            prodImg1: '/img/monitores/LG 20MK400 19.5.png',
+            prodDescription: '22" LG MK600.',
+            prodPrecio: 'u$s 192',
+            prodCategoria: 'Monitores',
+            prodMarca: 'lg'
+        },
+    ]
+    
+    let products = [...prodSimilares, ...prodFavoritePcArmadas]    
+    prodSimilares = products.slice(0, 5)
+}
 
 export function getStaticPaths () {
     return products.map((product) => ({
@@ -42,20 +85,41 @@ export function getStaticPaths () {
     <main class="w-full h-auto">
         <div class="flex flex-col border-[2px] border-[#78b081] rounded-lg p-2 mb-2">
             <aside class="p-2">
-                <ImageSwitcher prod={prod} client:load/>
-                <div class="pt-2 flex flex-col border-t-[1px] border-[#78b081]">
-                    <h3 class=" font-bold flex justify-center items-center text-2xl mb-2 md:text-3xl md:mb-3 lg:text-4xl lg:mb-4">{prod?.prodName}</h3>
-                    <p>{prod?.prodDescription}</p>
-                    <h4 class="font-bold">Especificaciones Tecnicas:</h4>
-                    <div>
+                <ImageSwitcher prod={prod} client:load/>                
+                {typeof prod?.prodCategoria === 'string' && ['gamer', 'oficina'].includes(prod.prodCategoria.toLowerCase()) ? (
+                    <div class="pt-2 flex flex-col border-t-[1px] border-[#78b081]">
+                        <h3 class="font-bold flex justify-center items-center text-2xl mb-2 md:text-3xl md:mb-3 lg:text-4xl lg:mb-4">
+                        {prod?.prodName}
+                        </h3>
+                        <p>{prod?.prodDescription}</p>
+                        <h4 class="font-bold">Especificaciones Técnicas:</h4>
+                        <div>
+                        <ul>
+                            <li>Procesador: {prod?.prodProcesador}</li>
+                            <li>Motherboard: {prod?.prodMotherBoard}</li>
+                            <li>Memoria Ram: {prod?.prodMemoriaRam}</li>
+                            <li>Disco Interno: {prod?.prodDiscoInterno}</li>
+                            <li>Gabinete: {prod?.prodGabinete}</li>
+                        </ul>
+                        </div>
+                    </div>
+                ) : (
+                    <div class="pt-2 flex flex-col border-t-[1px] border-[#78b081]">
+                        <h3 class="font-bold flex justify-center items-center text-2xl mb-2 md:text-3xl md:mb-3 lg:text-4xl lg:mb-4">
+                        {prod?.prodName}
+                        </h3>
+                        <p>{prod?.prodDescription}</p>
+                        <h4 class="font-bold">Especificaciones Técnicas:</h4>
+                        <div>
                         <ul>
                             <li>Marca: {prod?.prodMarca}</li>
                             <li>Modelo: </li>
                             <li>Material: </li>
-                            <li>Peso: </li>                        
+                            <li>Peso: </li>  
                         </ul>
+                        </div>
                     </div>
-                </div>    
+                )}
             </aside>
             <section class="p-2">
                 <div>
