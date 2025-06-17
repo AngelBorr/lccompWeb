@@ -16,7 +16,7 @@ export const products = [
     prodImg1: '/img/memorias/HIKER DDR3 8GB 1.png',
     prodImg2: '/img/memorias/HIKER DDR3 8GB 2.png',
     prodDescription: 'Memoria Ram DDR3 8GB - 1600',
-    prodPrecio: 'u$s 10',
+    prodPrecio: 'u$s 12',
     prodCategoria: 'Memorias',
     prodMarca: 'hiksemi'
   },
@@ -25,7 +25,7 @@ export const products = [
     prodName: 'DDR4 4 GB - 2400',
     prodImg1: '',
     prodDescription: 'Memoria Ram DDR4 4GB - 2400',
-    prodPrecio: 'u$s 12',
+    prodPrecio: 'u$s 16',
     prodCategoria: 'Memorias',
     prodMarca: ''
   },
@@ -34,7 +34,7 @@ export const products = [
     prodName: 'DDR4 8 GB - 2666 / 3200',
     prodImg1: '',
     prodDescription: 'Memoria Ram DDR4 8 GB - 2666 / 3200',
-    prodPrecio: 'u$s 15',
+    prodPrecio: 'u$s 21',
     prodCategoria: 'Memorias',
     prodMarca: ''
   },
@@ -44,7 +44,7 @@ export const products = [
     prodImg1: '/img/memorias/MARKVISION DDR4 16gb 1.png',
     prodImg2: '/img/memorias/MARKVISION DDR4 16gb 2.png',
     prodDescription: 'Memoria Ram DDR4 16GB - 3200',
-    prodPrecio: 'u$s 32',
+    prodPrecio: 'u$s 40',
     prodCategoria: 'Memorias',
     prodMarca: ''
   },
@@ -171,7 +171,7 @@ export const products = [
     prodImg1: '/img/memorias/HIKER DDR3-NOTEBOOK 8 GB 1.png',
     prodImg2: '/img/memorias/HIKER DDR3-NOTEBOOK 8GB 2.png',
     prodDescription: 'Soddimm DDR3 8GB - 1600',
-    prodPrecio: 'u$s 11',
+    prodPrecio: 'u$s 12',
     prodCategoria: 'MemoriasNotebook',
     prodMarca: ''
   },
@@ -180,7 +180,7 @@ export const products = [
     prodName: 'SODDIMM DDR4 4 GB - 3200',
     prodImg1: '',
     prodDescription: 'Soddimm DDR4 4GB - 3200',
-    prodPrecio: 'u$s 14',
+    prodPrecio: 'u$s 21',
     prodCategoria: 'MemoriasNotebook',
     prodMarca: ''
   },
@@ -190,7 +190,7 @@ export const products = [
     prodImg1: '/img/memorias/DDR4 8gb ram 1-NOTEBOOK-.png',
     prodImg2: '/img/memorias/DDR4 8gb ram 2-NOTEBOOK-.png',
     prodDescription: 'SODDIMM DDR4 8GB - 3200 / KING',
-    prodPrecio: 'u$s 20',
+    prodPrecio: 'u$s 36',
     prodCategoria: 'MemoriasNotebook',
     prodMarca: ''
   },
@@ -201,7 +201,7 @@ export const products = [
     prodImg2: '/img/memorias/PCA4 16gb-NOTEBOOK-memoria ram 2.png',
     prodImg3: '/img/memorias/PCA4 16gb-NOTEBOOK-memoria ram 3.png',
     prodDescription: 'Soddimm DDR4 16GB - 2400 * KING',
-    prodPrecio: 'u$s 37',
+    prodPrecio: 'u$s 67',
     prodCategoria: 'MemoriasNotebook',
     prodMarca: ''
   },
@@ -729,21 +729,19 @@ export const products = [
     prodName: 'W USB ARCHER AC1300 T3U.',
     prodImg1: '',
     prodDescription: 'W USB ARCHER AC1300 T3U.',
-    prodPrecio: 'u$s -',
+    prodPrecio: 'u$s 16',
     prodCategoria: 'Conectividad',
     prodMarca: 'tp-link'
   },
-  /* {
-        id: 73,
-        prodName: 'W USB ARCHER AC1900 T9UH.',
-        prodImg1: '',
-        prodImg2: '',
-        prodImg3: '',
-        prodDescription: 'W USB ARCHER AC1900 T9UH.',
-        prodPrecio: 'u$s 33',
-        prodCategoria: 'Conectividad',
-        prodMarca: 'tp-link'
-    }, */
+  {
+    id: 73,
+    prodName: 'W USB ARCHER AX1800 TX20U',
+    prodImg1: '',
+    prodDescription: 'W USB ARCHER AX1800 TX20U',
+    prodPrecio: 'u$s 18',
+    prodCategoria: 'Conectividad',
+    prodMarca: 'tp-link'
+  },
   {
     id: 74,
     prodName: 'SWITCH 5 TL-SG1005D GIGA.',
@@ -2425,7 +2423,7 @@ export const products = [
     prodName: 'SODDIMM DDR4 32 GB - KING',
     prodImg1: '',
     prodDescription: 'Soddimm DDR4 32GB - 3000',
-    prodPrecio: 'u$s 79',
+    prodPrecio: 'u$s 99',
     prodCategoria: 'MemoriasNotebook',
     prodMarca: ''
   },
@@ -2723,7 +2721,7 @@ export const products = [
     prodName: 'DDR4 32 GB - 3200',
     prodImg1: '',
     prodDescription: 'Memoria Ram DDR4 32GB - 3200',
-    prodPrecio: 'u$s 69',
+    prodPrecio: 'u$s 99',
     prodCategoria: 'Memorias',
     prodMarca: ''
   },
@@ -2761,7 +2759,7 @@ export const products = [
     prodImg1: '/img/monitores/monitor-hikvision-2.png',
     prodImg2: '/img/monitores/monitor-hikvision-1.png',
     prodDescription: '24” HIKVISION',
-    prodPrecio: 'u$s 135',
+    prodPrecio: 'u$s -',
     prodCategoria: 'Monitores',
     prodMarca: 'lg'
   },
@@ -2997,7 +2995,7 @@ export const products = [
     prodName: 'ADAP CARRY M2 USB / TC',
     prodImg1: '',
     prodDescription: 'ADAP CARRY M2 USB / TC',
-    prodPrecio: 'u$s 24',
+    prodPrecio: 'u$s 25',
     prodCategoria: 'DiscoSSD',
     prodMarca: ''
   },
@@ -3097,7 +3095,7 @@ export const products = [
     prodName: 'TPLINK RE200 AC750 DB',
     prodImg1: '',
     prodDescription: 'TPLINK RE200 AC750 DB',
-    prodPrecio: 'u$s -',
+    prodPrecio: 'u$s 25',
     prodCategoria: 'Conectividad',
     prodMarca: 'TP-LINK'
   },
@@ -3317,6 +3315,15 @@ export const products = [
     prodDescription: 'MICRO SD 256 GB NEO',
     prodPrecio: 'u$s 19',
     prodCategoria: 'Memorias',
+    prodMarca: ''
+  },
+  {
+    id: 327,
+    prodName: 'SWITCH SG116 GIGA',
+    prodImg1: '',
+    prodDescription: 'SWITCH SG116 GIGA',
+    prodPrecio: 'u$s 58',
+    prodCategoria: 'Conectividad',
     prodMarca: ''
   }
 ]
