@@ -44,7 +44,7 @@ export const products = [
     prodImg1: '/img/memorias/MARKVISION DDR4 16gb 1.png',
     prodImg2: '/img/memorias/MARKVISION DDR4 16gb 2.png',
     prodDescription: 'Memoria Ram DDR4 16GB - 3200',
-    prodPrecio: 'u$s 40',
+    prodPrecio: 'u$s 43',
     prodCategoria: 'Memorias',
     prodMarca: ''
   },
@@ -299,7 +299,7 @@ export const products = [
     prodImg2: '/img/microProcesadores/INTEL CORE i7 2.png',
     prodImg3: '/img/microProcesadores/INTEL CORE i7 3.png',
     prodDescription: 'Micro Core i7 12700 Alder Lake.',
-    prodPrecio: 'u$s 372',
+    prodPrecio: 'u$s 379',
     prodCategoria: 'MicroProcesador',
     prodMarca: 'intel'
   },
@@ -729,7 +729,7 @@ export const products = [
     prodName: 'W USB ARCHER AC1300 T3U.',
     prodImg1: '',
     prodDescription: 'W USB ARCHER AC1300 T3U.',
-    prodPrecio: 'u$s 16',
+    prodPrecio: 'u$s 17',
     prodCategoria: 'Conectividad',
     prodMarca: 'tp-link'
   },
@@ -738,7 +738,7 @@ export const products = [
     prodName: 'W USB ARCHER AX1800 TX20U',
     prodImg1: '',
     prodDescription: 'W USB ARCHER AX1800 TX20U',
-    prodPrecio: 'u$s 18',
+    prodPrecio: 'u$s 19',
     prodCategoria: 'Conectividad',
     prodMarca: 'tp-link'
   },
@@ -840,7 +840,7 @@ export const products = [
     prodImg2: '/img/conectividad/TPLINK AC1350 2.png',
     prodImg3: '/img/conectividad/TPLINK AC1350 3.png',
     prodDescription: 'ARCHER C58HP AC1350.',
-    prodPrecio: 'u$s 79',
+    prodPrecio: 'u$s -',
     prodCategoria: 'Conectividad',
     prodMarca: ''
   },
@@ -915,7 +915,7 @@ export const products = [
     prodName: '19" PHILLIPS',
     prodImg1: '/img/monitores/PHILIP LED V-LINE 18.5 .png',
     prodDescription: '19" PHILLIPS',
-    prodPrecio: 'u$s 119',
+    prodPrecio: 'u$s -',
     prodCategoria: 'Monitores',
     prodMarca: 'phillips'
   },
@@ -1004,12 +1004,12 @@ export const products = [
   /* GABINETES */
   {
     id: 100,
-    prodName: 'KIT KELYX 728/ MAGNUM',
+    prodName: 'KIT KELYX 728/SENTEY',
     prodImg1: '/img/gabinetes/KELIX teclado y mause 3.png',
     prodImg2: '/img/gabinetes/KELIX teclado y mause 1.png',
     prodImg3: '/img/gabinetes/KELIX teclado y mause 2.png',
-    prodDescription: 'KIT KELYX 728/ MAGNUM. Gabinete + Teclado + Mouse',
-    prodPrecio: 'u$s 45',
+    prodDescription: 'KIT KELYX 728/SENTEY. Gabinete + Teclado + Mouse',
+    prodPrecio: 'u$s 39',
     prodCategoria: 'gabinetes',
     prodMarca: ''
   },
@@ -2749,7 +2749,7 @@ export const products = [
     prodImg1: '/img/monitores/monitor-hikvision-2.png',
     prodImg2: '/img/monitores/monitor-hikvision-1.png',
     prodDescription: '22” HIKVISION',
-    prodPrecio: 'u$s 125',
+    prodPrecio: 'u$s 109',
     prodCategoria: 'Monitores',
     prodMarca: 'lg'
   },
@@ -2759,7 +2759,7 @@ export const products = [
     prodImg1: '/img/monitores/monitor-hikvision-2.png',
     prodImg2: '/img/monitores/monitor-hikvision-1.png',
     prodDescription: '24” HIKVISION',
-    prodPrecio: 'u$s -',
+    prodPrecio: 'u$s 129',
     prodCategoria: 'Monitores',
     prodMarca: 'lg'
   },
@@ -2859,7 +2859,7 @@ export const products = [
     prodName: 'GRASA DISIPADORA',
     prodImg1: '',
     prodDescription: 'GRASA DISIPADORA',
-    prodPrecio: 'u$s -',
+    prodPrecio: 'u$s 3',
     prodCategoria: 'accesorios',
     prodMarca: ''
   },
@@ -2923,7 +2923,7 @@ export const products = [
     prodName: 'HP 250 G10',
     prodImg1: '',
     prodDescription: 'HP 250 G10 - 15,6 - INTEL i3-1315U-8GB-256 PC FreeDOs',
-    prodPrecio: 'u$s 499',
+    prodPrecio: 'u$s 505',
     prodCategoria: 'notebook',
     prodMarca: 'hp'
   },
@@ -2995,7 +2995,7 @@ export const products = [
     prodName: 'ADAP CARRY M2 USB / TC',
     prodImg1: '',
     prodDescription: 'ADAP CARRY M2 USB / TC',
-    prodPrecio: 'u$s 25',
+    prodPrecio: 'u$s 26',
     prodCategoria: 'DiscoSSD',
     prodMarca: ''
   },
@@ -3268,7 +3268,7 @@ export const products = [
     prodName: '19” VIEWSONIC',
     prodImg1: '/img/monitores/viewSonic-19.jpg',
     prodDescription: '19” VIEWSONIC',
-    prodPrecio: 'u$s 115',
+    prodPrecio: 'u$s -',
     prodCategoria: 'Monitores',
     prodMarca: 'lg'
   },
@@ -3325,5 +3325,33 @@ export const products = [
     prodPrecio: 'u$s 58',
     prodCategoria: 'Conectividad',
     prodMarca: ''
+  },
+  {
+    id: 328,
+    prodName: 'Lic. Windows 11 HOME 64BIT Spanish	',
+    prodImg1: '',
+    prodDescription: 'Lic. Windows 11 HOME 64BIT Spanish	',
+    prodPrecio: 'u$s 155',
+    prodCategoria: '',
+    prodMarca: ''
+  },
+  {
+    id: 329,
+    prodName: 'MSI Cubi Intel Core i7-1255U 16G M.2 500Gb Free Dos',
+    prodImg1: '',
+    prodDescription: 'MSI Cubi Intel Core i7-1255U 16G M.2 500Gb Free Dos',
+    prodPrecio: 'u$s 659',
+    prodCategoria: 'minipc',
+    prodMarca: ''
+  },
+  {
+    id: 330,
+    prodName: '19” HIKVISION',
+    prodImg1: '/img/monitores/monitor-hikvision-2.png',
+    prodImg2: '/img/monitores/monitor-hikvision-1.png',
+    prodDescription: '19” HIKVISION',
+    prodPrecio: 'u$s 99',
+    prodCategoria: 'Monitores',
+    prodMarca: 'lg'
   }
 ]
