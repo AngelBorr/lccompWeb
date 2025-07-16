@@ -16,7 +16,7 @@ export const products = [
     prodImg1: '/img/memorias/HIKER DDR3 8GB 1.png',
     prodImg2: '/img/memorias/HIKER DDR3 8GB 2.png',
     prodDescription: 'Memoria Ram DDR3 8GB - 1600',
-    prodPrecio: 'u$s 12',
+    prodPrecio: 'u$s -',
     prodCategoria: 'Memorias',
     prodMarca: 'hiksemi'
   },
@@ -44,7 +44,7 @@ export const products = [
     prodImg1: '/img/memorias/MARKVISION DDR4 16gb 1.png',
     prodImg2: '/img/memorias/MARKVISION DDR4 16gb 2.png',
     prodDescription: 'Memoria Ram DDR4 16GB - 3200',
-    prodPrecio: 'u$s 43',
+    prodPrecio: 'u$s 42',
     prodCategoria: 'Memorias',
     prodMarca: ''
   },
@@ -213,7 +213,7 @@ export const products = [
     prodImg2: '/img/microProcesadores/AMD RAIZER3 Con placa 2.png',
     prodImg3: '/img/microProcesadores/AMD RAIZER3 Con placa 3.png',
     prodDescription: 'Micro AMD Ryzen 3 3200G',
-    prodPrecio: 'u$s 74',
+    prodPrecio: 'u$s 75',
     prodCategoria: 'MicroProcesador',
     prodMarca: 'amd'
   },
@@ -306,11 +306,11 @@ export const products = [
   /* MOTHER */
   {
     id: 30,
-    prodName: 'MSI A520M-A PRO.',
+    prodName: 'MSI A520M PRO.',
     prodImg1: '/img/motherboard/AMD MOTHER RAIZER A520 1.png',
     prodImg2: '/img/motherboard/AMD MOTHER RAIZER A520 2.png',
     prodImg3: '/img/motherboard/AMD MOTHER RAIZER A520 3.png',
-    prodDescription: 'Msi A520M-A Pro.',
+    prodDescription: 'Msi A520M Pro.',
     prodPrecio: 'u$s 69',
     prodCategoria: 'Motherboards',
     prodMarca: 'msi'
@@ -322,7 +322,7 @@ export const products = [
     prodImg2: '/img/motherboard/AMD MOTHER RAIZER B550 2.png',
     prodImg3: '/img/motherboard/AMD MOTHER RAIZER B550 3.png',
     prodDescription: 'Gigabyte B550M K.',
-    prodPrecio: 'u$s 109',
+    prodPrecio: 'u$s 95',
     prodCategoria: 'Motherboards',
     prodMarca: 'gigabyte'
   },
@@ -400,10 +400,10 @@ export const products = [
     }, */
   {
     id: 39,
-    prodName: 'SSD 240 GB * MSI',
+    prodName: 'SSD 240 GB * MSI - HIK',
     prodImg1: '/img/discosSSD/HIKSEMI 256GB.png',
-    prodDescription: 'SSD 240 GB * MSI',
-    prodPrecio: 'u$s 23',
+    prodDescription: 'SSD 240 GB * MSI - HIK',
+    prodPrecio: 'u$s 19',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'hiksemi'
   },
@@ -448,7 +448,7 @@ export const products = [
     prodName: 'SSD 480 GB * HIK / CRU',
     prodImg1: '',
     prodDescription: 'SSD 480 GB * HIK / CRU',
-    prodPrecio: 'u$s 31',
+    prodPrecio: 'u$s 34',
     prodCategoria: 'DiscoSSD',
     prodMarca: ''
   },
@@ -486,7 +486,7 @@ export const products = [
     prodName: 'SSD 960 GB * HIK',
     prodImg1: '/img/discosSSD/HIKVISION 960GB.png',
     prodDescription: 'SSD 960 GB * HIK',
-    prodPrecio: 'u$s 69',
+    prodPrecio: 'u$s 66',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'hiksemi'
   },
@@ -556,7 +556,7 @@ export const products = [
     prodImg2: '/img/discosHDD/EXTERNAL CASE 2.png',
     prodImg3: '/img/discosHDD/EXTERNAL CASE 3.png',
     prodDescription: 'HDD 1 TB EXTERNO USB 3.0.',
-    prodPrecio: 'u$s 86',
+    prodPrecio: 'u$s 85',
     prodCategoria: 'DiscoHDD',
     prodMarca: ''
   },
@@ -711,7 +711,7 @@ export const products = [
     prodName: 'W USB ARCHER AC600 T2U.',
     prodImg1: '',
     prodDescription: 'W USB ARCHER AC600 T2U.',
-    prodPrecio: 'u$s 11',
+    prodPrecio: 'u$s 12',
     prodCategoria: 'Conectividad',
     prodMarca: 'tp-link'
   },
@@ -720,7 +720,7 @@ export const products = [
     prodName: 'W USB ARCHER AC600 T2UB',
     prodImg1: '',
     prodDescription: 'W USB ARCHER AC600 T2UB',
-    prodPrecio: 'u$s 12',
+    prodPrecio: 'u$s -',
     prodCategoria: 'Conectividad',
     prodMarca: 'tp-link'
   },
@@ -729,7 +729,7 @@ export const products = [
     prodName: 'W USB ARCHER AC1300 T3U.',
     prodImg1: '',
     prodDescription: 'W USB ARCHER AC1300 T3U.',
-    prodPrecio: 'u$s 17',
+    prodPrecio: 'u$s 18',
     prodCategoria: 'Conectividad',
     prodMarca: 'tp-link'
   },
@@ -964,15 +964,15 @@ export const products = [
     prodCategoria: 'Monitores',
     prodMarca: 'lg'
   },
-  /* {
-        id: 96,
-        prodName: '24" LG 24MK430.',
-        prodImg1: '',
-        prodDescription: '24" LG 24MK430.',
-        prodPrecio: 'u$s 165 - (SIN STOCK)',
-        prodCategoria: 'Monitores',
-        prodMarca: 'lg'
-    }, */
+  {
+    id: 96,
+    prodName: '19" LG',
+    prodImg1: '',
+    prodDescription: '19" LG ',
+    prodPrecio: 'u$s 106',
+    prodCategoria: 'Monitores',
+    prodMarca: 'lg'
+  },
   /* IMPRESORAS */
   /* {
         id: 97,
@@ -1477,7 +1477,7 @@ export const products = [
     prodImg1: '/img/teclados/GENIUS MK120 1.png',
     prodImg2: '/img/teclados/GENIUS MK120 2.png',
     prodDescription: 'TECL + MOU MK120.',
-    prodPrecio: 'u$s 16',
+    prodPrecio: 'u$s -',
     prodCategoria: 'teclados',
     prodMarca: 'genius'
   },
@@ -2191,7 +2191,7 @@ export const products = [
     prodName: 'CABLE UTP CAT5 ROLLO 305mts INT',
     prodImg1: '',
     prodDescription: 'CABLE UTP CAT5 ROLLO 305mts INT',
-    prodPrecio: 'u$s -',
+    prodPrecio: 'u$s 59',
     prodCategoria: 'accesorios',
     prodMarca: ''
   },
@@ -2202,7 +2202,7 @@ export const products = [
     prodImg2: '',
     prodImg3: '',
     prodDescription: 'CABLE UTP CAT5 (x metro) INT',
-    prodPrecio: 'u$s 0,30',
+    prodPrecio: 'u$s 0,25',
     prodCategoria: 'accesorios',
     prodMarca: ''
   },
@@ -2213,7 +2213,7 @@ export const products = [
     prodImg2: '',
     prodImg3: '',
     prodDescription: 'CONECTOR / CAPUCHON RJ-45.',
-    prodPrecio: 'u$s 0,45',
+    prodPrecio: 'u$s 0,15',
     prodCategoria: 'accesorios',
     prodMarca: ''
   },
@@ -2541,7 +2541,7 @@ export const products = [
     prodName: 'ASUS A520M-K',
     prodImg1: '',
     prodDescription: 'ASUS A520M-K',
-    prodPrecio: 'u$s 89',
+    prodPrecio: 'u$s 70',
     prodCategoria: 'Motherboards',
     prodMarca: 'asus'
   },
@@ -2586,7 +2586,7 @@ export const products = [
     prodName: 'SSD 1 TB-M2 NVMe PCI EX* HIK.',
     prodImg1: '',
     prodDescription: 'SSD 1 TB-M2 NVMe PCI EX* HIK.',
-    prodPrecio: 'u$s 68',
+    prodPrecio: 'u$s 64',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'hiksemi'
   },
@@ -2595,7 +2595,7 @@ export const products = [
     prodName: 'SSD 1 TB-M2 NVMe * KING',
     prodImg1: '',
     prodDescription: 'SSD 1 TB-M2 NVMe * KING',
-    prodPrecio: 'u$s 75',
+    prodPrecio: 'u$s 76',
     prodCategoria: 'DiscoSSD',
     prodMarca: 'gigabyte'
   },
@@ -2667,16 +2667,16 @@ export const products = [
     prodName: 'MERCUSYS MW302R',
     prodImg1: '',
     prodDescription: 'MERCUSYS MW302R',
-    prodPrecio: 'u$s 15',
+    prodPrecio: 'u$s 13',
     prodCategoria: 'Conectividad',
     prodMarca: ''
   },
   {
     id: 260,
-    prodName: 'GIGABYTE A520M K.',
+    prodName: 'GIGABYTE A520M K V2',
     prodImg1: '/img/motherboard/AMD MOTHER RAIZER B550 1.png',
-    prodDescription: 'Gigabyte A520M K.',
-    prodPrecio: 'u$s 69',
+    prodDescription: 'Gigabyte A520M K V2',
+    prodPrecio: 'u$s 64',
     prodCategoria: 'Motherboards',
     prodMarca: 'gigabyte'
   },
@@ -2796,7 +2796,7 @@ export const products = [
     prodImg1: '/img/fuentes/SENTEY 600 FUENTE 1.png',
     prodImg2: '/img/fuentes/SENTEY 600 FUENTE 2.png',
     prodDescription: 'FUENTE HBP500-GS SENTEY 80P - BRO',
-    prodPrecio: 'u$s 43',
+    prodPrecio: 'u$s -',
     prodCategoria: 'fuentes',
     prodMarca: 'sentey'
   },
@@ -2992,10 +2992,10 @@ export const products = [
   },
   {
     id: 295,
-    prodName: 'ADAP CARRY M2 USB / TC',
+    prodName: 'ADAP CARRY M2 NVMe USB / C',
     prodImg1: '',
-    prodDescription: 'ADAP CARRY M2 USB / TC',
-    prodPrecio: 'u$s 26',
+    prodDescription: 'ADAP CARRY M2 NVMe USB / C',
+    prodPrecio: 'u$s 17',
     prodCategoria: 'DiscoSSD',
     prodMarca: ''
   },
@@ -3061,7 +3061,7 @@ export const products = [
     prodDescription: '19” HIKVISION',
     prodPrecio: 'u$s -',
     prodCategoria: 'Monitores',
-    prodMarca: 'lg'
+    prodMarca: 'HIKVISION'
   },
   {
     id: 303,
@@ -3277,7 +3277,7 @@ export const products = [
     prodName: 'FUENTE 550 NOGA.',
     prodImg1: '',
     prodDescription: 'FUENTE 550 NOGA.',
-    prodPrecio: 'u$s 14',
+    prodPrecio: 'u$s -',
     prodCategoria: 'fuentes',
     prodMarca: ''
   },
@@ -3353,5 +3353,59 @@ export const products = [
     prodPrecio: 'u$s 99',
     prodCategoria: 'Monitores',
     prodMarca: 'lg'
+  },
+  {
+    id: 331,
+    prodName: 'ADAP CARRY M2 Sata/NVMe USB / C',
+    prodImg1: '',
+    prodDescription: 'ADAP CARRY M2 Sata/NVMe USB / C',
+    prodPrecio: 'u$s 26',
+    prodCategoria: 'DiscoSSD',
+    prodMarca: ''
+  },
+  {
+    id: 332,
+    prodName: 'HDD 2 TB USB EXT',
+    prodImg1: '',
+    prodDescription: 'HDD 2 TB USB EXT',
+    prodPrecio: 'u$s 107',
+    prodCategoria: 'DiscoHDD',
+    prodMarca: ''
+  },
+  {
+    id: 333,
+    prodName: 'WEBCAM KELYX 1080P',
+    prodImg1: '',
+    prodDescription: 'WEBCAM KELYX 1080P',
+    prodPrecio: 'u$s 10',
+    prodCategoria: 'Conectividad',
+    prodMarca: ''
+  },
+  {
+    id: 334,
+    prodName: 'TRANSMISOR BLUETOOTH',
+    prodImg1: '',
+    prodDescription: 'TRANSMISOR BLUETOOTH',
+    prodPrecio: 'u$s 5',
+    prodCategoria: 'Conectividad',
+    prodMarca: ''
+  },
+  {
+    id: 335,
+    prodName: 'FUENTE 450 KELYX SLIM',
+    prodImg1: '',
+    prodDescription: 'FUENTE 450 KELYX SLIM',
+    prodPrecio: 'u$s 24',
+    prodCategoria: 'fuentes',
+    prodMarca: ''
+  },
+  {
+    id: 336,
+    prodName: 'KVM 2PC USB ANBYTE',
+    prodImg1: '',
+    prodDescription: 'KVM 2PC USB ANBYTE',
+    prodPrecio: 'u$s 59',
+    prodCategoria: 'puertos',
+    prodMarca: ''
   }
 ]
